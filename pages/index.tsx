@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Image from "next/image";
+import Head from 'next/head';
+import Image from 'next/image';
 
 const Home = () => (
   <div>
@@ -14,7 +14,7 @@ const Home = () => (
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
       <div className="w-48">
-        <Image src={require("../assets/images/vercel.svg")} alt="Vercel" />
+        <Image src={require('../assets/images/vercel.svg')} alt="Vercel" />
       </div>
     </main>
   </div>
