@@ -9,7 +9,7 @@ const Home = () => (
     </Head>
 
     <main className="flex flex-col justify-center items-center min-h-screen space-y-8">
-      <h1 className="text-3xl">
+      <h1 className="text-3xl text-blue-400 font-bold">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
       <img
