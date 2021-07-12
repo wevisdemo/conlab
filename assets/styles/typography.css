@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Noto Sans Thai';
+  font-weight: normal;
+  src: url('../fonts/NotoSansThai-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Thai';
+  font-weight: 500;
+  src: url('../fonts/NotoSansThai-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Thai';
+  font-weight: 700;
+  src: url('../fonts/NotoSansThai-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Thai';
+  font-weight: 900;
+  src: url('../fonts/NotoSansThai-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: normal;
+  src: url('../fonts/NotoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 500;
+  src: url('../fonts/NotoSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 700;
+  src: url('../fonts/NotoSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 900;
+  src: url('../fonts/NotoSans-Black.ttf') format('truetype');
+}

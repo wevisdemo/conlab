@@ -1,0 +1,9 @@
+@import url('./typography.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Noto Sans Thai', 'Noto Sans', sans-serif;
+}
