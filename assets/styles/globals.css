@@ -1,9 +1,50 @@
-@import url('./typography.css');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Noto Sans Thai', 'Noto Sans', sans-serif;
+@layer utilities {
+  .text-huge {
+    @apply text-[61px] font-black;
+  }
+
+  .text-large-1 {
+    @apply text-[49px] font-bold;
+  }
+
+  .text-large-2 {
+    @apply text-[39px] font-black;
+  }
+
+  .text-headline-1 {
+    @apply text-[31px] font-black;
+  }
+
+  .text-headline-2 {
+    @apply text-[25px] font-black;
+  }
+
+  .text-body-1 {
+    @apply text-[20px] font-medium;
+  }
+
+  .text-body-2 {
+    @apply text-[16px];
+  }
+
+  .text-small-1 {
+    @apply text-[13px];
+  }
+
+  .text-small-2 {
+    @apply text-[10px];
+  }
+}
+
+@layer base {
+  @import url('./typography.css');
+
+  body {
+    font-family: 'Noto Sans Thai', 'Noto Sans', sans-serif;
+    @apply text-body-1 leading-[1.2];
+  }
 }

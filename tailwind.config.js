@@ -37,6 +37,7 @@ module.exports = {
         500: '#394243',
       },
     },
+    fontSizes: [],
   },
   variants: {
     extend: {},

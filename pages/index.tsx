@@ -8,20 +8,21 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main className="flex flex-col justify-center items-center min-h-screen space-y-8">
-      <h1 className="text-3xl text-blue-400 font-bold">
-        สวัสดี Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
+    <main className="flex flex-col justify-center items-center min-h-screen">
       <img
         src={require('../assets/images/next.png')}
         alt="Next"
-        className="w-48"
+        className="w-48 mb-8"
       />
-      <img
-        src={require('../assets/images/vercel.svg')}
-        alt="Vercel"
-        className="w-48"
-      />
+      <p className="text-huge">text-huge</p>
+      <p className="text-large-1">text-large-1</p>
+      <p className="text-large-2">text-large-2</p>
+      <p className="text-headline-1">text-headline-1</p>
+      <p className="text-headline-2">text-headline-2</p>
+      <p>text-body-1 (default)</p>
+      <p className="text-body-2">text-body-2</p>
+      <p className="text-small-1">text-small-1</p>
+      <p className="text-small-2">text-small-2</p>
     </main>
   </div>
 );
