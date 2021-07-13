@@ -1,8 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dream Constitution
 
-## Getting Started
+## Tech Stack
 
-First, run the development server:
+- React on [NextJS](https://nextjs.org)
+- TypeScript
+- [TailwindCSS](https://tailwindcss.com) with [JIT mode](https://tailwindcss.com/docs/just-in-time-mode)
+
+## Deployment Environments
+
+- Staging: https://electinth.github.io/dream-constitution/
+- Production: not deployed yet
+
+## Getting Start
+
+1. Clone the repo
+2. Install dependencies
+
+```bash
+npm install
+# or
+yarn
+```
+
+3. run the development server
 
 ```bash
 npm run dev
@@ -10,25 +30,72 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Development Guideline
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Way of working
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
+- **Tasks are free to picked from [Github Issues](https://github.com/electinth/dream-constitution/issues)**. Assigne when picked and close when finished.
+- **Trunk based development**: work on single `main` branch
+- **Continuous integration (CI)**: small commit and push often (no overnight)
+  - also pull often, please `pull --rebase` before push
+- **Continuous Deployment (CD)**: every push will be built to staging
+- **Pre push linter/formatter**: When commit code, linter/formatter will be run to make code style consistance
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Recommend tools
 
-## Learn More
+- VSCode with following extensions:
+  - [Tailwind Intellisence](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) with format on save enabled
 
-To learn more about Next.js, take a look at the following resources:
+### React Component
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Prefer [typescript functional component](https://fettblog.eu/typescript-react/components/#functional-components)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```tsx
+// hello.tsx
+import { FunctionComponent } from 'react';
 
-## Deploy on Vercel
+type HelloProps = {
+  name: string;
+};
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+const Hello: FunctionComponent<HelloProps> = ({ name }) => (
+  <div>Hi, there! {name}</div>
+);
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+export default Hello;
+```
+
+- File name should be all lower case with dash .tsx ex: `some-component.tsx`
+- React components are located in 2 directory
+  - `/pages` contain each web page ex. `pages/about.tsx` will create a page at url `/about` [more about routing](https://nextjs.org/docs/routing/introduction)
+  - `/components` contain reuseable components that can be imported and used
+    - If the component is tied to specific page, recomment to create coresponded folder ex. `components/about/only-for-about.tsx`
+
+### Styling
+
+Prefered tailwind utility classes over other styling methods
+
+### Color
+
+Color theme is defined with the same name as in Figma
+
+```tsx
+<p className="text-blue-400">some text</p>
+```
+
+### Typography
+
+Typography is defined and can be used as a class `text-<name-in-Figma>`
+
+```tsx
+<p className="text-huge">huge</p>
+<p className="text-large-1">large-1</p>
+<p className="text-large-2">large-2</p>
+<p className="text-headline-1">headline-1</p>
+<p className="text-headline-2">headline-2</p>
+<p>body-1 (default)</p>
+<p className="text-body-2">body-2</p>
+<p className="text-small-1">small-1</p>
+<p className="text-small-2">small-2</p>
+```
