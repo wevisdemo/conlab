@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Button from '../components/button';
+import Pill from '../components/pill';
 
 const Home = () => (
   <div>
@@ -35,6 +36,10 @@ const Home = () => (
         <Button state="outline" onClick={() => alert('outline clicked')}>
           outline
         </Button>
+      </div>
+
+      <div>
+        <Pill>pill</Pill>
       </div>
     </main>
   </div>
