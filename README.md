@@ -99,3 +99,13 @@ Typography is defined and can be used as a class `text-<name-in-Figma>`
 <p className="text-small-1">small-1</p>
 <p className="text-small-2">small-2</p>
 ```
+
+### Images
+
+For local images place it in `assets/images/` and use require
+
+```tsx
+<img src={require('../assets/images/next.png')} alt="Next" />
+```
+
+Images will get optimized on build. No need to do it manually.
