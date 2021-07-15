@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Button from '../components/button';
+import Card from '../components/card';
 import Pill from '../components/pill';
 
 const Home = () => (
@@ -29,15 +30,20 @@ const Home = () => (
 
       <div className="flex flex-row space-x-2">
         <Button state="solid" onClick={() => alert('solid clicked')}>
-          solid
+          solid button
         </Button>
         <Button state="outline" onClick={() => alert('outline clicked')}>
-          outline
+          outline button
         </Button>
       </div>
 
       <div>
         <Pill>pill</Pill>
+      </div>
+
+      <div className="flex flex-row space-x-4">
+        <Card>This is card</Card>
+        <Card noShadow>This is card with no shadow</Card>
       </div>
     </main>
   </div>
