@@ -8,7 +8,7 @@
   }
 
   .text-large-1 {
-    @apply text-[49px] font-bold;
+    @apply text-[49px] font-black;
   }
 
   .text-large-2 {

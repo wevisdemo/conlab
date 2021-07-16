@@ -12,12 +12,6 @@
 
 @font-face {
   font-family: 'Noto Sans Thai';
-  font-weight: 700;
-  src: url('../fonts/NotoSansThai-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Noto Sans Thai';
   font-weight: 900;
   src: url('../fonts/NotoSansThai-Black.ttf') format('truetype');
 }
@@ -32,12 +26,6 @@
   font-family: 'Noto Sans';
   font-weight: 500;
   src: url('../fonts/NotoSans-Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Noto Sans';
-  font-weight: 700;
-  src: url('../fonts/NotoSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
