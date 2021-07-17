@@ -1,6 +1,6 @@
-import mockTopics from './mock-topics.json';
+import topics from './topics.json';
 
-export default mockTopics as Topic[];
+export default topics as Topic[];
 
 export interface Topic {
   topicNumber: number;
