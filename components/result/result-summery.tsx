@@ -5,6 +5,7 @@ import {
   SpecialComponents,
 } from 'react-markdown/src/ast-to-react';
 import { Result, ResultOption } from '../../data/topics';
+import Button from '../button';
 import Card from '../card';
 import Pill from '../pill';
 import Dropdown from './dropdown';
@@ -16,6 +17,7 @@ type ResultSummaryProps = {
   results: Result[];
   selectedOptions: ResultOption[];
   onChange: (options: ResultOption[]) => void;
+  onSubmit: () => void;
 };
 
 const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
@@ -25,6 +27,7 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
   results,
   selectedOptions,
   onChange,
+  onSubmit,
 }) => {
   const renderDropdown: FunctionComponent = ({ children }) => {
     const resultIndex = results.findIndex(({ id }) => id === +(children || ''));
@@ -66,6 +69,14 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
           ) /* Stackedit indent with 8 spaces */
         }
       </ReactMarkdown>
+
+      <Button
+        state="solid"
+        className="mt-4 w-full max-w-lg"
+        onClick={() => onSubmit()}
+      >
+        ส่งคำตอบ
+      </Button>
     </Card>
   );
 };

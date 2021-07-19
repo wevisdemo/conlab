@@ -17,6 +17,7 @@ const Result = () => {
         results={topics[0].results}
         selectedOptions={selectedOptions}
         onChange={setSelectedOptions}
+        onSubmit={() => alert('submit')}
       />
     </div>
   );
