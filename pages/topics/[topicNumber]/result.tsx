@@ -1,19 +1,22 @@
 import { useState } from 'react';
-import Dropdown from '../../../components/result/dropdown';
+import ResultSummary from '../../../components/result/result-summery';
 import topics from '../../../data/topics';
 
 const Result = () => {
-  const [selectedOption, setSelectedOption] = useState(
-    topics[0].results[0].options[0]
+  const [selectedOptions, setSelectedOptions] = useState(
+    topics[0].results.map(({ options }) => options[0])
   );
 
   return (
-    <div>
+    <div className="p-4">
       <h1 className="text-large-2">ผลการออกแบบรัฐธรรมนูญในฝันของคุณ</h1>
-      <Dropdown
-        options={topics[0].results[0].options}
-        selectedOption={selectedOption}
-        onChange={(option) => setSelectedOption(option)}
+      <ResultSummary
+        topicNumber={topics[0].topicNumber}
+        shortTitle={topics[0].shortTitle}
+        resultTextMarkdown={topics[0].resultTextMarkdown}
+        results={topics[0].results}
+        selectedOptions={selectedOptions}
+        onChange={setSelectedOptions}
       />
     </div>
   );

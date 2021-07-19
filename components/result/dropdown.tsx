@@ -17,7 +17,7 @@ const Dropdown: FunctionComponent<DropdownProps> = ({
   return (
     <>
       <button
-        className="flex flex-row items-center bg-yellow-150 py-1 border-b-2 border-black"
+        className="inline-flex flex-row items-center bg-yellow-150 py-1 border-b-2 border-black"
         onClick={() => setIsOptionsOpened(true)}
       >
         {selectedOption.title}
