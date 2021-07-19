@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Button from '../components/button';
 import Card from '../components/card';
 import Pill from '../components/pill';
+import Feedback from '../components/feedback';
+import Hint from '../components/hint';
 
 const Home = () => (
   <div>
@@ -44,6 +46,14 @@ const Home = () => (
       <div className="flex flex-row space-x-4">
         <Card>This is card</Card>
         <Card noShadow>This is card with no shadow</Card>
+      </div>
+
+      <div>
+        <Feedback />
+      </div>
+
+      <div>
+        <Hint />
       </div>
     </main>
   </div>
