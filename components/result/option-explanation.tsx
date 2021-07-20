@@ -4,28 +4,28 @@ import Button from '../button';
 import Markdown from './markdown';
 
 type OptionExplanationProps = {
-  results: Result;
+  result: Result;
   selectedOption: ResultOption;
   onChange: (option: ResultOption) => void;
 };
 
 const OptionExplanation: FunctionComponent<OptionExplanationProps> = ({
-  results,
+  result,
   selectedOption,
   onChange,
 }) => {
   const nextOption =
-    results.options[
-      selectedOption.id < results.options.length ? selectedOption.id : 0
+    result.options[
+      selectedOption.id < result.options.length ? selectedOption.id : 0
     ];
 
   const next = () => onChange(nextOption);
   const previous = () =>
     onChange(
-      results.options[
+      result.options[
         selectedOption.id > 1
           ? selectedOption.id - 2
-          : results.options.length - 1
+          : result.options.length - 1
       ]
     );
 
@@ -35,7 +35,7 @@ const OptionExplanation: FunctionComponent<OptionExplanationProps> = ({
         <div className="bg-gray-100 h-8 w-full -mb-4"></div>
         <div className="flex flex-row items-center space-x-4 text-body-2 bg-gray-0 rounded-xl px-4 py-3">
           <div className="w-6 h-6 rounded-full bg-black text-white flex items-center justify-center font-black">
-            {results.id}
+            {result.id}
           </div>
           <div className="flex-1 font-black">{selectedOption.title}</div>
           <button onClick={previous}>

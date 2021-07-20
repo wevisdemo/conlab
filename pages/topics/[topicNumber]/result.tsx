@@ -12,13 +12,22 @@ const Result = () => {
     <div className="p-4 space-y-12 bg-gray-100">
       <h1 className="text-large-2">ผลการออกแบบรัฐธรรมนูญในฝันของคุณ</h1>
 
-      <OptionExplanation
-        results={topics[0].results[0]}
-        selectedOption={selectedOptions[0]}
-        onChange={(option) =>
-          setSelectedOptions([option, ...selectedOptions.slice(1)])
-        }
-      />
+      <div>
+        {topics[0].results.map((result, index) => (
+          <OptionExplanation
+            key={result.id}
+            result={result}
+            selectedOption={selectedOptions[index]}
+            onChange={(option) =>
+              setSelectedOptions([
+                ...selectedOptions.slice(0, index),
+                option,
+                ...selectedOptions.slice(index + 1),
+              ])
+            }
+          />
+        ))}
+      </div>
 
       <ResultSummary
         topicNumber={topics[0].topicNumber}
