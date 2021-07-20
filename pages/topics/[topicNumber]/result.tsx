@@ -15,6 +15,9 @@ const Result = () => {
       <OptionExplanation
         results={topics[0].results[0]}
         selectedOption={selectedOptions[0]}
+        onChange={(option) =>
+          setSelectedOptions([option, ...selectedOptions.slice(1)])
+        }
       />
 
       <ResultSummary
