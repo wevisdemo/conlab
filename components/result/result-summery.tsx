@@ -56,7 +56,7 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
 
       <ReactMarkdown
         skipHtml
-        className="test-left space-y-4"
+        className="space-y-4"
         components={{
           code: renderDropdown,
           ...markdownComponents,
