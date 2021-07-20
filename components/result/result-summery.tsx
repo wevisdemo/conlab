@@ -1,14 +1,10 @@
-import { CSSProperties, FunctionComponent } from 'react';
-import ReactMarkdown from 'react-markdown';
-import {
-  NormalComponents,
-  SpecialComponents,
-} from 'react-markdown/src/ast-to-react';
+import { FunctionComponent } from 'react';
 import { Result, ResultOption } from '../../data/topics';
 import Button from '../button';
 import Card from '../card';
 import Pill from '../pill';
 import Dropdown from './dropdown';
+import Markdown from './markdown';
 
 type ResultSummaryProps = {
   topicNumber: number;
@@ -54,21 +50,13 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
         หมวดที่ {topicNumber}: {shortTitle}
       </Pill>
 
-      <ReactMarkdown
-        skipHtml
-        className="space-y-4"
+      <Markdown
         components={{
           code: renderDropdown,
-          ...markdownComponents,
         }}
       >
-        {
-          resultTextMarkdown.replaceAll?.(
-            '        ',
-            '  '
-          ) /* Stackedit indent with 8 spaces */
-        }
-      </ReactMarkdown>
+        {resultTextMarkdown}
+      </Markdown>
 
       <Button
         state="solid"
@@ -79,24 +67,6 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
       </Button>
     </Card>
   );
-};
-
-const getIndentedListStyle = (depth: number): CSSProperties => ({
-  marginLeft: depth > 0 ? depth * 20 : 25,
-});
-
-const markdownComponents: Partial<NormalComponents & SpecialComponents> = {
-  ul: ({ children, depth }) => (
-    <ul style={getIndentedListStyle(depth)}>{children}</ul>
-  ),
-  ol: ({ children, depth }) => (
-    <ol style={getIndentedListStyle(depth)}>{children}</ol>
-  ),
-  li: ({ children, ordered }) => (
-    <li className={`my-1 ${ordered ? 'list-decimal' : 'list-disc'}`}>
-      {children}
-    </li>
-  ),
 };
 
 export default ResultSummary;

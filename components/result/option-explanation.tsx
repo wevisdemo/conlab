@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react';
-import ReactMarkdown from 'react-markdown';
 import { Result, ResultOption } from '../../data/topics';
 import Button from '../button';
+import Markdown from './markdown';
 
 type OptionExplanationProps = {
   results: Result;
@@ -49,10 +49,8 @@ const OptionExplanation: FunctionComponent<OptionExplanationProps> = ({
       </button>
     </div>
 
-    <div className="p-4 space-y-4">
-      <ReactMarkdown skipHtml>
-        {selectedOption.descriptionMarkdown}
-      </ReactMarkdown>
+    <div className="p-4 space-y-4 text-body-2">
+      <Markdown>{selectedOption.descriptionMarkdown}</Markdown>
 
       <Button
         state="outline"
