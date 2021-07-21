@@ -4,6 +4,7 @@ import Card from '../components/card';
 import Pill from '../components/pill';
 import Feedback from '../components/feedback';
 import Hint from '../components/hint';
+import TopicCard from '../components/topic-card';
 
 const Home = () => (
   <div>
@@ -54,6 +55,17 @@ const Home = () => (
 
       <div>
         <Hint />
+      </div>
+
+      <div>
+        <TopicCard
+          topicNumber={1}
+          shortTitle="รัฐสภา"
+          title="รัฐสภาไทย...ควรเป็นแบบไหน"
+          iconUrl="https://theyworkforus.elect.in.th/static/2fcbb2fff86052a10910df1629932721/10e9e/partySummary.png"
+          className="bg-blue-300"
+          onClick={() => alert('topic-card clicked')}
+        />
       </div>
     </main>
   </div>
