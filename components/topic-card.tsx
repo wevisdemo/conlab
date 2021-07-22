@@ -1,6 +1,4 @@
 import { FunctionComponent, MouseEventHandler } from 'react';
-import { ImageLoaderProps } from 'next/image';
-import Image from 'next/image';
 import Button from './button';
 import Pill from './pill';
 
@@ -30,7 +28,7 @@ const TopicCard: FunctionComponent<TopicCardProps> = ({
     <div className={'text-headline-2 mx-[20px] my-[16px] text-center'}>
       {title}
     </div>
-    <Image loader={imgLoader} src={iconUrl} alt="" width={120} height={120} />
+    <img src={iconUrl} alt="" width={120} height={120} />
     <Button
       className="self-stretch mx-[20px] mb-[20px] mt-[16px]"
       state="solid"
@@ -40,9 +38,5 @@ const TopicCard: FunctionComponent<TopicCardProps> = ({
     </Button>
   </div>
 );
-
-const imgLoader = ({ src }: ImageLoaderProps) => {
-  return `${src}`;
-};
 
 export default TopicCard;
