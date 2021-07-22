@@ -1,11 +1,15 @@
-import { useState } from 'react';
+import { FunctionComponent, useState } from 'react';
 import OptionExplanation from '../../../components/result/option-explanation';
 import ResultSummary from '../../../components/result/result-summery';
-import topics from '../../../data/topics';
+import {
+  getTopicsStaticPaths,
+  getTopicsStaticProps,
+  TopicPageProps,
+} from '../../../utils/topics-route';
 
-const Result = () => {
+const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const [selectedOptions, setSelectedOptions] = useState(
-    topics[0].results.map(({ options }) => options[0])
+    topic.results.map(({ options }) => options[0])
   );
 
   return (
@@ -13,7 +17,7 @@ const Result = () => {
       <h1 className="text-large-2">ผลการออกแบบรัฐธรรมนูญในฝันของคุณ</h1>
 
       <div>
-        {topics[0].results.map((result, index) => (
+        {topic.results.map((result, index) => (
           <OptionExplanation
             key={result.id}
             result={result}
@@ -30,10 +34,10 @@ const Result = () => {
       </div>
 
       <ResultSummary
-        topicNumber={topics[0].topicNumber}
-        shortTitle={topics[0].shortTitle}
-        resultTextMarkdown={topics[0].resultTextMarkdown}
-        results={topics[0].results}
+        topicNumber={topic.topicNumber}
+        shortTitle={topic.shortTitle}
+        resultTextMarkdown={topic.resultTextMarkdown}
+        results={topic.results}
         selectedOptions={selectedOptions}
         onChange={setSelectedOptions}
         onSubmit={() => alert('submit')}
@@ -43,3 +47,6 @@ const Result = () => {
 };
 
 export default Result;
+
+export const getStaticPaths = getTopicsStaticPaths;
+export const getStaticProps = getTopicsStaticProps;

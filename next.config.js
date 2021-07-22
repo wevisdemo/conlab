@@ -7,4 +7,5 @@ module.exports = withOptimizedImages({
     disableStaticImages: true,
   },
   inlineImageLimit: -1,
+  trailingSlash: true,
 });
