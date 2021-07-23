@@ -1,15 +1,16 @@
 import { FunctionComponent } from 'react';
+import QuestionDisplay from '../../../components/quiz/question-display';
 import {
   getTopicsStaticPaths,
   getTopicsStaticProps,
   TopicPageProps,
 } from '../../../utils/topics-route';
 
-const Quiz: FunctionComponent<TopicPageProps> = () => (
-  <div>
-    1/2 ผู้แทนราษฎรต้องมาจากการ เลือกตั้งโดยตรงทั้งหมดเท่านั้น
-    จึงจะทำหน้าที่ได้ดี
-  </div>
+const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => (
+  <QuestionDisplay
+    question={topic.questions[0]}
+    totalQuestion={topic.questions.length}
+  />
 );
 
 export default Quiz;
