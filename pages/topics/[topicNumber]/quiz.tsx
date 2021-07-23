@@ -2,6 +2,8 @@ import { useRouter } from 'next/router';
 import { FunctionComponent, useState } from 'react';
 import NavigationButtons from '../../../components/quiz/navigation-buttons';
 import QuestionDisplay from '../../../components/quiz/question-display';
+import AnswerDisplay from '../../../components/quiz/answer-display';
+
 import {
   getTopicsStaticPaths,
   getTopicsStaticProps,
@@ -34,6 +36,11 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
         question={topic.questions[currentNumber]}
         totalQuestion={topic.questions.length}
       />
+      <div>
+        {topic.questions[currentNumber].answers.map(function (value, index) {
+          return <AnswerDisplay answer={value} id={index} state="outline" />;
+        })}
+      </div>
       <NavigationButtons next={next} back={() => alert('back')} />
     </div>
   );

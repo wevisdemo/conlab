@@ -6,6 +6,7 @@ import Feedback from '../components/feedback';
 import Hint from '../components/hint';
 import TopicCard from '../components/topic-card';
 
+
 const Home = () => (
   <div>
     <Head>

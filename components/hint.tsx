@@ -31,14 +31,14 @@ const Hint = () => {
             เราแค่แนะนำ สุดท้ายคนเลือกคือคุณ
           </div>
         </div>
-        <div className={'text-small-1 px-[12px] pb-[13px] pt-[14px]'}>
+        <div className={'text-small-1 px-[12px] py-[14px]'}>
           ลองศึกษารายละเอียดของตัวเลือกว่าเป็นอย่างที่คุณต้องการหรือไม่
           ถ้าดูแล้วไม่ถูกใจ ก็ลองเปลี่ยนเป็นตัวเลือกอื่นได้นะ
         </div>
       </div>
-      {/* <div className={'bottom-[-14px]'}>
+      <div className='mt-[-14px] grid justify-items-stretch'>
         <svg
-          className={'absolute right-[34px]'}
+        className=' justify-self-end mr-[34px]'
           width="24"
           height="27"
           viewBox="0 0 24 27"
@@ -50,7 +50,7 @@ const Hint = () => {
             fill="#5CCCC5"
           />
         </svg>
-      </div> */}
+      </div>
     </div>
   );
 };

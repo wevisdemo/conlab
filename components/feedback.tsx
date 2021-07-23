@@ -8,13 +8,17 @@ const Feedback = () => {
   const Promise = () => (
     <div>
       <div className={'text-headline-2 px-[16px] pt-[16px] text-center'}>
-        ขอบคุณจ้า!<br/>เราได้รับข้อเสนอ<br/>รัฐธรรมนูญของคุณแล้ว
+        ขอบคุณจ้า!
+        <br />
+        เราได้รับข้อเสนอ
+        <br />
+        รัฐธรรมนูญของคุณแล้ว
       </div>
       <div className={'flex flex-col pb-[24px] pt-[16px] items-center'}>
         <img
-            src={require('../assets/images/Small-Hearts.png')}
-            alt="Next"
-            className="w-[112px] h-[112px]"
+          src={require('../assets/images/Small-Hearts.png')}
+          alt="Next"
+          className="w-[112px] h-[112px]"
         />
       </div>
     </div>
