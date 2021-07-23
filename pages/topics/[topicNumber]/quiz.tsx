@@ -1,4 +1,5 @@
 import { FunctionComponent } from 'react';
+import NavigationButtons from '../../../components/quiz/navigation-buttons';
 import QuestionDisplay from '../../../components/quiz/question-display';
 import {
   getTopicsStaticPaths,
@@ -7,10 +8,13 @@ import {
 } from '../../../utils/topics-route';
 
 const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => (
-  <QuestionDisplay
-    question={topic.questions[0]}
-    totalQuestion={topic.questions.length}
-  />
+  <div>
+    <QuestionDisplay
+      question={topic.questions[0]}
+      totalQuestion={topic.questions.length}
+    />
+    <NavigationButtons next={() => alert('next')} back={() => alert('back')} />
+  </div>
 );
 
 export default Quiz;
