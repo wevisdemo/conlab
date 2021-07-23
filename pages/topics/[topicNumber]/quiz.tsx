@@ -16,7 +16,11 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
     if (currentNumber < topic.questions.length - 1) {
       setCurrentNumber(currentNumber + 1);
     } else {
-      router.push(`/topics/${topic.topicNumber}/result`);
+      const mockedAnswer: number[] = new Array(topic.questions.length).fill(0);
+
+      router.push(
+        `/topics/${topic.topicNumber}/result?ans=${mockedAnswer.join('')}`
+      );
     }
   };
 

@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router';
 import { FunctionComponent, useState } from 'react';
 import OptionExplanation from '../../../components/result/option-explanation';
 import ResultSummary from '../../../components/result/result-summery';
@@ -8,8 +9,14 @@ import {
 } from '../../../utils/topics-route';
 
 const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
+  const { query } = useRouter();
+
+  const answers = query.ans
+    ? (query.ans as string).split('').map((ans) => +ans)
+    : new Array(topic.questions.length).fill(0);
+
   const [selectedOptions, setSelectedOptions] = useState(
-    topic.results.map(({ options }) => options[0])
+    topic.results.map(({ options }, index) => options[answers[index]])
   );
 
   return (
