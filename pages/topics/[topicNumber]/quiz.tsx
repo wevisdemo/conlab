@@ -20,6 +20,10 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
     }
   };
 
+  if (topic.questions.length === 0) {
+    return <div>No questions found is this topic</div>;
+  }
+
   return (
     <div>
       <QuestionDisplay
