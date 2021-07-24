@@ -5,6 +5,7 @@ import Pill from '../components/pill';
 import Feedback from '../components/feedback';
 import Hint from '../components/hint';
 import TopicCard from '../components/topic-card';
+import HowItWork from '../components/how-it-work';
 
 const Home = () => (
   <div>
@@ -66,6 +67,10 @@ const Home = () => (
           className="bg-blue-300"
           onClick={() => alert('topic-card clicked')}
         />
+      </div>
+
+      <div className="bg-gray-100 p-[16px] w-[340px]">
+        <HowItWork />
       </div>
     </main>
   </div>
