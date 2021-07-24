@@ -24,22 +24,16 @@ const TopicCard: FunctionComponent<TopicCardProps> = ({
   <div
     className={`${className} ${
       !showButton ? 'cursor-pointer' : null
-    } border-black border-[3px] rounded-xl oblique-shadow flex flex-col items-center`}
+    } border-black border-[3px] rounded-xl oblique-shadow flex flex-col items-center p-[20px] space-y-[16px] w-[100%]`}
     onClick={(e) => (!showButton && onClick ? onClick(e) : null)}
   >
-    <Pill className={'text-center mt-[20px] mx-[20px]'}>
+    <Pill className="text-center">
       หมวดที่ {topicNumber}: {shortTitle}
     </Pill>
-    <div className={'text-headline-2 mx-[20px] my-[16px] text-center'}>
-      {title}
-    </div>
+    <div className="text-headline-2 text-center">{title}</div>
     <img src={iconUrl} alt="" width={120} height={120} />
     {showButton ? (
-      <Button
-        className="self-stretch mx-[20px] mb-[20px] mt-[16px]"
-        state="solid"
-        onClick={onClick}
-      >
+      <Button className="self-stretch" state="solid" onClick={onClick}>
         เริ่มกันเลย
       </Button>
     ) : null}

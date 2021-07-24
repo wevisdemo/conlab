@@ -58,7 +58,7 @@ const Home = () => (
         <Hint />
       </div>
 
-      <div>
+      <div className="w-[340px]">
         <TopicCard
           topicNumber={1}
           shortTitle="รัฐสภา"
