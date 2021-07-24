@@ -19,9 +19,7 @@ jobs:
       - name: Update data from Google Sheets
         run: yarn update-data
       - name: Build
-        run: yarn build
-        env:
-          BASE_PATH: '/dream-constitution'
+        run: BASE_PATH=/dream-constitution yarn build
       - name: Publish to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
