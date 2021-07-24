@@ -8,7 +8,8 @@ type TopicCardProps = {
   title: string;
   iconUrl: string;
   className?: string;
-  onClick?: MouseEventHandler<HTMLButtonElement>;
+  showButton?: boolean;
+  onClick?: MouseEventHandler<HTMLElement>;
 };
 
 const TopicCard: FunctionComponent<TopicCardProps> = ({
@@ -18,9 +19,13 @@ const TopicCard: FunctionComponent<TopicCardProps> = ({
   title,
   iconUrl,
   onClick,
+  showButton = true,
 }) => (
   <div
-    className={`${className} border-black border-[3px] rounded-xl oblique-shadow flex flex-col items-center`}
+    className={`${className} ${
+      !showButton ? 'cursor-pointer' : null
+    } border-black border-[3px] rounded-xl oblique-shadow flex flex-col items-center`}
+    onClick={(e) => (!showButton && onClick ? onClick(e) : null)}
   >
     <Pill className={'text-center mt-[20px] mx-[20px]'}>
       หมวดที่ {topicNumber}: {shortTitle}
@@ -29,13 +34,15 @@ const TopicCard: FunctionComponent<TopicCardProps> = ({
       {title}
     </div>
     <img src={iconUrl} alt="" width={120} height={120} />
-    <Button
-      className="self-stretch mx-[20px] mb-[20px] mt-[16px]"
-      state="solid"
-      onClick={onClick}
-    >
-      เริ่มกันเลย
-    </Button>
+    {showButton ? (
+      <Button
+        className="self-stretch mx-[20px] mb-[20px] mt-[16px]"
+        state="solid"
+        onClick={onClick}
+      >
+        เริ่มกันเลย
+      </Button>
+    ) : null}
   </div>
 );
 

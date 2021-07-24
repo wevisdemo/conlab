@@ -65,7 +65,18 @@ const Home = () => (
           title="รัฐสภาไทย...ควรเป็นแบบไหน"
           iconUrl="https://theyworkforus.elect.in.th/static/2fcbb2fff86052a10910df1629932721/10e9e/partySummary.png"
           className="bg-blue-300"
+          showButton={true}
+          onClick={() => alert('topic-card button clicked')}
+        />
+
+        <TopicCard
+          topicNumber={1}
+          shortTitle="รัฐสภา"
+          title="รัฐสภาไทย...ควรเป็นแบบไหน"
+          iconUrl="https://theyworkforus.elect.in.th/static/2fcbb2fff86052a10910df1629932721/10e9e/partySummary.png"
+          className="bg-blue-300"
           onClick={() => alert('topic-card clicked')}
+          showButton={false}
         />
       </div>
 
