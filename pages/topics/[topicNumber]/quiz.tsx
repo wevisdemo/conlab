@@ -38,7 +38,14 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
       />
       <div>
         {topic.questions[currentNumber].answers.map(function (value, index) {
-          return <AnswerDisplay answer={value} id={index} state="outline" />;
+          return (
+            <AnswerDisplay
+              answer={value}
+              id={index}
+              key={index}
+              state="outline"
+            />
+          );
         })}
       </div>
       <NavigationButtons next={next} back={() => alert('back')} />
