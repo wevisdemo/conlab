@@ -119,7 +119,7 @@ const MenuItem: FunctionComponent<MenuItemProps> = ({
       } border-[4px]  rounded-[12px]`}
     >
       <div className="text-large-1 min-w-[60px] text-center">{topicNumber}</div>
-      <div className="grid-rows-1">
+      <div>
         <div className="text-small-1">{subtitle}</div>
         <div className="text-headline-2">{title}</div>
       </div>

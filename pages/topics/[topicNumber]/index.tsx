@@ -1,4 +1,5 @@
 import { FunctionComponent } from 'react';
+import NavigationBar from '../../../components/navigation-bar';
 import {
   getTopicsStaticPaths,
   getTopicsStaticProps,
@@ -6,7 +7,10 @@ import {
 } from '../../../utils/topics-route';
 
 const Topic: FunctionComponent<TopicPageProps> = () => (
-  <div>รัฐสภาไทย...ควรเป็นแบบไหน</div>
+  <div>
+    <NavigationBar theme="transparent" />
+    <div>รัฐสภาไทย...ควรเป็นแบบไหน</div>
+  </div>
 );
 
 export default Topic;

@@ -16,8 +16,7 @@ const Home = () => (
     </Head>
 
     <main className="flex flex-col justify-center items-center min-h-screen space-y-8">
-      <NavigationBar theme="black"></NavigationBar>
-      <NavigationBar theme="transparent"></NavigationBar>
+      <NavigationBar theme="black" />
       <img
         src={require('../assets/images/next.png')}
         alt="Next"
