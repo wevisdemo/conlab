@@ -1,5 +1,6 @@
 import { FunctionComponent, MouseEventHandler, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import topics from '../data/topics';
 
 type NavigationBarProps = {
@@ -65,31 +66,34 @@ type MenuProps = {
   onClick?: MouseEventHandler<HTMLButtonElement>;
 };
 
-const Menu: FunctionComponent<MenuProps> = ({ onClick }) => (
-  <div className="bg-black fixed w-[100%] h-[100%] top-0 flex flex-col">
-    <TopBar theme="black" button="close" onClick={onClick}></TopBar>
-    <div className="flex flex-col space-y-[16px] p-[16px] overflow-y-scroll">
-      <Link href="/" passHref>
-        <MenuItem
-          topicNumber={0}
-          subtitle="หน้าหลัก"
-          title="รัฐธรรมนูญในฝันออกแบบได้"
-          active={false}
-        ></MenuItem>
-      </Link>
-      {topics.map((t) => (
-        <Link href={`/topics/${t.topicNumber}`} passHref key={t.topicNumber}>
+const Menu: FunctionComponent<MenuProps> = ({ onClick }) => {
+  const { asPath } = useRouter();
+  return (
+    <div className="bg-black fixed w-[100%] h-[100%] top-0 flex flex-col">
+      <TopBar theme="black" button="close" onClick={onClick}></TopBar>
+      <div className="flex flex-col space-y-[16px] p-[16px] overflow-y-scroll items-center">
+        <Link href="/" passHref>
           <MenuItem
-            topicNumber={t.topicNumber}
-            subtitle={`หมวดที่ ${t.topicNumber}: ${t.shortTitle}`}
-            title={t.title}
-            active={false}
+            topicNumber={0}
+            subtitle="หน้าหลัก"
+            title="รัฐธรรมนูญในฝันออกแบบได้"
+            active={asPath === '/'}
           ></MenuItem>
         </Link>
-      ))}
+        {topics.map((t) => (
+          <Link href={`/topics/${t.topicNumber}`} passHref key={t.topicNumber}>
+            <MenuItem
+              topicNumber={t.topicNumber}
+              subtitle={`หมวดที่ ${t.topicNumber}: ${t.shortTitle}`}
+              title={t.title}
+              active={asPath.includes(`/topics/${t.topicNumber}`)}
+            ></MenuItem>
+          </Link>
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 interface MenuItemProps {
   topicNumber: number;
@@ -106,8 +110,14 @@ const MenuItem: FunctionComponent<MenuItemProps> = ({
   active,
   href,
 }) => (
-  <a href={href}>
-    <div className="flex px-[8px] py-[20px] items-center space-x-[16px] text-white border-[4px] border-gray-500 rounded-[12px]">
+  <a className="max-w-[544px] w-[100%]" href={href}>
+    <div
+      className={`flex px-[8px] py-[20px] items-center space-x-[16px] ${
+        active
+          ? 'text-black border-blue-300 bg-blue-300'
+          : 'text-white border-gray-500 bg-black'
+      } border-[4px]  rounded-[12px]`}
+    >
       <div className="text-large-1 min-w-[60px] text-center">{topicNumber}</div>
       <div className="grid-rows-1">
         <div className="text-small-1">{subtitle}</div>
