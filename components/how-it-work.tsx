@@ -10,22 +10,22 @@ const HowItWork: FunctionComponent<HowItWorkProps> = ({ className }) => (
       Dream Consitution จะช่วยคุณออกแบบรัฐธรรมนูญได้อย่างไร?
     </h1>
     {HowItWorkItem({
-      imageName: 'Collaboration.png',
+      imageName: 'Collaboration.svg',
       orderNo: 1,
       text: 'ตอบคำถามเกี่ยวกับความสนใจหรือความเชื่อของคุณ',
     })}
     {HowItWorkItem({
-      imageName: 'Idea.png',
+      imageName: 'Idea.svg',
       orderNo: 2,
       text: 'เราจะแนะนำข้อเสนอรัฐธรรมนูญจากคำตอบของคุณ',
     })}
     {HowItWorkItem({
-      imageName: 'Reading.png',
+      imageName: 'Reading.svg',
       orderNo: 3,
       text: 'ลองศึกษาขอเสนอ ถ้ายังไม่ใช่ลองดูตัวเลือกอื่นด้วย',
     })}
     {HowItWorkItem({
-      imageName: 'Paper-Plane.png',
+      imageName: 'Paper-Plane.svg',
       orderNo: 4,
       text: 'ส่งข้อเสนอของคุณให้พวกเรา นำไปปรับปรุงข้อเสนอการแก้ไขรัฐธรรมนูญ',
     })}
