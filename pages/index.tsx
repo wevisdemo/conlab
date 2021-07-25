@@ -7,6 +7,7 @@ import Hint from '../components/hint';
 import TopicCard from '../components/topic-card';
 import HowItWork from '../components/how-it-work';
 import Footer from '../components/footer';
+import NavigationBar from '../components/navigation-bar';
 
 const Home = () => (
   <div>
@@ -15,6 +16,8 @@ const Home = () => (
     </Head>
 
     <main className="flex flex-col justify-center items-center min-h-screen space-y-8">
+      <NavigationBar theme="black"></NavigationBar>
+      <NavigationBar theme="transparent"></NavigationBar>
       <img
         src={require('../assets/images/next.png')}
         alt="Next"
