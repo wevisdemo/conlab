@@ -6,6 +6,7 @@ import Feedback from '../components/feedback';
 import Hint from '../components/hint';
 import TopicCard from '../components/topic-card';
 import HowItWork from '../components/how-it-work';
+import Footer from '../components/footer';
 
 const Home = () => (
   <div>
@@ -84,6 +85,7 @@ const Home = () => (
         <HowItWork />
       </div>
     </main>
+    <Footer />
   </div>
 );
 
