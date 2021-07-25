@@ -1,4 +1,5 @@
 import { FunctionComponent, MouseEventHandler, useState } from 'react';
+import Link from 'next/link';
 import topics from '../data/topics';
 
 type NavigationBarProps = {
@@ -67,24 +68,24 @@ type MenuProps = {
 const Menu: FunctionComponent<MenuProps> = ({ onClick }) => (
   <div className="bg-black fixed w-[100%] h-[100%] top-0 flex flex-col">
     <TopBar theme="black" button="close" onClick={onClick}></TopBar>
-    <div className="space-y-[16px] p-[16px] overflow-y-scroll">
-      <div key="0">
+    <div className="flex flex-col space-y-[16px] p-[16px] overflow-y-scroll">
+      <Link href="/" passHref>
         <MenuItem
           topicNumber={0}
           subtitle="หน้าหลัก"
           title="รัฐธรรมนูญในฝันออกแบบได้"
           active={false}
         ></MenuItem>
-      </div>
+      </Link>
       {topics.map((t) => (
-        <div key={t.topicNumber}>
+        <Link href={`/topics/${t.topicNumber}`} passHref key={t.topicNumber}>
           <MenuItem
             topicNumber={t.topicNumber}
             subtitle={`หมวดที่ ${t.topicNumber}: ${t.shortTitle}`}
             title={t.title}
             active={false}
           ></MenuItem>
-        </div>
+        </Link>
       ))}
     </div>
   </div>
@@ -95,6 +96,7 @@ interface MenuItemProps {
   title: string;
   subtitle: string;
   active: boolean;
+  href?: string;
 }
 
 const MenuItem: FunctionComponent<MenuItemProps> = ({
@@ -102,14 +104,17 @@ const MenuItem: FunctionComponent<MenuItemProps> = ({
   title,
   subtitle,
   active,
+  href,
 }) => (
-  <div className="flex px-[8px] py-[20px] items-center space-x-[16px] text-white border-[4px] border-gray-500 rounded-[12px]">
-    <div className="text-large-1 min-w-[60px] text-center">{topicNumber}</div>
-    <div className="grid-rows-1">
-      <div className="text-small-1">{subtitle}</div>
-      <div className="text-headline-2">{title}</div>
+  <a href={href}>
+    <div className="flex px-[8px] py-[20px] items-center space-x-[16px] text-white border-[4px] border-gray-500 rounded-[12px]">
+      <div className="text-large-1 min-w-[60px] text-center">{topicNumber}</div>
+      <div className="grid-rows-1">
+        <div className="text-small-1">{subtitle}</div>
+        <div className="text-headline-2">{title}</div>
+      </div>
     </div>
-  </div>
+  </a>
 );
 
 export default NavigationBar;
