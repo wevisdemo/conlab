@@ -1,5 +1,5 @@
 import { FunctionComponent, MouseEventHandler, useState } from 'react';
-import Button from './button';
+import topics from '../data/topics';
 
 type NavigationBarProps = {
   theme: 'black' | 'transparent';
@@ -37,8 +37,8 @@ const TopBar: FunctionComponent<TopBarProps> = ({
       className={theme === 'transparent' ? 'p-[16px]' : 'px-[16px] py-[8px]'}
       src={
         theme === 'transparent'
-          ? require('../assets/images/logo-large.png')
-          : require('../assets/images/logo-compact.png')
+          ? require('../assets/images/logo-large.svg')
+          : require('../assets/images/logo-compact.svg')
       }
       alt=""
     ></img>
@@ -47,10 +47,10 @@ const TopBar: FunctionComponent<TopBarProps> = ({
         className="my-[26px] mx-[24px]"
         src={
           button === 'close'
-            ? require('../assets/images/close.png')
+            ? require('../assets/images/close.svg')
             : theme === 'transparent'
-            ? require('../assets/images/menu-on-white.png')
-            : require('../assets/images/menu-on-black.png')
+            ? require('../assets/images/menu-on-white.svg')
+            : require('../assets/images/menu-on-black.svg')
         }
         alt=""
         width={button === 'menu' ? 16 : 14}
@@ -65,9 +65,50 @@ type MenuProps = {
 };
 
 const Menu: FunctionComponent<MenuProps> = ({ onClick }) => (
-  <div className="bg-black fixed w-[100%] h-[100%] top-0 flex flex-col space-x-[16px]">
+  <div className="bg-black fixed w-[100%] h-[100%] top-0 flex flex-col">
     <TopBar theme="black" button="close" onClick={onClick}></TopBar>
-    <div className=" "></div>
+    <div className="space-y-[16px] p-[16px] overflow-y-scroll">
+      <div key="0">
+        <MenuItem
+          topicNumber={0}
+          subtitle="หน้าหลัก"
+          title="รัฐธรรมนูญในฝันออกแบบได้"
+          active={false}
+        ></MenuItem>
+      </div>
+      {topics.map((t) => (
+        <div key={t.topicNumber}>
+          <MenuItem
+            topicNumber={t.topicNumber}
+            subtitle={`หมวดที่ ${t.topicNumber}: ${t.shortTitle}`}
+            title={t.title}
+            active={false}
+          ></MenuItem>
+        </div>
+      ))}
+    </div>
+  </div>
+);
+
+interface MenuItemProps {
+  topicNumber: number;
+  title: string;
+  subtitle: string;
+  active: boolean;
+}
+
+const MenuItem: FunctionComponent<MenuItemProps> = ({
+  topicNumber,
+  title,
+  subtitle,
+  active,
+}) => (
+  <div className="flex px-[8px] py-[20px] items-center space-x-[16px] text-white border-[4px] border-gray-500 rounded-[12px]">
+    <div className="text-large-1 min-w-[60px] text-center">{topicNumber}</div>
+    <div className="grid-rows-1">
+      <div className="text-small-1">{subtitle}</div>
+      <div className="text-headline-2">{title}</div>
+    </div>
   </div>
 );
 
