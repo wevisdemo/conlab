@@ -17,7 +17,7 @@ const NavigationBar: FunctionComponent<NavigationBarProps> = ({
     <div
       className={`${className} ${
         theme === 'black' ? 'bg-black' : undefined
-      } w-[100%]`}
+      } w-full`}
     >
       <TopBar
         theme={theme}
@@ -42,9 +42,9 @@ const TopBar: FunctionComponent<TopBarProps> = ({
   className,
   onClick,
 }) => (
-  <div className={`${className} w-[100%] flex justify-between items-start`}>
+  <div className={`${className} w-full flex justify-between items-start`}>
     <img
-      className={theme === 'transparent' ? 'p-[16px]' : 'px-[16px] py-[8px]'}
+      className={theme === 'transparent' ? 'p-4' : 'px-4 py-2'}
       src={
         theme === 'transparent'
           ? require('../assets/images/logo-large.svg')
@@ -54,7 +54,7 @@ const TopBar: FunctionComponent<TopBarProps> = ({
     ></img>
     <button onClick={onClick}>
       <img
-        className="my-[26px] mx-[24px]"
+        className="my-6.5 mx-6"
         src={
           button === 'close'
             ? require('../assets/images/close.svg')
@@ -77,9 +77,9 @@ type MenuProps = {
 const Menu: FunctionComponent<MenuProps> = ({ onClick }) => {
   const { asPath } = useRouter();
   return (
-    <div className="bg-black fixed w-[100%] h-[100%] top-0 flex flex-col">
+    <div className="bg-black fixed w-full h-full top-0 flex flex-col">
       <TopBar theme="black" button="close" onClick={onClick}></TopBar>
-      <div className="flex flex-col space-y-[16px] p-[16px] overflow-y-scroll items-center">
+      <div className="flex flex-col space-y-4 p-4 overflow-y-scroll items-center">
         <Link href="/" passHref>
           <MenuItem
             topicNumber={0}
@@ -118,15 +118,15 @@ const MenuItem: FunctionComponent<MenuItemProps> = ({
   active,
   href,
 }) => (
-  <a className="max-w-[544px] w-[100%]" href={href}>
+  <a className="max-w-[544px] w-full" href={href}>
     <div
-      className={`flex px-[8px] py-[20px] items-center space-x-[16px] ${
+      className={`flex px-2 py-5 items-center space-x-4 ${
         active
           ? 'text-black border-blue-300 bg-blue-300'
           : 'text-white border-gray-500 bg-black'
-      } border-[4px]  rounded-[12px]`}
+      } border-1  rounded-3`}
     >
-      <div className="text-large-1 min-w-[60px] text-center">{topicNumber}</div>
+      <div className="text-large-1 min-w-15 text-center">{topicNumber}</div>
       <div>
         <div className="text-small-1">{subtitle}</div>
         <div className="text-headline-2">{title}</div>

@@ -5,7 +5,7 @@ type HowItWorkProps = {
 };
 
 const HowItWork: FunctionComponent<HowItWorkProps> = ({ className }) => (
-  <div className={`${className} flex flex-col items-center space-y-[16px]`}>
+  <div className={`${className} flex flex-col items-center space-y-4`}>
     <h1 className="text-headline-1">
       Dream Consitution จะช่วยคุณออกแบบรัฐธรรมนูญได้อย่างไร?
     </h1>
@@ -43,11 +43,11 @@ const HowItWorkItem: FunctionComponent<HowItWorkItemProps> = ({
   orderNo,
   text,
 }) => (
-  <div className="bg-gray-0 flex items-center space-x-[8px] p-[8px] rounded-[12px] w-[100%]">
+  <div className="bg-gray-0 flex items-center space-x-2 p-2 rounded-3 w-full">
     <img
       src={require(`../assets/images/${imageName}`)}
       alt=""
-      className="w-[80px] h-[80px]"
+      className="w-10 h-10"
     />
     <div className="flex-grow-1">
       <div className="font-bold">{orderNo}</div>

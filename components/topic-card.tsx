@@ -24,7 +24,7 @@ const TopicCard: FunctionComponent<TopicCardProps> = ({
   <div
     className={`${className} ${
       !showButton ? 'cursor-pointer' : null
-    } border-black border-[3px] rounded-xl oblique-shadow flex flex-col items-center p-[20px] space-y-[16px] w-[100%]`}
+    } border-black border-[3px] rounded-xl oblique-shadow flex flex-col items-center p-5 space-y-4 w-full`}
     onClick={(e) => (!showButton && onClick ? onClick(e) : null)}
   >
     <Pill className="text-center">
