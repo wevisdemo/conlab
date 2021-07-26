@@ -124,9 +124,9 @@ const MenuItem: FunctionComponent<MenuItemProps> = ({
         active
           ? 'text-black border-blue-300 bg-blue-300'
           : 'text-white border-gray-500 bg-black'
-      } border-1  rounded-3`}
+      } border-4  rounded-[12px]`}
     >
-      <div className="text-large-1 min-w-15 text-center">{topicNumber}</div>
+      <div className="text-large-1 min-w-[60px] text-center">{topicNumber}</div>
       <div>
         <div className="text-small-1">{subtitle}</div>
         <div className="text-headline-2">{title}</div>

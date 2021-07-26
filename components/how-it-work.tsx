@@ -43,11 +43,12 @@ const HowItWorkItem: FunctionComponent<HowItWorkItemProps> = ({
   orderNo,
   text,
 }) => (
-  <div className="bg-gray-0 flex items-center space-x-2 p-2 rounded-3 w-full">
+  <div className="bg-gray-0 flex items-center space-x-2 p-2 rounded-[12px] w-full">
     <img
       src={require(`../assets/images/${imageName}`)}
       alt=""
-      className="w-10 h-10"
+      width="80"
+      height="80"
     />
     <div className="flex-grow-1">
       <div className="font-bold">{orderNo}</div>
