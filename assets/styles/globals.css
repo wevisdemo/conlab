@@ -23,6 +23,10 @@
     @apply text-[25px] font-black;
   }
 
+  .text-headline-3 {
+    @apply text-[25px] font-bold;
+  }
+
   .text-body-1 {
     @apply text-[20px] font-medium;
   }

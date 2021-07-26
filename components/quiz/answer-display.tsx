@@ -26,14 +26,14 @@ const AnswerDisplay: FunctionComponent<AnswerProps> = ({
     >
       <label className="flex flex-inline items-center p-[20px]">
         <input
-          className="form-radio h-[32px] w-[32px]"
+          className="min-h-[32px] min-w-[32px]"
           type="radio"
           id={`radio` + id}
           name={answer.text}
           onChange={() => setSelectAnswer(answer.text)}
           checked={selectAnswer === answer.text}
         />
-        <span className="pl-[12px] text-headline-2">{answer.text}</span>
+        <span className="pl-[12px] text-headline-3">{answer.text}</span>
       </label>
     </div>
   );
