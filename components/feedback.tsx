@@ -1,8 +1,14 @@
-import { FunctionComponent, MouseEventHandler, useState } from 'react';
-import answer from '../data/topics';
+import { FunctionComponent, useState } from 'react';
 import Button from './button';
 
-const Feedback = () => {
+type FeedbackProps = {
+  onSubmit: (feedback: String) => void;
+};
+
+const Feedback: FunctionComponent<FeedbackProps> = ({
+  onSubmit,
+}) => {
+// const Feedback = () => {
   const [showResults, setShowResults] = useState(false);
 
   const Promise = () => (
@@ -21,11 +27,19 @@ const Feedback = () => {
           className="w-[112px] h-[112px]"
         />
       </div>
+      <div className={'flex flex-col px-[16px] pb-[24px] text-center'}>
+          <Button state="solid" onClick={() => setShowResults(false)}>
+            ต่อไป
+          </Button>
+      </div>
     </div>
   );
 
   const FeedbackComponent = () => {
-    const onClick = () => setShowResults(true);
+    
+    const onSubmit = () => {
+      setShowResults(true);
+    }
 
     return (
       <div>
@@ -44,7 +58,7 @@ const Feedback = () => {
           ></input>
         </div>
         <div className={'flex flex-col px-[16px] pb-[24px] text-center'}>
-          <Button state="solid" onClick={onClick}>
+          <Button state="solid" onClick={onSubmit}>
             ต่อไป
           </Button>
         </div>
