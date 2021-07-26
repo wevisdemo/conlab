@@ -53,3 +53,17 @@
     @apply text-body-1 leading-[1.2];
   }
 }
+
+@layer components {
+  .section {
+    @apply w-full;
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply p-4;
+  }
+
+  .section > * {
+    @apply max-w-[544px];
+  }
+}
