@@ -2,7 +2,7 @@ import { FunctionComponent, useState } from 'react';
 import Button from './button';
 
 type FeedbackProps = {
-  onSubmit: (feedback: String) => void;
+  onSubmit?: (feedback: String) => void;
 };
 
 const Feedback: FunctionComponent<FeedbackProps> = ({
