@@ -54,7 +54,7 @@ const TopBar: FunctionComponent<TopBarProps> = ({
     ></img>
     <button onClick={onClick}>
       <img
-        className="my-6.5 mx-6"
+        className="my-6 mx-6"
         src={
           button === 'close'
             ? require('../assets/images/close.svg')
