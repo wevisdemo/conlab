@@ -5,10 +5,8 @@ type FeedbackProps = {
   onSubmit?: (feedback: String) => void;
 };
 
-const Feedback: FunctionComponent<FeedbackProps> = ({
-  onSubmit,
-}) => {
-// const Feedback = () => {
+const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
+  // const Feedback = () => {
   const [showResults, setShowResults] = useState(false);
 
   const Promise = () => (
@@ -28,18 +26,17 @@ const Feedback: FunctionComponent<FeedbackProps> = ({
         />
       </div>
       <div className={'flex flex-col px-[16px] pb-[24px] text-center'}>
-          <Button state="solid" onClick={() => setShowResults(false)}>
-            ต่อไป
-          </Button>
+        <Button state="solid" onClick={() => setShowResults(false)}>
+          ปิด
+        </Button>
       </div>
     </div>
   );
 
   const FeedbackComponent = () => {
-    
     const onSubmit = () => {
       setShowResults(true);
-    }
+    };
 
     return (
       <div>

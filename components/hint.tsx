@@ -36,9 +36,9 @@ const Hint = () => {
           ถ้าดูแล้วไม่ถูกใจ ก็ลองเปลี่ยนเป็นตัวเลือกอื่นได้นะ
         </div>
       </div>
-      <div className='mt-[-14px] grid justify-items-stretch'>
+      <div className="mt-[-14px] grid justify-items-stretch">
         <svg
-        className=' justify-self-end mr-[34px]'
+          className=" justify-self-end mr-[34px]"
           width="24"
           height="27"
           viewBox="0 0 24 27"
