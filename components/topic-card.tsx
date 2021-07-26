@@ -1,5 +1,6 @@
 import { FunctionComponent, MouseEventHandler } from 'react';
 import Button from './button';
+import Card from './card';
 import Pill from './pill';
 
 type TopicCardProps = {
@@ -21,13 +22,13 @@ const TopicCard: FunctionComponent<TopicCardProps> = ({
   onClick,
   showButton = true,
 }) => (
-  <div
+  <Card
     className={`${className} ${
       !showButton ? 'cursor-pointer' : null
-    } border-black border-[3px] rounded-xl oblique-shadow flex flex-col items-center p-5 space-y-4 w-full`}
+    } flex flex-col items-center p-5 space-y-4 w-full`}
     onClick={(e) => (!showButton && onClick ? onClick(e) : null)}
   >
-    <Pill className="text-center">
+    <Pill>
       หมวดที่ {topicNumber}: {shortTitle}
     </Pill>
     <div className="text-headline-2 text-center">{title}</div>
@@ -37,7 +38,7 @@ const TopicCard: FunctionComponent<TopicCardProps> = ({
         เริ่มกันเลย
       </Button>
     ) : null}
-  </div>
+  </Card>
 );
 
 export default TopicCard;
