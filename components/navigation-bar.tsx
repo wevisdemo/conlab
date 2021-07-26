@@ -5,12 +5,20 @@ import topics from '../data/topics';
 
 type NavigationBarProps = {
   theme: 'black' | 'transparent';
+  className?: string;
 };
 
-const NavigationBar: FunctionComponent<NavigationBarProps> = ({ theme }) => {
+const NavigationBar: FunctionComponent<NavigationBarProps> = ({
+  theme,
+  className,
+}) => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className={`${theme === 'black' ? 'bg-black' : undefined} w-[100%]`}>
+    <div
+      className={`${className} ${
+        theme === 'black' ? 'bg-black' : undefined
+      } w-[100%]`}
+    >
       <TopBar
         theme={theme}
         button="menu"
