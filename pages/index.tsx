@@ -54,7 +54,9 @@ const Home = () => (
       </div>
 
       <div>
-        <Feedback />
+        <Feedback
+          onSubmit={() => new Promise((resolve) => setTimeout(resolve, 2000))}
+        />
       </div>
 
       <div>

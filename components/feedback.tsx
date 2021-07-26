@@ -1,13 +1,14 @@
 import { FunctionComponent, useState } from 'react';
 import Button from './button';
+import Spinner from './spinner';
 
 type FeedbackProps = {
-  onSubmit?: (feedback: String) => void;
+  onSubmit: (feedback: String) => Promise<void>;
 };
 
 const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
-  // const Feedback = () => {
   const [showResults, setShowResults] = useState(false);
+  const [isLoading, setIsloading] = useState(false);
 
   const Promise = () => (
     <div>
@@ -21,7 +22,7 @@ const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
       <div className={'flex flex-col pb-[24px] pt-[16px] items-center'}>
         <img
           src={require('../assets/images/Small-Hearts.png')}
-          alt="Next"
+          alt="Thank you"
           className="w-[112px] h-[112px]"
         />
       </div>
@@ -34,8 +35,15 @@ const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
   );
 
   const FeedbackComponent = () => {
-    const onSubmit = () => {
+    const [feedback, setFeedback] = useState('');
+
+    const submit = async () => {
+      setIsloading(true);
+
+      await onSubmit(feedback);
+
       setShowResults(true);
+      setIsloading(false);
     };
 
     return (
@@ -50,12 +58,14 @@ const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
             }
             placeholder="อยากแก้หมวด 1... (ถ้าไม่มีก็เว้นไว้ได้)"
             maxLength={280}
-            type="feedback"
+            type="text"
             name="feedback"
+            value={feedback}
+            onChange={(e) => setFeedback(e.target.value)}
           ></input>
         </div>
         <div className={'flex flex-col px-[16px] pb-[24px] text-center'}>
-          <Button state="solid" onClick={onSubmit}>
+          <Button state="solid" onClick={submit}>
             ต่อไป
           </Button>
         </div>
@@ -69,7 +79,13 @@ const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
         'border-black border-[3px] rounded-xl items-center oblique-shadow'
       }
     >
-      {showResults ? <Promise /> : <FeedbackComponent />}
+      {isLoading ? (
+        <Spinner />
+      ) : showResults ? (
+        <Promise />
+      ) : (
+        <FeedbackComponent />
+      )}
     </div>
   );
 };
