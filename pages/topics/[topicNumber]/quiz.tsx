@@ -12,6 +12,8 @@ import {
 
 const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const [currentNumber, setCurrentNumber] = useState(0);
+  const [selectAnswer, setSelectAnswer] = useState(String);
+
   const router = useRouter();
 
   const next = () => {
@@ -41,9 +43,10 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
           return (
             <AnswerDisplay
               answer={value}
+              selectedAnswer={selectAnswer}
               id={index}
               key={index}
-              state="outline"
+              onChange={() => setSelectAnswer(value.text)}
             />
           );
         })}

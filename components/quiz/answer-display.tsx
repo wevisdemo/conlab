@@ -1,28 +1,25 @@
-import { FunctionComponent, MouseEventHandler, useState } from 'react';
-import { Answer, AnswerEffect } from '../../data/topics';
+import { FunctionComponent } from 'react';
+import { Answer } from '../../data/topics';
 
 type AnswerProps = {
   answer: Answer;
   id: number;
   // onChange: (effect: AnswerEffect) => void
-  noShadow?: boolean;
-  state?: 'solid' | 'outline';
+  onChange: () => void
+  selectedAnswer?: String;
 };
 
 const AnswerDisplay: FunctionComponent<AnswerProps> = ({
   answer,
+  selectedAnswer,
   id,
-  noShadow,
-  state,
-  // onChange,
+  onChange,
 }) => {
-  const [selectAnswer, setSelectAnswer] = useState(String);
+  const checkedEffect = selectedAnswer === answer.text ? 'bg-black text-white' : 'oblique-shadow items-center w-full'
 
   return (
     <div
-      className={`rounded-xl border-[4px] border-black
-    ${noShadow ? '' : 'oblique-shadow items-center w-full'}
-    ${state === 'solid' ? 'bg-black text-white' : ''}`}
+      className={`rounded-xl border-[4px] border-black ${checkedEffect}`}
     >
       <label className="flex flex-inline items-center p-[20px]">
         <input
@@ -30,8 +27,8 @@ const AnswerDisplay: FunctionComponent<AnswerProps> = ({
           type="radio"
           id={`radio` + id}
           name={answer.text}
-          onChange={() => setSelectAnswer(answer.text)}
-          checked={selectAnswer === answer.text}
+          onChange={onChange}
+          checked={selectedAnswer === answer.text}
         />
         <span className="pl-[12px] text-headline-3">{answer.text}</span>
       </label>
