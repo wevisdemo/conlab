@@ -4,14 +4,21 @@ import Spinner from './spinner';
 
 type FeedbackProps = {
   onSubmit: (feedback: String) => Promise<void>;
+  onClose: () => void;
 };
 
 const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
   const [showResults, setShowResults] = useState(false);
+  const [showFeedback, setShowFeedback] = useState(true);
   const [isLoading, setIsloading] = useState(false);
 
   const Promise = () => (
-    <div>
+    <div
+      className={
+        'border-black border-[3px] rounded-xl items-center oblique-shadow'
+      }
+    >
+      {' '}
       <div className={'text-headline-2 px-[16px] pt-[16px] text-center'}>
         ขอบคุณจ้า!
         <br />
@@ -27,7 +34,13 @@ const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
         />
       </div>
       <div className={'flex flex-col px-[16px] pb-[24px] text-center'}>
-        <Button state="solid" onClick={() => setShowResults(false)}>
+        <Button
+          state="solid"
+          onClick={() => {
+            setShowResults(false);
+            setShowFeedback(false);
+          }}
+        >
           ปิด
         </Button>
       </div>
@@ -47,7 +60,11 @@ const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
     };
 
     return (
-      <div>
+      <div
+        className={
+          'border-black border-[3px] rounded-xl items-center oblique-shadow'
+        }
+      >
         <div className={'text-headline-2 px-[16px] pt-[16px] text-center'}>
           มีอะไรเพิ่มเติมอยากบอกพวกเราไหม?
         </div>
@@ -74,17 +91,15 @@ const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
   };
 
   return (
-    <div
-      className={
-        'border-black border-[3px] rounded-xl items-center oblique-shadow'
-      }
-    >
+    <div>
       {isLoading ? (
         <Spinner />
       ) : showResults ? (
         <Promise />
-      ) : (
+      ) : showFeedback ? (
         <FeedbackComponent />
+      ) : (
+        ''
       )}
     </div>
   );
