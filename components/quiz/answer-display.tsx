@@ -5,7 +5,7 @@ type AnswerProps = {
   answer: Answer;
   id: number;
   // onChange: (effect: AnswerEffect) => void
-  onChange: () => void
+  onChange: () => void;
   selectedAnswer?: String;
 };
 
@@ -15,12 +15,13 @@ const AnswerDisplay: FunctionComponent<AnswerProps> = ({
   id,
   onChange,
 }) => {
-  const checkedEffect = selectedAnswer === answer.text ? 'bg-black text-white' : 'oblique-shadow items-center w-full'
+  const checkedEffect =
+    selectedAnswer === answer.text
+      ? 'bg-black text-white'
+      : 'oblique-shadow items-center w-full';
 
   return (
-    <div
-      className={`rounded-xl border-[4px] border-black ${checkedEffect}`}
-    >
+    <div className={`rounded-xl border-[4px] border-black ${checkedEffect}`}>
       <label className="flex flex-inline items-center p-[20px]">
         <input
           className="min-h-[32px] min-w-[32px]"

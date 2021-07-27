@@ -19,6 +19,7 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const next = () => {
     if (currentNumber < topic.questions.length - 1) {
       setCurrentNumber(currentNumber + 1);
+      setSelectAnswer('')
     } else {
       const mockedAnswer: number[] = new Array(topic.questions.length).fill(0);
 
