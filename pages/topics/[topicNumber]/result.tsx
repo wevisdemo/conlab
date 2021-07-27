@@ -1,11 +1,12 @@
 import { useRouter } from 'next/router';
-import { FunctionComponent, useEffect, useState } from 'react';
+import { FunctionComponent, useEffect, useRef, useState } from 'react';
 import Button from '../../../components/button';
 import OptionExplanation from '../../../components/result/option-explanation';
 import ResultSummary from '../../../components/result/result-summery';
 import SuggestedOptions from '../../../components/result/suggested-options';
 import Spinner from '../../../components/spinner';
 import { ResultOption } from '../../../data/topics';
+import { useScrollama } from '../../../utils/scrollama';
 import {
   getTopicsStaticPaths,
   getTopicsStaticProps,
@@ -17,6 +18,10 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
 
   const [suggestedOptions, setSuggestedOptions] = useState<ResultOption[]>([]);
   const [selectedOptions, setSelectedOptions] = useState<ResultOption[]>([]);
+
+  const [explanationContainer, activeExplanationIndex] = useScrollama({}, [
+    suggestedOptions,
+  ]);
 
   useEffect(() => {
     if (!query.ans) {
@@ -62,7 +67,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
 
       <SuggestedOptions options={suggestedOptions} />
 
-      <div>
+      <div ref={explanationContainer}>
         {topic.results.map((result, index) => (
           <OptionExplanation
             key={`${result.id}-${selectedOptions[index].id}`}

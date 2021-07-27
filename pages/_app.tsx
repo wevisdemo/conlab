@@ -1,3 +1,4 @@
+import 'intersection-observer';
 import type { AppProps } from 'next/app';
 import '../assets/styles/globals.css';
 
