@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
-import { FunctionComponent, useEffect, useRef, useState } from 'react';
+import { FunctionComponent, useEffect, useState } from 'react';
 import Button from '../../../components/button';
+import ExplanationNavigation from '../../../components/result/explanation-navigation';
 import OptionExplanation from '../../../components/result/option-explanation';
 import ResultSummary from '../../../components/result/result-summery';
 import SuggestedOptions from '../../../components/result/suggested-options';
@@ -62,40 +63,59 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   }
 
   return (
-    <div className="p-4 space-y-12 bg-gray-100">
-      <h1 className="text-large-2">ผลการออกแบบรัฐธรรมนูญในฝันของคุณ</h1>
+    <>
+      <div className="p-4 space-y-12 bg-gray-100">
+        <h1 className="text-large-2">ผลการออกแบบรัฐธรรมนูญในฝันของคุณ</h1>
 
-      <SuggestedOptions options={suggestedOptions} />
+        <SuggestedOptions options={suggestedOptions} />
 
-      <div ref={explanationContainer}>
-        {topic.results.map((result, index) => (
-          <OptionExplanation
-            key={`${result.id}-${selectedOptions[index].id}`}
-            result={result}
-            selectedOption={selectedOptions[index]}
-            onChange={(option) =>
-              setSelectedOptions([
-                ...selectedOptions.slice(0, index),
-                option,
-                ...selectedOptions.slice(index + 1),
-              ])
-            }
+        <div ref={explanationContainer}>
+          {topic.results.map((result, index) => (
+            <OptionExplanation
+              key={`${result.id}-${selectedOptions[index].id}`}
+              result={result}
+              selectedOption={selectedOptions[index]}
+              onChange={(option) =>
+                setSelectedOptions([
+                  ...selectedOptions.slice(0, index),
+                  option,
+                  ...selectedOptions.slice(index + 1),
+                ])
+              }
+            />
+          ))}
+        </div>
+
+        <div>
+          <ResultSummary
+            topic={topic}
+            selectedOptions={selectedOptions}
+            onChange={setSelectedOptions}
           />
-        ))}
+
+          <Button state="solid" className="mt-4 w-full max-w-lg font-medium">
+            ส่งข้อเสนอให้ DreamCon
+          </Button>
+        </div>
       </div>
 
-      <div>
-        <ResultSummary
-          topic={topic}
-          selectedOptions={selectedOptions}
-          onChange={setSelectedOptions}
+      {activeExplanationIndex !== null && (
+        <ExplanationNavigation
+          previous={() =>
+            explanationContainer.current?.children[
+              activeExplanationIndex - 1
+            ].scrollIntoView({ behavior: 'smooth' })
+          }
+          next={() =>
+            explanationContainer.current?.children[
+              activeExplanationIndex + 1
+            ].scrollIntoView({ behavior: 'smooth' })
+          }
+          isPreviousDisabled={activeExplanationIndex === 0}
+          isNextDisabled={activeExplanationIndex === topic.results.length - 1}
         />
-
-        <Button state="solid" className="mt-4 w-full max-w-lg font-medium">
-          ส่งข้อเสนอให้ DreamCon
-        </Button>
-      </div>
-    </div>
+      )}
+    </>
   );
 };
 

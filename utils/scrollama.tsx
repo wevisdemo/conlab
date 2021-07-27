@@ -1,5 +1,5 @@
 import { RefObject, useEffect, useRef, useState } from 'react';
-import scrollama, { ScrollamaInstance } from 'scrollama';
+import scrollama from 'scrollama';
 
 export const useScrollama = (
   options: Omit<ScrollOptions, 'step'> = {},
