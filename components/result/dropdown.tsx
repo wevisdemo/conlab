@@ -17,25 +17,29 @@ const Dropdown: FunctionComponent<DropdownProps> = ({
   return (
     <>
       <button
-        className="inline-flex flex-row text-left items-center bg-yellow-150 py-1 border-b-2 border-black"
+        className="relative inline-flex"
         onClick={() => setIsOptionsOpened(true)}
       >
-        {selectedOption.title}
+        <div className="absolute inset-x-0 bottom-0 h-[6px] bg-yellow-300" />
 
-        <svg
-          width="10"
-          height="6"
-          viewBox="0 0 10 6"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="mx-2"
-        >
-          <path d="M10 0L5 6L0 0H10Z" fill="black" />
-        </svg>
+        <div className="z-30 flex flex-row text-left items-center text-body-2 text-black">
+          {selectedOption.title}
+
+          <svg
+            width="10"
+            height="6"
+            viewBox="0 0 10 6"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="mx-1"
+          >
+            <path d="M10 0L5 6L0 0H10Z" fill="black" />
+          </svg>
+        </div>
       </button>
 
       {isOptionsOpened && (
-        <div className="fixed inset-0 bg-black bg-opacity-20 flex flex-col justify-end text-body-2">
+        <div className="fixed z-30 inset-0 bg-black bg-opacity-20 flex flex-col justify-end text-body-2">
           <div className="flex-1" onClick={() => setIsOptionsOpened(false)} />
           <div className="p-4 rounded-t-xl bg-white font-black">
             เปลี่ยนตัวเลือก

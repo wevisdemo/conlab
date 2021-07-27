@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import { FunctionComponent, useState } from 'react';
+import Button from '../../../components/button';
 import OptionExplanation from '../../../components/result/option-explanation';
 import ResultSummary from '../../../components/result/result-summery';
 import {
@@ -40,15 +41,17 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
         ))}
       </div>
 
-      <ResultSummary
-        topicNumber={topic.topicNumber}
-        shortTitle={topic.shortTitle}
-        resultTextMarkdown={topic.resultTextMarkdown}
-        results={topic.results}
-        selectedOptions={selectedOptions}
-        onChange={setSelectedOptions}
-        onSubmit={() => alert('submit')}
-      />
+      <div>
+        <ResultSummary
+          topic={topic}
+          selectedOptions={selectedOptions}
+          onChange={setSelectedOptions}
+        />
+
+        <Button state="solid" className="mt-4 w-full max-w-lg font-medium">
+          ส่งข้อเสนอให้ DreamCon
+        </Button>
+      </div>
     </div>
   );
 };

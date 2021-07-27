@@ -8,15 +8,17 @@ import {
 type Markdown = {
   children: string;
   components?: Partial<NormalComponents & SpecialComponents>;
+  className?: string;
 };
 
 const Markdown: FunctionComponent<Markdown> = ({
   children,
   components = {},
+  className = '',
 }) => (
   <ReactMarkdown
     skipHtml
-    className="space-y-4"
+    className={`space-y-2 text-body-2 ${className}`}
     components={{
       ...markdownComponents,
       ...components,
