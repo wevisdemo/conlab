@@ -14,7 +14,7 @@ const Card: FunctionComponent<CardProps> = ({
 }) => (
   <div
     className={`${className} rounded-xl border-4 border-black p-4 ${
-      noShadow ? '' : 'oblique-shadow'
+      noShadow ? '' : 'oblique-shadow mr-[8px] mb-[8px]'
     }`}
     onClick={onClick}
   >

@@ -3,6 +3,7 @@ import { FunctionComponent, useState } from 'react';
 import NavigationButtons from '../../../components/quiz/navigation-buttons';
 import QuestionDisplay from '../../../components/quiz/question-display';
 import AnswerDisplay from '../../../components/quiz/answer-display';
+import NavigationBar from '../../../components/navigation-bar';
 
 import {
   getTopicsStaticPaths,
@@ -43,31 +44,37 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
   };
 
   return (
-    <div>
-      <QuestionDisplay
-        question={currentQuestion}
-        totalQuestion={topic.questions.length}
-      />
+    <div className="flex flex-col min-h-screen bg-black">
+      <NavigationBar theme="black" />
 
-      <div className="space-y-2">
-        {currentQuestion.answers.map((answer) => (
-          <AnswerDisplay
-            questionId={currentQuestion.id}
-            answer={answer}
-            selectedAnswerId={selectAnswerIds[currentNumber]}
-            key={`${currentQuestion.id}-${answer.id}`}
-            onChange={() =>
-              setSelectAnswerIds([
-                ...selectAnswerIds.slice(0, currentNumber),
-                answer.id,
-                ...selectAnswerIds.slice(currentNumber + 1),
-              ])
-            }
-          />
-        ))}
+      <div className="flex-1 bg-yellow-400 rounded-t-2xl section space-y-6">
+        <QuestionDisplay
+          question={currentQuestion}
+          totalQuestion={topic.questions.length}
+        />
+
+        <div className="space-y-4 flex-1 w-full">
+          {currentQuestion.answers.map((answer) => (
+            <AnswerDisplay
+              questionId={currentQuestion.id}
+              answer={answer}
+              selectedAnswerId={selectAnswerIds[currentNumber]}
+              key={`${currentQuestion.id}-${answer.id}`}
+              onChange={() =>
+                setSelectAnswerIds([
+                  ...selectAnswerIds.slice(0, currentNumber),
+                  answer.id,
+                  ...selectAnswerIds.slice(currentNumber + 1),
+                ])
+              }
+            />
+          ))}
+        </div>
+
+        {selectAnswerIds[currentNumber] && (
+          <NavigationButtons next={next} back={back} />
+        )}
       </div>
-
-      <NavigationButtons next={next} back={back} />
     </div>
   );
 };

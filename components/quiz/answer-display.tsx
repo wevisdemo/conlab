@@ -1,5 +1,6 @@
 import { FunctionComponent } from 'react';
 import { Answer } from '../../data/topics';
+import Card from '../card';
 
 type AnswerProps = {
   answer: Answer;
@@ -14,13 +15,15 @@ const AnswerDisplay: FunctionComponent<AnswerProps> = ({
   selectedAnswerId,
   onChange,
 }) => {
-  const checkedEffect =
-    selectedAnswerId === answer.id
-      ? 'bg-black text-white'
-      : 'oblique-shadow items-center w-full';
+  const isChecked = selectedAnswerId === answer.id;
 
   return (
-    <div className={`rounded-xl border-[4px] border-black ${checkedEffect}`}>
+    <Card
+      noShadow={isChecked}
+      className={`p-0 ${
+        isChecked ? 'bg-black text-white ml-[8px]' : 'bg-white'
+      }`}
+    >
       <label className="flex flex-inline items-center p-[20px]">
         <input
           className="min-h-[32px] min-w-[32px]"
@@ -28,11 +31,11 @@ const AnswerDisplay: FunctionComponent<AnswerProps> = ({
           id={answer.id.toString()}
           name={questionId.toString()}
           onChange={onChange}
-          checked={selectedAnswerId === answer.id}
+          checked={isChecked}
         />
         <span className="pl-[12px] text-headline-3">{answer.text}</span>
       </label>
-    </div>
+    </Card>
   );
 };
 

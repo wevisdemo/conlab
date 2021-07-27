@@ -10,7 +10,7 @@ const NavigationButtons: FunctionComponent<NavigationButtonsProps> = ({
   back,
   next,
 }) => (
-  <div className="flex flex-row space-x-2">
+  <div className="flex flex-row space-x-2 w-full">
     <Button state="outline" onClick={back}>
       <svg
         width="32"
