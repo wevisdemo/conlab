@@ -4,7 +4,6 @@ import Spinner from './spinner';
 
 type FeedbackProps = {
   onSubmit: (feedback: String) => Promise<void>;
-  onClose: () => void;
 };
 
 const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit }) => {
