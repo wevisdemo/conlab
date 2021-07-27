@@ -39,7 +39,7 @@ const Dropdown: FunctionComponent<DropdownProps> = ({
       </button>
 
       {isOptionsOpened && (
-        <div className="fixed z-30 inset-0 bg-black bg-opacity-20 flex flex-col justify-end text-body-2">
+        <div className="fixed z-40 inset-0 bg-black bg-opacity-20 flex flex-col justify-end text-body-2">
           <div className="flex-1" onClick={() => setIsOptionsOpened(false)} />
           <div className="p-4 rounded-t-xl bg-white font-black">
             เปลี่ยนตัวเลือก

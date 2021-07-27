@@ -77,7 +77,7 @@ type MenuProps = {
 const Menu: FunctionComponent<MenuProps> = ({ onClick }) => {
   const { asPath } = useRouter();
   return (
-    <div className="bg-black fixed w-full h-full top-0 flex flex-col">
+    <div className="bg-black z-50 fixed w-full h-full top-0 flex flex-col">
       <TopBar theme="black" button="close" onClick={onClick}></TopBar>
       <div className="flex flex-col space-y-4 p-4 overflow-y-scroll items-center">
         <Link href="/" passHref>

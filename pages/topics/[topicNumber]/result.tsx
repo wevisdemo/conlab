@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import { FunctionComponent, useEffect, useState } from 'react';
 import Button from '../../../components/button';
+import NavigationBar from '../../../components/navigation-bar';
 import ExplanationNavigation from '../../../components/result/explanation-navigation';
 import OptionExplanation from '../../../components/result/option-explanation';
 import ResultSummary from '../../../components/result/result-summery';
@@ -70,7 +71,8 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
     ]);
 
   return (
-    <>
+    <div>
+      <NavigationBar theme="black" />
       <div className="p-4 space-y-12 bg-gray-100">
         <h1 className="text-large-2">ผลการออกแบบรัฐธรรมนูญในฝันของคุณ</h1>
 
@@ -135,7 +137,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
           )}
         </>
       )}
-    </>
+    </div>
   );
 };
 
