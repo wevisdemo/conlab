@@ -1,4 +1,9 @@
-import { FunctionComponent, MouseEventHandler, useState } from 'react';
+import React, {
+  FunctionComponent,
+  MouseEventHandler,
+  RefAttributes,
+  useState,
+} from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import topics from '../data/topics';
@@ -124,28 +129,26 @@ interface MenuItemProps {
   href?: string;
 }
 
-const MenuItem: FunctionComponent<MenuItemProps> = ({
-  topicNumber,
-  title,
-  subtitle,
-  active,
-  href,
-}) => (
-  <a className="max-w-[544px] w-full" href={href}>
-    <div
-      className={`flex px-2 py-5 items-center space-x-4 ${
-        active
-          ? 'text-black border-blue-300 bg-blue-300'
-          : 'text-white border-gray-500 bg-black'
-      } border-4  rounded-[12px]`}
-    >
-      <div className="text-large-1 min-w-[60px] text-center">{topicNumber}</div>
-      <div>
-        <div className="text-small-1">{subtitle}</div>
-        <div className="text-headline-2">{title}</div>
+const MenuItem: FunctionComponent<MenuItemProps> = React.forwardRef(
+  ({ topicNumber, title, subtitle, active, href }, ref) => (
+    <a className="max-w-[544px] w-full" href={href}>
+      <div
+        className={`flex px-2 py-5 items-center space-x-4 ${
+          active
+            ? 'text-black border-blue-300 bg-blue-300'
+            : 'text-white border-gray-500 bg-black'
+        } border-4  rounded-[12px]`}
+      >
+        <div className="text-large-1 min-w-[60px] text-center">
+          {topicNumber}
+        </div>
+        <div>
+          <div className="text-small-1">{subtitle}</div>
+          <div className="text-headline-2">{title}</div>
+        </div>
       </div>
-    </div>
-  </a>
+    </a>
+  )
 );
 
 export default NavigationBar;
