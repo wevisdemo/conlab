@@ -3,20 +3,19 @@ import { Answer } from '../../data/topics';
 
 type AnswerProps = {
   answer: Answer;
-  id: number;
-  // onChange: (effect: AnswerEffect) => void
+  questionId: number;
   onChange: () => void;
-  selectedAnswer?: String;
+  selectedAnswerId?: number;
 };
 
 const AnswerDisplay: FunctionComponent<AnswerProps> = ({
   answer,
-  selectedAnswer,
-  id,
+  questionId,
+  selectedAnswerId,
   onChange,
 }) => {
   const checkedEffect =
-    selectedAnswer === answer.text
+    selectedAnswerId === answer.id
       ? 'bg-black text-white'
       : 'oblique-shadow items-center w-full';
 
@@ -26,10 +25,10 @@ const AnswerDisplay: FunctionComponent<AnswerProps> = ({
         <input
           className="min-h-[32px] min-w-[32px]"
           type="radio"
-          id={`radio` + id}
-          name={answer.text}
+          id={answer.id.toString()}
+          name={questionId.toString()}
           onChange={onChange}
-          checked={selectedAnswer === answer.text}
+          checked={selectedAnswerId === answer.id}
         />
         <span className="pl-[12px] text-headline-3">{answer.text}</span>
       </label>

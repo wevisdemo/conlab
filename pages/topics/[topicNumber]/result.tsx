@@ -18,7 +18,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const [selectedOptions, setSelectedOptions] = useState<ResultOption[]>([]);
 
   const answers: number[] = query.ans
-    ? (query.ans as string).split('').map((ans) => +ans)
+    ? (query.ans as string).split('').map((ans) => +ans - 1)
     : new Array(topic.questions.length).fill(0);
 
   const suggestedOptions: ResultOption[] = topic.results.map(

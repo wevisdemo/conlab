@@ -12,47 +12,62 @@ import {
 
 const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const [currentNumber, setCurrentNumber] = useState(0);
-  const [selectAnswer, setSelectAnswer] = useState(String);
+  const [selectAnswerIds, setSelectAnswerIds] = useState<
+    (number | undefined)[]
+  >(new Array(topic.questions.length).fill(undefined));
 
   const router = useRouter();
-
-  const next = () => {
-    if (currentNumber < topic.questions.length - 1) {
-      setCurrentNumber(currentNumber + 1);
-      setSelectAnswer('');
-    } else {
-      const mockedAnswer: number[] = new Array(topic.questions.length).fill(0);
-
-      router.push(
-        `/topics/${topic.topicNumber}/result?ans=${mockedAnswer.join('')}`
-      );
-    }
-  };
 
   if (topic.questions.length === 0) {
     return <div>No questions found is this topic</div>;
   }
 
+  const currentQuestion = topic.questions[currentNumber];
+
+  const next = () => {
+    if (currentNumber < topic.questions.length - 1) {
+      setCurrentNumber(currentNumber + 1);
+    } else {
+      router.push(
+        `/topics/${topic.topicNumber}/result?ans=${selectAnswerIds.join('')}`
+      );
+    }
+  };
+
+  const back = () => {
+    if (currentNumber > 0) {
+      setCurrentNumber(currentNumber - 1);
+    } else {
+      router.push(`/topics/${topic.topicNumber}`);
+    }
+  };
+
   return (
     <div>
       <QuestionDisplay
-        question={topic.questions[currentNumber]}
+        question={currentQuestion}
         totalQuestion={topic.questions.length}
       />
-      <div>
-        {topic.questions[currentNumber].answers.map(function (value, index) {
-          return (
-            <AnswerDisplay
-              answer={value}
-              selectedAnswer={selectAnswer}
-              id={index}
-              key={index}
-              onChange={() => setSelectAnswer(value.text)}
-            />
-          );
-        })}
+
+      <div className="space-y-2">
+        {currentQuestion.answers.map((answer) => (
+          <AnswerDisplay
+            questionId={currentQuestion.id}
+            answer={answer}
+            selectedAnswerId={selectAnswerIds[currentNumber]}
+            key={`${currentQuestion.id}-${answer.id}`}
+            onChange={() =>
+              setSelectAnswerIds([
+                ...selectAnswerIds.slice(0, currentNumber),
+                answer.id,
+                ...selectAnswerIds.slice(currentNumber + 1),
+              ])
+            }
+          />
+        ))}
       </div>
-      <NavigationButtons next={next} back={() => alert('back')} />
+
+      <NavigationButtons next={next} back={back} />
     </div>
   );
 };
