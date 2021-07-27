@@ -1,9 +1,10 @@
 import { useRouter } from 'next/router';
-import { FunctionComponent, useState } from 'react';
+import { FunctionComponent, useEffect, useState } from 'react';
 import Button from '../../../components/button';
 import OptionExplanation from '../../../components/result/option-explanation';
 import ResultSummary from '../../../components/result/result-summery';
 import SuggestedOptions from '../../../components/result/suggested-options';
+import Spinner from '../../../components/spinner';
 import { ResultOption } from '../../../data/topics';
 import {
   getTopicsStaticPaths,
@@ -14,6 +15,8 @@ import {
 const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const { query } = useRouter();
 
+  const [selectedOptions, setSelectedOptions] = useState<ResultOption[]>([]);
+
   const answers: number[] = query.ans
     ? (query.ans as string).split('').map((ans) => +ans)
     : new Array(topic.questions.length).fill(0);
@@ -22,7 +25,17 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
     ({ options }, index) => options[answers[index]]
   );
 
-  const [selectedOptions, setSelectedOptions] = useState(suggestedOptions);
+  useEffect(() => {
+    setSelectedOptions(suggestedOptions);
+  }, [suggestedOptions]);
+
+  if (selectedOptions.length === 0) {
+    return (
+      <div className="flex w-full h-screen justify-center items-center">
+        <Spinner />
+      </div>
+    );
+  }
 
   return (
     <div className="p-4 space-y-12 bg-gray-100">
@@ -33,7 +46,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
       <div>
         {topic.results.map((result, index) => (
           <OptionExplanation
-            key={result.id}
+            key={`${result.id}-${selectedOptions[index].id}`}
             result={result}
             selectedOption={selectedOptions[index]}
             onChange={(option) =>
