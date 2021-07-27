@@ -62,6 +62,13 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
     );
   }
 
+  const updateSelectedOption = (index: number, option: ResultOption) =>
+    setSelectedOptions([
+      ...selectedOptions.slice(0, index),
+      { ...option },
+      ...selectedOptions.slice(index + 1),
+    ]);
+
   return (
     <>
       <div className="p-4 space-y-12 bg-gray-100">
@@ -72,16 +79,10 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
         <div ref={explanationContainer}>
           {topic.results.map((result, index) => (
             <OptionExplanation
-              key={`${result.id}-${selectedOptions[index].id}`}
+              key={result.id}
               result={result}
               selectedOption={selectedOptions[index]}
-              onChange={(option) =>
-                setSelectedOptions([
-                  ...selectedOptions.slice(0, index),
-                  option,
-                  ...selectedOptions.slice(index + 1),
-                ])
-              }
+              onChange={(option) => updateSelectedOption(index, option)}
             />
           ))}
         </div>
@@ -90,7 +91,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
           <ResultSummary
             topic={topic}
             selectedOptions={selectedOptions}
-            onChange={setSelectedOptions}
+            onChange={updateSelectedOption}
           />
 
           <Button state="solid" className="mt-4 w-full max-w-lg font-medium">
@@ -100,20 +101,39 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
       </div>
 
       {activeExplanationIndex !== null && (
-        <ExplanationNavigation
-          previous={() =>
-            explanationContainer.current?.children[
-              activeExplanationIndex - 1
-            ].scrollIntoView({ behavior: 'smooth' })
-          }
-          next={() =>
-            explanationContainer.current?.children[
-              activeExplanationIndex + 1
-            ].scrollIntoView({ behavior: 'smooth' })
-          }
-          isPreviousDisabled={activeExplanationIndex === 0}
-          isNextDisabled={activeExplanationIndex === topic.results.length - 1}
-        />
+        <>
+          <ExplanationNavigation
+            previous={() =>
+              explanationContainer.current?.children[
+                activeExplanationIndex - 1
+              ].scrollIntoView({ behavior: 'smooth' })
+            }
+            next={() =>
+              explanationContainer.current?.children[
+                activeExplanationIndex + 1
+              ].scrollIntoView({ behavior: 'smooth' })
+            }
+            isPreviousDisabled={activeExplanationIndex === 0}
+            isNextDisabled={activeExplanationIndex === topic.results.length - 1}
+          />
+
+          {suggestedOptions[activeExplanationIndex].id !==
+            selectedOptions[activeExplanationIndex].id && (
+            <div className="fixed inset-x-0 bottom-4 flex justify-center">
+              <button
+                className="bg-yellow-400 rounded-full py-2 px-4 text-body-2"
+                onClick={() =>
+                  updateSelectedOption(
+                    activeExplanationIndex,
+                    suggestedOptions[activeExplanationIndex]
+                  )
+                }
+              >
+                ข้ามไปที่ข้อเสนอของคุณ
+              </button>
+            </div>
+          )}
+        </>
       )}
     </>
   );

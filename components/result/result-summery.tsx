@@ -7,7 +7,7 @@ import Markdown from './markdown';
 type ResultSummaryProps = {
   topic: Topic;
   selectedOptions: ResultOption[];
-  onChange: (options: ResultOption[]) => void;
+  onChange: (index: number, option: ResultOption) => void;
 };
 
 const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
@@ -25,13 +25,7 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
       <Dropdown
         options={results[resultIndex].options}
         selectedOption={selectedOptions[resultIndex]}
-        onChange={(option) =>
-          onChange([
-            ...selectedOptions.slice(0, resultIndex),
-            option,
-            ...selectedOptions.slice(resultIndex + 1),
-          ])
-        }
+        onChange={(option) => onChange(resultIndex, option)}
       />
     );
   };
