@@ -6,11 +6,15 @@ import topics from '../data/topics';
 type NavigationBarProps = {
   theme: 'black' | 'transparent';
   className?: string;
+  showMenu?: boolean;
+  menuToggleHandler?: (button: 'menu' | 'close') => void;
 };
 
 const NavigationBar: FunctionComponent<NavigationBarProps> = ({
   theme,
   className,
+  showMenu: overrideShowMenu,
+  menuToggleHandler,
 }) => {
   const [showMenu, setShowMenu] = useState(false);
   return (
@@ -22,9 +26,18 @@ const NavigationBar: FunctionComponent<NavigationBarProps> = ({
       <TopBar
         theme={theme}
         button="menu"
-        onClick={() => setShowMenu(true)}
+        onClick={() =>
+          menuToggleHandler ? menuToggleHandler('menu') : setShowMenu(true)
+        }
       ></TopBar>
-      {showMenu ? <Menu onClick={() => setShowMenu(false)}></Menu> : undefined}
+      {overrideShowMenu === true ||
+      (overrideShowMenu === undefined && showMenu) ? (
+        <Menu
+          onClick={() =>
+            menuToggleHandler ? menuToggleHandler('close') : setShowMenu(false)
+          }
+        ></Menu>
+      ) : undefined}
     </div>
   );
 };
