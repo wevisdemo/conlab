@@ -15,21 +15,40 @@ import {
 const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const { query } = useRouter();
 
+  const [suggestedOptions, setSuggestedOptions] = useState<ResultOption[]>([]);
   const [selectedOptions, setSelectedOptions] = useState<ResultOption[]>([]);
 
-  const answers: number[] = query.ans
-    ? (query.ans as string).split('').map((ans) => +ans - 1)
-    : new Array(topic.questions.length).fill(0);
-
-  const suggestedOptions: ResultOption[] = topic.results.map(
-    ({ options }, index) => options[answers[index]]
-  );
-
   useEffect(() => {
-    setSelectedOptions(suggestedOptions);
-  }, [suggestedOptions]);
+    if (!query.ans) {
+      return;
+    }
 
-  if (selectedOptions.length === 0) {
+    const answerIndexes: number[] = query.ans
+      ? (query.ans as string).split('').map((ans) => +ans - 1)
+      : new Array(topic.questions.length).fill(0);
+
+    const resultScores = topic.questions.reduce(
+      (scores, { answers }, questionIndex) => {
+        const { effect } = answers[answerIndexes[questionIndex]];
+        scores[effect.resultId - 1][effect.resultOptionId - 1]++;
+
+        return scores;
+      },
+      topic.results.map(({ options }) => new Array(options.length).fill(0))
+    );
+
+    const suggestedOptions = topic.results.map(({ options }, index) => {
+      const maxScore = Math.max(...resultScores[index]);
+      const winnerOptionIndex = resultScores[index].indexOf(maxScore);
+
+      return options[winnerOptionIndex];
+    });
+
+    setSuggestedOptions(suggestedOptions);
+    setSelectedOptions(suggestedOptions);
+  }, [query.ans, topic.questions, topic.results]);
+
+  if (suggestedOptions.length === 0) {
     return (
       <div className="flex w-full h-screen justify-center items-center">
         <Spinner />

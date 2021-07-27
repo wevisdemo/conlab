@@ -86,7 +86,7 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
         </Markdown>
       </Card>
 
-      <div className="absolute -top-12 w-20 h-20 rounded-full oblique-shadow" />
+      <div className="absolute -top-12 w-20 h-20 rounded-full oblique-shadow mr-[8px]" />
     </div>
   );
 };
