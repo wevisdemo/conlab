@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import { FunctionComponent, useEffect, useState } from 'react';
 import Button from '../../../components/button';
 import Footer from '../../../components/footer';
-import Hint from '../../../components/hint';
+import Hint from '../../../components/result/hint';
 import NavigationBar from '../../../components/navigation-bar';
 import Pill from '../../../components/pill';
 import ExplanationNavigation from '../../../components/result/explanation-navigation';

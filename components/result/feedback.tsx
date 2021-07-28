@@ -1,6 +1,6 @@
 import { FunctionComponent, useState } from 'react';
-import Button from './button';
-import Spinner from './spinner';
+import Button from '../button';
+import Spinner from '../spinner';
 
 type FeedbackProps = {
   onSubmit: (feedback: String) => Promise<void>;
