@@ -1,6 +1,6 @@
 const Hint = () => {
   return (
-    <div>
+    <div className="z-10 -mb-5">
       <div className={'flex flex-col rounded-xl bg-blue-300 text-black'}>
         <div
           className={

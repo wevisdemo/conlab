@@ -31,7 +31,7 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
   };
 
   return (
-    <div className="relative flex flex-col items-center">
+    <div className="relative flex flex-col items-center mt-12">
       <Card className="flex z-10 flex-col items-center bg-yellow-100 space-y-3">
         <div className="absolute -top-12 w-20 h-20 p-1 rounded-full border-4 border-black bg-yellow-200 overflow-hidden">
           <img

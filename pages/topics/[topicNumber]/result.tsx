@@ -1,7 +1,10 @@
 import { useRouter } from 'next/router';
 import { FunctionComponent, useEffect, useState } from 'react';
 import Button from '../../../components/button';
+import Footer from '../../../components/footer';
+import Hint from '../../../components/hint';
 import NavigationBar from '../../../components/navigation-bar';
+import Pill from '../../../components/pill';
 import ExplanationNavigation from '../../../components/result/explanation-navigation';
 import OptionExplanation from '../../../components/result/option-explanation';
 import ResultSummary from '../../../components/result/result-summery';
@@ -71,23 +74,45 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
     ]);
 
   return (
-    <div>
+    <div className="bg-black">
       <NavigationBar theme="black" />
-      <div className="p-4 space-y-12 bg-gray-100">
-        <h1 className="text-large-2">ผลการออกแบบรัฐธรรมนูญในฝันของคุณ</h1>
+
+      <div className="flex flex-col items-center p-4 space-y-6 bg-gray-100 rounded-t-2xl">
+        <Pill className="text-body-2 font-black">
+          หมวดที่ {topic.topicNumber}: {topic.shortTitle}
+        </Pill>
+
+        <h1 className="text-headline-2 text-center">
+          ผลการออกแบบรัฐธรรมนูญในฝันของคุณ
+        </h1>
+
+        <img src={topic.iconUrl} alt={topic.shortTitle} />
 
         <SuggestedOptions options={suggestedOptions} />
 
-        <div ref={explanationContainer}>
-          {topic.results.map((result, index) => (
-            <OptionExplanation
-              key={result.id}
-              result={result}
-              selectedOption={selectedOptions[index]}
-              onChange={(option) => updateSelectedOption(index, option)}
-            />
-          ))}
+        <div className="flex flex-col">
+          <Hint />
+
+          <div ref={explanationContainer}>
+            {topic.results.map((result, index) => (
+              <OptionExplanation
+                key={result.id}
+                result={result}
+                selectedOption={selectedOptions[index]}
+                onChange={(option) => updateSelectedOption(index, option)}
+              />
+            ))}
+          </div>
         </div>
+      </div>
+
+      <div className="section bg-yellow-400 space-y-4">
+        <h2 className="text-headline-1 pt-4">ส่งข้อเสนอของคุณ</h2>
+
+        <p className="text-body-2">
+          เราอยากรู้ว่ารัฐธรรมนูญในฝันของคุณเป็นอย่างไร
+          เพื่อเราจะได้พัฒนาขอเสนอการแก้ไข รัฐธรรมนูญให้ดีขึ้นต่อไป
+        </p>
 
         <div>
           <ResultSummary
@@ -95,12 +120,29 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
             selectedOptions={selectedOptions}
             onChange={updateSelectedOption}
           />
-
-          <Button state="solid" className="mt-4 w-full max-w-lg font-medium">
-            ส่งข้อเสนอให้ DreamCon
-          </Button>
         </div>
+
+        <Button state="solid" className="mt-4 w-full max-w-lg font-medium">
+          ส่งข้อเสนอให้ DreamCon
+        </Button>
       </div>
+
+      <div className="section bg-blue-300 space-y-6">
+        <img
+          src={require('../../../assets/images/thinking-bubble.png')}
+          alt="Thinking"
+        />
+
+        <p className="text-headline-1 font-black text-center">
+          ยังมีเรื่องสำคัญอื่นๆ ในรัฐธรรมนูญ ที่รอคุณออกแบบอยู่นะ
+        </p>
+
+        <Button state="outline" className="w-full">
+          ดูหัวข้ออื่นๆ
+        </Button>
+      </div>
+
+      <Footer />
 
       {activeExplanationIndex !== null && (
         <>
