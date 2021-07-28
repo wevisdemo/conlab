@@ -18,7 +18,7 @@ const Home: FunctionComponent = () => {
       </Head>
       <NavigationBar theme="transparent" />
       <main>
-        <div className="section p-4 space-y-10">
+        <div className="section p-4 space-y-10 mt-8">
           <div className="text-large-2 text-center w-full">
             มาร่วมกันออกแบบรัฐธรรมนูญกันเถอะ
           </div>
