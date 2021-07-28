@@ -17,12 +17,16 @@ import {
   getTopicsStaticProps,
   TopicPageProps,
 } from '../../../utils/topics-route';
+import Feedback from '../../../components/result/feedback';
 
 const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const { query } = useRouter();
 
   const [suggestedOptions, setSuggestedOptions] = useState<ResultOption[]>([]);
   const [selectedOptions, setSelectedOptions] = useState<ResultOption[]>([]);
+  const [submitState, setSubmitState] = useState<'idle' | 'open' | 'complete'>(
+    'idle'
+  );
 
   const [explanationContainer, activeExplanationIndex] = useScrollama({}, [
     suggestedOptions,
@@ -122,9 +126,19 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
           />
         </div>
 
-        <Button state="solid" className="mt-4 w-full max-w-lg font-medium">
-          ส่งข้อเสนอให้ DreamCon
-        </Button>
+        {submitState !== 'complete' ? (
+          <Button
+            state="solid"
+            className="mt-4 w-full max-w-lg font-medium"
+            onClick={() => setSubmitState('open')}
+          >
+            ส่งข้อเสนอให้ DreamCon
+          </Button>
+        ) : (
+          <div className="rounded-xl w-full px-[17px] py-[15px] font-semibold text-center text-gray-400 bg-yellow-100">
+            ส่งข้อเสนอแล้ว!
+          </div>
+        )}
       </div>
 
       <div className="section bg-blue-300 space-y-6">
@@ -143,6 +157,13 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
       </div>
 
       <Footer />
+
+      {submitState === 'open' && (
+        <Feedback
+          onSubmit={() => new Promise((resolve) => setTimeout(resolve, 2000))}
+          onClose={() => setSubmitState('complete')}
+        />
+      )}
 
       {activeExplanationIndex !== null && (
         <>

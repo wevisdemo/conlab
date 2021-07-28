@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Button from '../components/button';
 import Card from '../components/card';
 import Pill from '../components/pill';
-import Feedback from '../components/result/feedback';
 import Hint from '../components/result/hint';
 import TopicCard from '../components/topic-card';
 import HowItWork from '../components/how-it-work';
@@ -62,12 +61,6 @@ const Catalog = () => {
         <div className="flex flex-row space-x-4">
           <Card>This is card</Card>
           <Card noShadow>This is card with no shadow</Card>
-        </div>
-
-        <div>
-          <Feedback
-            onSubmit={() => new Promise((resolve) => setTimeout(resolve, 2000))}
-          />
         </div>
 
         <div>
