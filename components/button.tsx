@@ -14,8 +14,8 @@ const Button: FunctionComponent<ButtonProps> = ({
 }) => (
   <button
     onClick={onClick}
-    className={`${className} border-black border-[3px] rounded-xl p-2 text-center ${
-      state === 'solid' ? 'bg-black text-white' : ''
+    className={`${className} border-black box-sizing border-[3px] rounded-xl px-[17px] py-[15px] font-semibold text-center leading-none ${
+      state === 'solid' ? 'bg-black text-gray-0' : ''
     }`}
   >
     {children}
