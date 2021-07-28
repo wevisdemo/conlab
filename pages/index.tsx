@@ -67,7 +67,7 @@ const Home: FunctionComponent = () => {
           <HowItWork />
         </div>
         <div className="section bg-blue-300 p-4 space-y-4">
-          <div className="text-headline-2 text-left w-full">ConLab คือใคร</div>
+          <div className="text-headline-1 text-left w-full">ConLab คือใคร</div>
           <div>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             viverra neque vehicula donec phasellus nisl odio. Tincidunt enim, in

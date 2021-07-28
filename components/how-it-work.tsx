@@ -50,9 +50,9 @@ const HowItWorkItem: FunctionComponent<HowItWorkItemProps> = ({
       width="80"
       height="80"
     />
-    <div className="flex-grow-1">
+    <div className="flex-grow-1 text-body-2">
       <div className="font-bold">{orderNo}</div>
-      <div>{text}</div>
+      <div className="font-normal">{text}</div>
     </div>
   </div>
 );
