@@ -10,7 +10,7 @@ import Footer from '../components/footer';
 import NavigationBar from '../components/navigation-bar';
 import { useState } from 'react';
 
-const Home = () => {
+const Catalog = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div>
@@ -105,4 +105,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Catalog;
