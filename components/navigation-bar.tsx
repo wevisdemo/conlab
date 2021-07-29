@@ -1,9 +1,4 @@
-import React, {
-  FunctionComponent,
-  MouseEventHandler,
-  RefAttributes,
-  useState,
-} from 'react';
+import React, { FunctionComponent, MouseEventHandler, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import topics from '../data/topics';
@@ -61,15 +56,19 @@ const TopBar: FunctionComponent<TopBarProps> = ({
   onClick,
 }) => (
   <div className={`${className} w-full flex justify-between items-start`}>
-    <img
-      className={theme === 'transparent' ? 'p-4' : 'px-4 py-2'}
-      src={
-        theme === 'transparent'
-          ? require('../assets/images/logo-large.svg')
-          : require('../assets/images/logo-compact.svg')
-      }
-      alt=""
-    ></img>
+    <Link href="/" passHref>
+      <img
+        className={`${
+          theme === 'transparent' ? 'p-4' : 'px-4 py-2'
+        } cursor-pointer`}
+        src={
+          theme === 'transparent'
+            ? require('../assets/images/logo-large.svg')
+            : require('../assets/images/logo-compact.svg')
+        }
+        alt=""
+      ></img>
+    </Link>
     <button onClick={onClick}>
       <img
         className="my-6 mx-6"
