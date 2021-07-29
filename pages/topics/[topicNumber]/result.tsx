@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import { FunctionComponent, useEffect, useState } from 'react';
+import { FunctionComponent, useEffect, useRef, useState } from 'react';
 import Button from '../../../components/button';
 import Footer from '../../../components/footer';
 import Hint from '../../../components/result/hint';
@@ -31,6 +31,8 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const [explanationContainer, activeExplanationIndex] = useScrollama({}, [
     suggestedOptions,
   ]);
+
+  const submitSection = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!query.ans) {
@@ -110,7 +112,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
         </div>
       </div>
 
-      <div className="section bg-yellow-400 space-y-4">
+      <div className="section bg-yellow-400 space-y-4" ref={submitSection}>
         <h2 className="text-headline-1 pt-4">ส่งข้อเสนอของคุณ</h2>
 
         <p className="text-body-2">
@@ -182,22 +184,16 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
             isNextDisabled={activeExplanationIndex === topic.results.length - 1}
           />
 
-          {suggestedOptions[activeExplanationIndex].id !==
-            selectedOptions[activeExplanationIndex].id && (
-            <div className="fixed inset-x-0 bottom-4 flex justify-center">
-              <button
-                className="bg-yellow-400 rounded-full py-2 px-4 text-body-2"
-                onClick={() =>
-                  updateSelectedOption(
-                    activeExplanationIndex,
-                    suggestedOptions[activeExplanationIndex]
-                  )
-                }
-              >
-                ข้ามไปที่ข้อเสนอของคุณ
-              </button>
-            </div>
-          )}
+          <div className="fixed inset-x-0 bottom-4 flex justify-center">
+            <button
+              className="bg-yellow-400 rounded-full py-2 px-4 text-body-2"
+              onClick={() =>
+                submitSection.current?.scrollIntoView({ behavior: 'smooth' })
+              }
+            >
+              ข้ามไปที่ข้อเสนอของคุณ
+            </button>
+          </div>
         </>
       )}
     </div>
