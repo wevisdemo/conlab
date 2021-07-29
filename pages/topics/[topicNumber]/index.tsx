@@ -21,12 +21,12 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
   };
 
   return (
-    <div>
+    <div className="bg-gray-100">
       <Head>
         <title>{topic.shortTitle} | Dream Constitution</title>
       </Head>
       <NavigationBar className="bg-blue-300" theme="transparent" />
-      <main className="bg-gray-100">
+      <main>
         <div className="section bg-blue-300 space-y-4">
           <Pill>
             หมวดที่ {topic.topicNumber}: {topic.shortTitle}
