@@ -31,7 +31,7 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
           <Pill>
             หมวดที่ {topic.topicNumber}: {topic.shortTitle}
           </Pill>
-          <div className="text-large-2">{topic.title}</div>
+          <div className="text-large-2 text-center">{topic.title}</div>
           <Markdown>{topic.descriptionMarkdown}</Markdown>
           <div>
             <img
