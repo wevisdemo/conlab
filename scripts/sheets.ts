@@ -57,7 +57,7 @@ async function get<T>(url: string): Promise<T[]> {
   return parse(raw, {
     cast: true,
     columns: true,
-    from: 2,
+    from: 1,
     skipEmptyLines: true,
   }) as T[];
 }
