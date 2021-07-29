@@ -9,28 +9,32 @@ interface Link {
 const links: Link[] = [
   {
     alt: 'Resolution',
-    src: 'images/logo-resolution.png',
+    src: require('../assets/images/logo-resolution.png'),
     href: 'https://www.facebook.com/resolutionconstitution/',
   },
   {
     alt: 'คณะก้าวหน้า',
-    src: 'images/logo-klaona.png',
+    src: require('../assets/images/logo-klaona.png'),
     href: 'https://progressivemovement.in.th/',
   },
   {
     alt: 'CONLAB',
-    src: 'images/logo-conlab.png',
+    src: require('../assets/images/logo-conlab.png'),
     href: 'https://www.facebook.com/conlabth/',
   },
-  { alt: 'iLaw', src: 'images/logo-ilaw.png', href: 'https://ilaw.or.th/' },
+  {
+    alt: 'iLaw',
+    src: require('../assets/images/logo-ilaw.png'),
+    href: 'https://ilaw.or.th/',
+  },
   {
     alt: 'พรรคก้าวไหล',
-    src: 'images/logo-klaokrai.png',
+    src: require('../assets/images/logo-klaokrai.png'),
     href: 'https://www.moveforwardparty.org/',
   },
   {
     alt: 'ELECT',
-    src: 'images/logo-elect.png',
+    src: require('../assets/images/logo-elect.png'),
     href: 'https://elect.in.th/',
   },
 ];
