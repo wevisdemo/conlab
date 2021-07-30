@@ -86,7 +86,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
     <div className="bg-black">
       <NavigationBar theme="black" />
 
-      <div className="flex flex-col items-center p-4 space-y-6 bg-gray-100 rounded-t-2xl">
+      <div className="section flex flex-col items-center p-4 space-y-6 bg-gray-100 rounded-t-2xl">
         <Pill className="text-body-2 font-black">
           หมวดที่ {topic.topicNumber}: {topic.shortTitle}
         </Pill>
