@@ -18,10 +18,12 @@ import {
   TopicPageProps,
 } from '../../../utils/topics-route';
 import Feedback from '../../../components/result/feedback';
+import { submitResult } from '../../../utils/firebase';
 
 const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const { query } = useRouter();
 
+  const [answers, setAnswers] = useState<number[]>([]);
   const [suggestedOptions, setSuggestedOptions] = useState<ResultOption[]>([]);
   const [selectedOptions, setSelectedOptions] = useState<ResultOption[]>([]);
   const [submitState, setSubmitState] = useState<'idle' | 'open' | 'complete'>(
@@ -60,6 +62,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
       return options[winnerOptionIndex];
     });
 
+    setAnswers(answerIndexes.map((index) => index + 1));
     setSuggestedOptions(suggestedOptions);
     setSelectedOptions(suggestedOptions);
   }, [query.ans, topic.questions, topic.results]);
@@ -162,7 +165,15 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
 
       {submitState === 'open' && (
         <Feedback
-          onSubmit={() => new Promise((resolve) => setTimeout(resolve, 2000))}
+          onSubmit={(feedback) =>
+            submitResult(
+              topic.topicNumber,
+              answers,
+              suggestedOptions,
+              selectedOptions,
+              feedback
+            )
+          }
           onClose={() => setSubmitState('complete')}
         />
       )}
