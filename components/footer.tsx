@@ -8,29 +8,19 @@ interface Link {
 }
 const links: Link[] = [
   {
-    alt: 'Resolution',
-    src: require('../assets/images/logo-resolution.png'),
-    href: 'https://www.facebook.com/resolutionconstitution/',
-  },
-  {
-    alt: 'คณะก้าวหน้า',
-    src: require('../assets/images/logo-klaona.png'),
-    href: 'https://progressivemovement.in.th/',
-  },
-  {
     alt: 'CONLAB',
     src: require('../assets/images/logo-conlab.png'),
-    href: 'https://www.facebook.com/conlabth/',
+    href: '/',
   },
   {
-    alt: 'iLaw',
-    src: require('../assets/images/logo-ilaw.png'),
-    href: 'https://ilaw.or.th/',
+    alt: 'SPP',
+    src: require('../assets/images/SPP-CMU.svg'),
+    href: 'https://spp.cmu.ac.th/',
   },
   {
-    alt: 'พรรคก้าวไหล',
-    src: require('../assets/images/logo-klaokrai.png'),
-    href: 'https://www.moveforwardparty.org/',
+    alt: 'KAS',
+    src: require('../assets/images/KAS_Logo_White.png'),
+    href: 'https://www.kas.de/th/web/thailand/',
   },
   {
     alt: 'ELECT',
@@ -44,7 +34,7 @@ const Footer = () => (
     <div className="flex justify-center">
       <FollowUs />
     </div>
-    <div className="grid grid-cols-2 py-6 md:py-12 md:grid-cols-6 w-full max-w-screen-xl mx-auto">
+    <div className="grid grid-cols-2 py-6 md:py-12 md:grid-cols-4 w-full max-w-screen-xl mx-auto">
       {links.map(({ alt, src, href }, index) => (
         <ExternalLink
           {...{ href }}

@@ -16,7 +16,7 @@ const FollowUs: FunctionComponent<FollowUsProps> = ({ dark = false }) => {
       >
         ติดตามเรา
       </p>
-      <ExternalLink href="https://www.facebook.com/resolutionconstitution/">
+      <ExternalLink href="https://facebook.com/conlabth">
         <svg
           className="w-6 h-6"
           viewBox="0 0 30 30"
@@ -33,7 +33,7 @@ const FollowUs: FunctionComponent<FollowUsProps> = ({ dark = false }) => {
           ></path>
         </svg>
       </ExternalLink>
-      <ExternalLink href="https://twitter.com/ResolutionCons">
+      <ExternalLink href="https://twitter.com/conlabth">
         <svg
           className="w-6 h-6"
           viewBox="0 0 30 30"
@@ -48,26 +48,7 @@ const FollowUs: FunctionComponent<FollowUsProps> = ({ dark = false }) => {
           />
         </svg>
       </ExternalLink>
-      <ExternalLink href="https://www.youtube.com/channel/UCndjal9If-ts66EjKoKShiQ">
-        <svg
-          viewBox="0 0 30 30"
-          className="w-6 h-6"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          aria-label="Youtube"
-        >
-          <path
-            d="M24.9824 9.34706C24.7353 8.42941 24.0118 7.70588 23.0941 7.45882C21.4176 7 14.7118 7 14.7118 7C14.7118 7 8.00588 7 6.32941 7.44118C5.42941 7.68824 4.68824 8.42941 4.44118 9.34706C4 11.0235 4 14.5 4 14.5C4 14.5 4 17.9941 4.44118 19.6529C4.68824 20.5706 5.41176 21.2941 6.32941 21.5412C8.02353 22 14.7118 22 14.7118 22C14.7118 22 21.4176 22 23.0941 21.5588C24.0118 21.3118 24.7353 20.5882 24.9824 19.6706C25.4235 17.9941 25.4235 14.5176 25.4235 14.5176C25.4235 14.5176 25.4412 11.0235 24.9824 9.34706Z"
-            {...{ fill }}
-          />
-          <path
-            d="M18.1529 14.5L12.5765 11.2882V17.7118L18.1529 14.5Z"
-            fill={dark ? 'white' : 'black'}
-          />
-        </svg>
-      </ExternalLink>
-      <ExternalLink href="https://www.instagram.com/resolutioncon">
+      <ExternalLink href="https://instagram.com/conlabth">
         <svg
           className="w-6 h-6"
           viewBox="0 0 30 30"
@@ -78,6 +59,9 @@ const FollowUs: FunctionComponent<FollowUsProps> = ({ dark = false }) => {
           <circle cx="15" cy="15" r="3.5" stroke={fill} />
           <circle cx="20" cy="10" r="1" {...{ fill }} />
         </svg>
+      </ExternalLink>
+      <ExternalLink href="https://clubhouse.com/club/conlab">
+        <span className="text-white text-body-2">CH</span>
       </ExternalLink>
     </div>
   );
