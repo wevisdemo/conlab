@@ -8,12 +8,14 @@ type ResultSummaryProps = {
   topic: Topic;
   selectedOptions: ResultOption[];
   onChange: (index: number, option: ResultOption) => void;
+  isDisabled?: boolean;
 };
 
 const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
   topic,
   selectedOptions,
   onChange,
+  isDisabled,
 }) => {
   const { topicNumber, shortTitle, iconUrl, resultTextMarkdown, results } =
     topic;
@@ -26,6 +28,7 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
         options={results[resultIndex].options}
         selectedOption={selectedOptions[resultIndex]}
         onChange={(option) => onChange(resultIndex, option)}
+        isDisabled={isDisabled}
       />
     );
   };

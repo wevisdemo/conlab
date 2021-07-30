@@ -128,6 +128,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
             topic={topic}
             selectedOptions={selectedOptions}
             onChange={updateSelectedOption}
+            isDisabled={submitState === 'complete'}
           />
         </div>
 

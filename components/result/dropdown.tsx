@@ -5,12 +5,14 @@ type DropdownProps = {
   options: ResultOption[];
   selectedOption: ResultOption;
   onChange: (option: ResultOption) => void;
+  isDisabled?: boolean;
 };
 
 const Dropdown: FunctionComponent<DropdownProps> = ({
   options,
   selectedOption,
   onChange,
+  isDisabled,
 }) => {
   const [isOptionsOpened, setIsOptionsOpened] = useState(false);
 
@@ -19,22 +21,25 @@ const Dropdown: FunctionComponent<DropdownProps> = ({
       <button
         className="relative inline-flex"
         onClick={() => setIsOptionsOpened(true)}
+        disabled={isDisabled}
       >
         <div className="absolute inset-x-0 bottom-0 h-[6px] bg-yellow-300" />
 
         <div className="z-30 flex flex-row text-left items-center text-body-2 text-black">
-          {selectedOption.title}
+          <span className="w-full">{selectedOption.title}</span>
 
-          <svg
-            width="10"
-            height="6"
-            viewBox="0 0 10 6"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="mx-1"
-          >
-            <path d="M10 0L5 6L0 0H10Z" fill="black" />
-          </svg>
+          {!isDisabled && (
+            <svg
+              width="10"
+              height="6"
+              viewBox="0 0 10 6"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="mx-1"
+            >
+              <path d="M10 0L5 6L0 0H10Z" fill="black" />
+            </svg>
+          )}
         </div>
       </button>
 
