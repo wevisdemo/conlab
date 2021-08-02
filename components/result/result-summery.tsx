@@ -37,14 +37,9 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
     <div className="relative flex flex-col items-center mt-12">
       <Card className="flex z-10 flex-col items-center bg-yellow-100 space-y-3">
         <div className="absolute -top-12 w-20 h-20 p-1 rounded-full border-4 border-black bg-yellow-200 overflow-hidden">
-          <img
-            className="w-full h-full"
-            src={
-              iconUrl ||
-              'https://theyworkforus.elect.in.th/static/2fcbb2fff86052a10910df1629932721/10e9e/partySummary.png'
-            }
-            alt={shortTitle}
-          />
+          {iconUrl && (
+            <img className="w-full h-full" src={iconUrl} alt={shortTitle} />
+          )}
         </div>
 
         <div className="text-body-2 font-black text-center space-y-2 mt-6">

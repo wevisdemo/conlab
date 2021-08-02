@@ -19,6 +19,7 @@ import {
 } from '../../../utils/topics-route';
 import Feedback from '../../../components/result/feedback';
 import { submitResult } from '../../../utils/firebase';
+import DownloadResultImage from '../../../components/result/download-result-image';
 
 const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const { query } = useRouter();
@@ -36,6 +37,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   ]);
 
   const submitSection = useRef<HTMLDivElement>(null);
+  const resultSummary = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!query.ans) {
@@ -130,7 +132,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
           เพื่อเราจะได้พัฒนาขอเสนอการแก้ไข รัฐธรรมนูญให้ดีขึ้นต่อไป
         </p>
 
-        <div>
+        <div ref={resultSummary}>
           <ResultSummary
             topic={topic}
             selectedOptions={selectedOptions}
@@ -152,6 +154,8 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
             ส่งข้อเสนอแล้ว!
           </div>
         )}
+
+        <DownloadResultImage node={resultSummary} />
       </div>
 
       <div className="section bg-blue-300 space-y-6">
