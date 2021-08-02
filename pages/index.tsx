@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { FunctionComponent } from 'react';
+import { FunctionComponent, useRef } from 'react';
 import Button from '../components/button';
 import Footer from '../components/footer';
 import HowItWork from '../components/how-it-work';
@@ -11,6 +11,8 @@ import topics from '../data/topics';
 
 const Home: FunctionComponent = () => {
   const router = useRouter();
+  const howItWork = useRef<HTMLDivElement>(null);
+
   return (
     <div className="bg-gray-100">
       <Head>
@@ -33,13 +35,15 @@ const Home: FunctionComponent = () => {
               height="100"
             ></img>
           </div>
-          <Link href="">
-            <a className="w-full">
-              <Button state="outline" className="w-full">
-                นี่คืออะไร
-              </Button>
-            </a>
-          </Link>
+          <Button
+            state="outline"
+            className="w-full"
+            onClick={() =>
+              howItWork.current?.scrollIntoView({ behavior: 'smooth' })
+            }
+          >
+            นี่คืออะไร
+          </Button>
         </div>
         <div className="section space-y-10 mt-2 p-4">
           <div className="space-y-4">
@@ -63,7 +67,7 @@ const Home: FunctionComponent = () => {
             />
           ))}
         </div>
-        <div className="section p-4 mt-2 mb-8">
+        <div className="section p-4 mt-2 mb-8" ref={howItWork}>
           <HowItWork />
         </div>
         <div className="section bg-blue-300 p-4 space-y-4">

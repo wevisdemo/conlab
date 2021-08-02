@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { FunctionComponent } from 'react';
+import { FunctionComponent, useRef } from 'react';
 import Button from '../../../components/button';
 import Footer from '../../../components/footer';
 import HowItWork from '../../../components/how-it-work';
@@ -16,6 +16,8 @@ import {
 
 const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const router = useRouter();
+  const howItWork = useRef<HTMLDivElement>(null);
+
   const goToQuiz = () => {
     router.push(`/topics/${topic.topicNumber}/quiz`);
   };
@@ -45,11 +47,17 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
           <Button onClick={goToQuiz} state="solid" className="w-full">
             เริ่มกันเลย
           </Button>
-          <Button state="outline" className="w-full">
+          <Button
+            state="outline"
+            className="w-full"
+            onClick={() =>
+              howItWork.current?.scrollIntoView({ behavior: 'smooth' })
+            }
+          >
             นี่คืออะไร
           </Button>
         </div>
-        <div className="section mt-8">
+        <div className="section mt-8" ref={howItWork}>
           <HowItWork />
         </div>
         <div className="section mt-2 mb-12">
