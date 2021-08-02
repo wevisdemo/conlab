@@ -61,7 +61,9 @@ const FollowUs: FunctionComponent<FollowUsProps> = ({ dark = false }) => {
         </svg>
       </ExternalLink>
       <ExternalLink href="https://clubhouse.com/club/conlab">
-        <span className="text-white text-body-2">CH</span>
+        <div className="text-white text-body-2 w-6 h-6 flex justify-center items-center">
+          👋
+        </div>
       </ExternalLink>
     </div>
   );
