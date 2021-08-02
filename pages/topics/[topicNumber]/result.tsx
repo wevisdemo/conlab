@@ -144,7 +144,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
         {submitState !== 'complete' ? (
           <Button
             state="solid"
-            className="mt-4 w-full max-w-lg font-medium"
+            className="mt-4 w-full font-medium"
             onClick={() => setSubmitState('open')}
           >
             ส่งข้อเสนอให้ DreamCon
