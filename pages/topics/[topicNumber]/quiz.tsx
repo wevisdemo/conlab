@@ -24,6 +24,7 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
   }
 
   const currentQuestion = topic.questions[currentNumber];
+  const bgColorClass = currentNumber % 2 ? 'bg-blue-300' : 'bg-yellow-400';
 
   const next = () => {
     if (currentNumber < topic.questions.length - 1) {
@@ -47,7 +48,7 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
     <div className="flex flex-col min-h-screen bg-black">
       <NavigationBar theme="black" />
 
-      <div className="flex-1 bg-yellow-400 rounded-t-2xl section space-y-6">
+      <div className={`flex-1 rounded-t-2xl section space-y-6 ${bgColorClass}`}>
         <QuestionDisplay
           question={currentQuestion}
           totalQuestion={topic.questions.length}
@@ -70,11 +71,13 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
             />
           ))}
         </div>
-
-        {selectAnswerIds[currentNumber] && (
-          <NavigationButtons next={next} back={back} />
-        )}
       </div>
+
+      {selectAnswerIds[currentNumber] && (
+        <div className={`section sticky bottom-0 ${bgColorClass}`}>
+          <NavigationButtons next={next} back={back} />
+        </div>
+      )}
     </div>
   );
 };
