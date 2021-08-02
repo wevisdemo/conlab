@@ -23,6 +23,7 @@ import { submitResult } from '../../../utils/firebase';
 const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const { query } = useRouter();
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [answers, setAnswers] = useState<number[]>([]);
   const [suggestedOptions, setSuggestedOptions] = useState<ResultOption[]>([]);
   const [selectedOptions, setSelectedOptions] = useState<ResultOption[]>([]);
@@ -84,7 +85,13 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
 
   return (
     <div className="bg-black">
-      <NavigationBar theme="black" />
+      <NavigationBar
+        theme="black"
+        showMenu={isMenuOpen}
+        menuToggleHandler={(button: 'menu' | 'close') =>
+          setIsMenuOpen(button === 'menu')
+        }
+      />
 
       <div className="section flex flex-col items-center p-4 space-y-6 bg-gray-100 rounded-t-2xl">
         <Pill className="text-body-2 font-black">
@@ -157,7 +164,11 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
           ยังมีเรื่องสำคัญอื่นๆ ในรัฐธรรมนูญ ที่รอคุณออกแบบอยู่นะ
         </p>
 
-        <Button state="outline" className="w-full">
+        <Button
+          state="outline"
+          className="w-full"
+          onClick={() => setIsMenuOpen(true)}
+        >
           ดูหัวข้ออื่นๆ
         </Button>
       </div>
