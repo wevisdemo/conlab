@@ -20,6 +20,7 @@ import {
 import Feedback from '../../../components/result/feedback';
 import { submitResult } from '../../../utils/firebase';
 import DownloadResultImage from '../../../components/result/download-result-image';
+import Sharer from '../../../components/sharer';
 
 const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const { query } = useRouter();
@@ -156,6 +157,8 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
         )}
 
         <DownloadResultImage node={resultSummary} />
+
+        <Sharer />
       </div>
 
       <div className="section bg-blue-300 space-y-6">
