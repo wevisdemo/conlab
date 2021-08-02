@@ -64,7 +64,7 @@
     @apply flex;
     @apply flex-col;
     @apply items-center;
-    @apply p-4;
+    @apply p-3;
   }
 
   .section > * {

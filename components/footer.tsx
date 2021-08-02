@@ -30,8 +30,8 @@ const links: Link[] = [
 ];
 
 const Footer = () => (
-  <section className="py-12 px-2 space-y-6 md:px-8 md:py-20 md:space-y-8 bg-black divide-white divide-y">
-    <div className="flex justify-center">
+  <section className="px-2 md:px-8 bg-black divide-white divide-y">
+    <div className="flex justify-center py-6 md:py-8">
       <FollowUs />
     </div>
     <div className="grid grid-cols-2 py-6 md:py-12 md:grid-cols-4 w-full max-w-screen-xl mx-auto">
