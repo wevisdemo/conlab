@@ -9,14 +9,16 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
+const environment = process.env.NEXT_PUBLIC_ENV || 'development';
+
 if (firebase.apps.length === 0) {
   firebase.initializeApp(firebaseConfig);
 }
 
-const db = firebase.database();
-const environment = process.env.NEXT_PUBLIC_IS_PRODUCTION
-  ? 'production'
-  : 'staging';
+let db: firebase.database.Database;
+if (environment !== 'development') {
+  db = firebase.database();
+}
 
 export const submitResult = (
   topicNumber: number,
