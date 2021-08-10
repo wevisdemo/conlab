@@ -51,13 +51,13 @@ const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit, onClose }) => {
     return (
       <>
         <div className={'text-headline-2 text-center'}>
-          มีอะไรเพิ่มเติมอยากบอกพวกเราไหม?
+          มีอะไรเพิ่มเติมอยากบอก CONLAB ไหม?
         </div>
         <input
           className={
             'bg-gray-100 h-[72px] rounded-xl text-body-2 text-gray-400 w-full p-2'
           }
-          placeholder="อยากแก้หมวด 1... (ถ้าไม่มีก็เว้นไว้ได้)"
+          placeholder="เช่น รัฐธรรมนูญไทยต้องสั้นและอ่านง่าย"
           maxLength={280}
           type="text"
           name="feedback"
