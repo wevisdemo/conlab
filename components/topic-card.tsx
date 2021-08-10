@@ -29,7 +29,7 @@ const TopicCard: FunctionComponent<TopicCardProps> = ({
     onClick={(e) => (!showButton && onClick ? onClick(e) : null)}
   >
     <Pill>
-      หมวดที่ {topicNumber}: {shortTitle}
+      เรื่องที่ {topicNumber}: {shortTitle}
     </Pill>
     <div className="text-headline-2 text-center">{title}</div>
     <img src={iconUrl} alt="" width={120} height={120} />

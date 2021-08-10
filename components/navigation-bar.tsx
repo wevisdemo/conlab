@@ -109,7 +109,7 @@ const Menu: FunctionComponent<MenuProps> = ({ onClick }) => {
           <Link href={`/topics/${t.topicNumber}`} passHref key={t.topicNumber}>
             <MenuItem
               topicNumber={t.topicNumber}
-              subtitle={`หมวดที่ ${t.topicNumber}: ${t.shortTitle}`}
+              subtitle={`เรื่องที่ ${t.topicNumber}: ${t.shortTitle}`}
               title={t.title}
               active={asPath.includes(`/topics/${t.topicNumber}`)}
             ></MenuItem>
