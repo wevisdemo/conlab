@@ -35,7 +35,7 @@ const TopicCard: FunctionComponent<TopicCardProps> = ({
     <img src={iconUrl} alt="" width={120} height={120} />
     {showButton ? (
       <Button className="self-stretch" state="solid" onClick={onClick}>
-        เริ่มกันเลย
+        ออกแบบรัฐธรรมนูญ
       </Button>
     ) : null}
   </Card>
