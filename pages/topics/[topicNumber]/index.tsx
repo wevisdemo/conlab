@@ -45,7 +45,7 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
             ></img>
           </div>
           <Button onClick={goToQuiz} state="solid" className="w-full">
-            เริ่มกันเลย
+            ออกแบบรัฐธรรมนูญ
           </Button>
           <Button
             state="outline"
@@ -54,7 +54,7 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
               howItWork.current?.scrollIntoView({ behavior: 'smooth' })
             }
           >
-            นี่คืออะไร
+            CONstitution LAB คืออะไร?
           </Button>
         </div>
         <div className="section mt-8" ref={howItWork}>
@@ -62,7 +62,7 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
         </div>
         <div className="section mt-2 mb-12">
           <div className="text-headline-2 mb-10 w-full">
-            ถ้าพร้อมแล้วก็เริ่มเลย...
+            ถ้าพร้อมแล้ว มาออกแบบรัฐธรรมนูญในแบบฉบับของตัวเองกันเลย
           </div>
           <TopicCard
             topicNumber={topic.topicNumber}
