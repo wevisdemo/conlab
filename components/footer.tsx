@@ -1,33 +1,14 @@
 import FollowUs from '../components/follow-us';
 import ExternalLink from '../components/external-link';
+import Link from 'next/link';
 
 interface Link {
   alt: string;
   src: string;
   href: string;
 }
-const links: Link[] = [
-  {
-    alt: 'CONLAB',
-    src: require('../assets/images/logo-conlab.png'),
-    href: '/',
-  },
-  {
-    alt: 'SPP',
-    src: require('../assets/images/SPP-CMU.svg'),
-    href: 'https://spp.cmu.ac.th/',
-  },
-  {
-    alt: 'KAS',
-    src: require('../assets/images/KAS_Logo_White.png'),
-    href: 'https://www.kas.de/th/web/thailand/',
-  },
-  {
-    alt: 'ELECT',
-    src: require('../assets/images/logo-elect.png'),
-    href: 'https://elect.in.th/',
-  },
-];
+
+const footerLogoClass = 'm-auto w-20 py-3 md:py-0 md:w-28';
 
 const Footer = () => (
   <section className="px-2 md:px-8 bg-black divide-white divide-y">
@@ -35,15 +16,35 @@ const Footer = () => (
       <FollowUs />
     </div>
     <div className="grid grid-cols-2 py-6 md:py-12 md:grid-cols-4 w-full max-w-screen-xl mx-auto">
-      {links.map(({ alt, src, href }, index) => (
-        <ExternalLink
-          {...{ href }}
-          className="m-auto w-16 py-3 md:py-0 md:w-24"
-          key={index}
-        >
-          <img {...{ src, alt }} />
-        </ExternalLink>
-      ))}
+      <Link href="/" passHref>
+        <a className={footerLogoClass}>
+          <img
+            src={require('../assets/images/CONLAB-White.png')}
+            alt="CONLAB"
+          />
+        </a>
+      </Link>
+      <ExternalLink href="https://spp.cmu.ac.th/" className={footerLogoClass}>
+        <img src={require('../assets/images/CMU-SPP.png')} alt="SPP" />
+      </ExternalLink>
+      <ExternalLink
+        href="https://www.kas.de/th/web/thailand/"
+        className={footerLogoClass}
+      >
+        <img
+          src={require('../assets/images/KAS-White.png')}
+          alt="Supported by KAS"
+        />
+      </ExternalLink>
+      <ExternalLink href="https://elect.in.th/" className={footerLogoClass}>
+        <p className="text-white text-[10px] md:text-sm mb-2 md:mb-4 -mt-6 md:-mt-8 text-center">
+          Powered by
+        </p>
+        <img
+          src={require('../assets/images/logo-elect.png')}
+          alt="Powered by ELECT"
+        />
+      </ExternalLink>
     </div>
   </section>
 );
