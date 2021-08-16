@@ -102,7 +102,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
         </Pill>
 
         <h1 className="text-headline-2 text-center">
-          ผลการออกแบบรัฐธรรมนูญในฝันของคุณ
+          ผลการออกแบบรัฐธรรมนูญของคุณ
         </h1>
 
         <img src={topic.iconUrl} alt={topic.shortTitle} />
@@ -132,8 +132,8 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
         <h2 className="text-headline-1">ส่งข้อเสนอของคุณ</h2>
 
         <p className="text-body-2">
-          เราอยากรู้ว่ารัฐธรรมนูญในฝันของคุณเป็นอย่างไร
-          เพื่อเราจะได้พัฒนาขอเสนอการแก้ไข รัฐธรรมนูญให้ดีขึ้นต่อไป
+          CONLAB - รัฐธรรมนูญก้าวหน้าจะนำไปจัดทำเป็นข้อเสนอเพื่อร่าง
+          &quot;รัฐธรรมนูญก้าวหน้า&quot; ต่อไป!
         </p>
 
         <div ref={resultSummary}>

@@ -43,7 +43,7 @@ const ResultSummary: FunctionComponent<ResultSummaryProps> = ({
         </div>
 
         <div className="text-body-2 font-black text-center space-y-2 pt-3">
-          <h3>ข้อเสนอรัฐธรรมนูญในฝัน</h3>
+          <h3>ข้อเสนอรัฐธรรมนูญที่ฉันออกแบบ</h3>
           <h4>
             เรื่องที่ {topicNumber} {shortTitle}
           </h4>
