@@ -59,13 +59,9 @@ const TopBar: FunctionComponent<TopBarProps> = ({
     <Link href="/" passHref>
       <img
         className={`${
-          theme === 'transparent' ? 'p-4' : 'px-4 py-2'
+          theme === 'transparent' ? 'p-4 h-[112px]' : 'px-4 py-2 h-[60px]'
         } cursor-pointer`}
-        src={
-          theme === 'transparent'
-            ? require('../assets/images/logo-large.svg')
-            : require('../assets/images/logo-compact.svg')
-        }
+        src={require('../assets/images/logo-main.png')}
         alt=""
       ></img>
     </Link>
