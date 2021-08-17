@@ -7,41 +7,37 @@ type HowItWorkProps = {
 const HowItWork: FunctionComponent<HowItWorkProps> = ({ className }) => (
   <div className={`${className} flex flex-col items-center space-y-4`}>
     <h1 className="text-headline-1">
-      Dream Consitution จะช่วยคุณออกแบบรัฐธรรมนูญได้อย่างไร?
+      CONstitution LAB - ห้องออกแบบรัฐธรรมนูญ
+      <span className="font-normal"> จะช่วยคุณออกแบบรัฐธรรมนูญได้อย่างไร?</span>
     </h1>
-    {HowItWorkItem({
-      imageName: 'Collaboration.svg',
-      orderNo: 1,
-      text: 'ตอบคำถามเกี่ยวกับความสนใจหรือความเชื่อของคุณ',
-    })}
-    {HowItWorkItem({
-      imageName: 'Idea.svg',
-      orderNo: 2,
-      text: 'เราจะแนะนำข้อเสนอรัฐธรรมนูญจากคำตอบของคุณ',
-    })}
-    {HowItWorkItem({
-      imageName: 'Reading.svg',
-      orderNo: 3,
-      text: 'ลองศึกษาขอเสนอ ถ้ายังไม่ใช่ลองดูตัวเลือกอื่นด้วย',
-    })}
-    {HowItWorkItem({
-      imageName: 'Paper-Plane.svg',
-      orderNo: 4,
-      text: 'ส่งข้อเสนอของคุณให้พวกเรา นำไปปรับปรุงข้อเสนอการแก้ไขรัฐธรรมนูญ',
-    })}
+    <HowItWorkItem orderNo={1} imageName="Collaboration.svg">
+      ให้คุณตอบคำถาม 10 ข้อในแต่ละเรื่องตามความสนใจหรือแนวคิดของคุณ
+    </HowItWorkItem>
+    <HowItWorkItem orderNo={2} imageName="Idea.svg">
+      <strong>CONstitution LAB </strong>
+      จะแนะนำข้อเสนอรัฐธรรมนูญเบื้องต้นที่เหมาะสมกับคุณ
+    </HowItWorkItem>
+    <HowItWorkItem orderNo={3} imageName="Reading.svg">
+      ลองเปรียบเทียบข้อเสนอเบื้องต้นของคุณกับตัวเลือกอื่น ๆ
+      แล้วเลือกข้อเสนอที่ตรงกับแนวคิดของคุณมากที่สุด
+    </HowItWorkItem>
+    <HowItWorkItem orderNo={4} imageName="Paper-Plane.svg">
+      อ่านสรุปข้อเสนอของคุณ และส่งให้
+      <strong> CONLAB - รัฐธรรมนูญก้าวหน้า </strong>
+      นำไปจัดทำเป็นข้อเสนอเพื่อร่าง &quot;รัฐธรรมนูญก้าวหน้า&quot; ต่อไป!
+    </HowItWorkItem>
   </div>
 );
 
 interface HowItWorkItemProps {
   imageName: string;
   orderNo: number;
-  text: string;
 }
 
 const HowItWorkItem: FunctionComponent<HowItWorkItemProps> = ({
   imageName,
   orderNo,
-  text,
+  children,
 }) => (
   <div className="bg-gray-0 flex items-center space-x-2 p-2 rounded-[12px] w-full">
     <img
@@ -52,7 +48,7 @@ const HowItWorkItem: FunctionComponent<HowItWorkItemProps> = ({
     />
     <div className="flex-grow-1 text-body-2">
       <div className="font-bold">{orderNo}</div>
-      <div className="font-normal">{text}</div>
+      <div className="font-normal">{children}</div>
     </div>
   </div>
 );
