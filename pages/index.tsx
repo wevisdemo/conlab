@@ -18,7 +18,7 @@ const Home: FunctionComponent = () => {
       <Head>
         <title>Dream Constitution</title>
       </Head>
-      <NavigationBar theme="transparent" />
+      <NavigationBar theme="transparent" hideLogo />
       <main>
         <div className="section space-y-10 mt-8">
           <div className="text-large-2 text-center w-full">

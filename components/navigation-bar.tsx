@@ -7,6 +7,7 @@ type NavigationBarProps = {
   theme: 'black' | 'transparent';
   className?: string;
   showMenu?: boolean;
+  hideLogo?: boolean;
   menuToggleHandler?: (button: 'menu' | 'close') => void;
 };
 
@@ -14,6 +15,7 @@ const NavigationBar: FunctionComponent<NavigationBarProps> = ({
   theme,
   className,
   showMenu: overrideShowMenu,
+  hideLogo,
   menuToggleHandler,
 }) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -24,12 +26,12 @@ const NavigationBar: FunctionComponent<NavigationBarProps> = ({
       } w-full`}
     >
       <TopBar
-        theme={theme}
         button="menu"
         onClick={() =>
           menuToggleHandler ? menuToggleHandler('menu') : setShowMenu(true)
         }
-      ></TopBar>
+        hideLogo={hideLogo}
+      />
       {overrideShowMenu === true ||
       (overrideShowMenu === undefined && showMenu) ? (
         <Menu
@@ -43,41 +45,44 @@ const NavigationBar: FunctionComponent<NavigationBarProps> = ({
 };
 
 type TopBarProps = {
-  theme: 'black' | 'transparent';
   button: 'menu' | 'close';
   onClick?: MouseEventHandler<HTMLButtonElement>;
+  hideLogo?: boolean;
   className?: string;
 };
 
 const TopBar: FunctionComponent<TopBarProps> = ({
-  theme,
   button,
   className,
+  hideLogo,
   onClick,
 }) => (
-  <div className={`${className} w-full flex justify-between items-start`}>
-    <Link href="/" passHref>
+  <div
+    className={`${className} w-full flex items-start ${
+      hideLogo ? 'justify-end' : 'justify-between'
+    }`}
+  >
+    {!hideLogo && (
+      <Link href="/" passHref>
+        <img
+          className="px-4 py-2 h-[60px] cursor-pointer"
+          src={require('../assets/images/logo-main.png')}
+          alt="CONstitution LAB"
+        />
+      </Link>
+    )}
+    <button
+      onClick={onClick}
+      className="rounded-full bg-black w-10 h-10 flex justify-center items-center m-3"
+    >
       <img
-        className={`${
-          theme === 'transparent' ? 'p-4 h-[112px]' : 'px-4 py-2 h-[60px]'
-        } cursor-pointer`}
-        src={require('../assets/images/logo-main.png')}
-        alt=""
-      ></img>
-    </Link>
-    <button onClick={onClick}>
-      <img
-        className="my-6 mx-6"
+        className={button === 'menu' ? 'w-4' : 'w-3'}
         src={
           button === 'close'
             ? require('../assets/images/close.svg')
-            : theme === 'transparent'
-            ? require('../assets/images/menu-on-white.svg')
             : require('../assets/images/menu-on-black.svg')
         }
-        alt=""
-        width={button === 'menu' ? 16 : 14}
-        height={button === 'menu' ? 12 : 14}
+        alt={button === 'close' ? 'Close' : 'Menu'}
       ></img>
     </button>
   </div>
@@ -91,7 +96,7 @@ const Menu: FunctionComponent<MenuProps> = ({ onClick }) => {
   const { asPath } = useRouter();
   return (
     <div className="bg-black z-50 fixed w-full h-full top-0 flex flex-col">
-      <TopBar theme="black" button="close" onClick={onClick}></TopBar>
+      <TopBar button="close" onClick={onClick} />
       <div className="flex flex-col space-y-4 p-4 overflow-y-scroll items-center">
         <Link href="/" passHref>
           <MenuItem
