@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { FunctionComponent, useRef } from 'react';
 import Button from '../components/button';
@@ -14,26 +13,32 @@ const Home: FunctionComponent = () => {
   const howItWork = useRef<HTMLDivElement>(null);
 
   return (
-    <div className="bg-gray-100">
+    <main
+      className="bg-gray-400 bg-top bg-no-repeat bg-double sm:bg-contain"
+      style={{
+        backgroundImage: `url(${require('../assets/images/header-bg.png')})`,
+      }}
+    >
       <Head>
         <title>Dream Constitution</title>
       </Head>
       <NavigationBar theme="transparent" hideLogo />
-      <main>
-        <div className="section space-y-10 mt-8">
-          <div className="text-large-2 text-center w-full">
-            มาร่วมกันออกแบบรัฐธรรมนูญกันเถอะ
-          </div>
-          <div className="text-center w-full">
-            เราเชื่อว่ารัฐธรรมนูญเป็นเรื่องของทุกคน และใครๆ ก็ร่วมออกแบบได้
-          </div>
-          <div>
-            <img
-              src={require('../assets/images/Typewriter.svg')}
-              alt=""
-              width="100"
-              height="100"
-            ></img>
+      <img
+        src={require('../assets/images/logo-main.png')}
+        alt="CONstitution LAB"
+        className="w-64 md:w-96 mx-auto my-4"
+      />
+      <div>
+        <div className="section space-y-10 py-12">
+          <h1 className="text-large-2 text-oblique-shadow text-white">
+            รัฐธรรมนูญ
+            <p className="text-blue-200">เป็นเรื่องของทุกคน</p>
+            รัฐธรรมนูญ
+            <p className="text-yellow-400">เป็นกติกาสูงสุดของประเทศ</p>
+          </h1>
+          <div className="text-white">
+            <b>CONLAB</b> - รัฐธรรมนูญก้าวหน้า
+            ขอชวนทุกคนมาออกแบบรัฐธรรมนูญในแบบฉบับของตัวเองได้ที่นี่
           </div>
           <Button
             state="outline"
@@ -42,17 +47,15 @@ const Home: FunctionComponent = () => {
               howItWork.current?.scrollIntoView({ behavior: 'smooth' })
             }
           >
-            นี่คืออะไร
+            CONstitution LAB คืออะไร?
           </Button>
         </div>
-        <div className="section space-y-10 mt-2 p-4">
+        <div className="section space-y-10 mt-2 p-4 bg-gray-100 py-12">
           <div className="space-y-4">
-            <div className="text-headline-2 text-center w-full">
-              มาร่วมออกแบบในประเด็นที่สำคัญในรัฐธรรมนูญ
-            </div>
-            <div className="text-center w-full">
-              ลองเริ่มจากเรื่องที่คุณสนใจดูสิ
-            </div>
+            <h2 className="text-headline-1 text-center w-full">
+              ออกแบบรัฐธรรมนูญ ไม่ยากอย่างที่คิด!
+            </h2>
+            <p className="text-center w-full">ลองเริ่มต้นจากเรื่องที่คุณสนใจ</p>
           </div>
           {topics.map((t, index) => (
             <TopicCard
@@ -66,12 +69,10 @@ const Home: FunctionComponent = () => {
               key={t.topicNumber}
             />
           ))}
-        </div>
-        <div className="section p-4 mt-2 mb-8" ref={howItWork}>
           <HowItWork />
         </div>
-        <div className="section bg-blue-300 p-4 space-y-4">
-          <div className="text-headline-1 text-left w-full">ConLab คือใคร</div>
+        <div className="section bg-blue-300 p-4 space-y-4 py-12">
+          <h2 className="text-headline-1 text-left w-full">ConLab คือใคร</h2>
           <div>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             viverra neque vehicula donec phasellus nisl odio. Tincidunt enim, in
@@ -85,9 +86,9 @@ const Home: FunctionComponent = () => {
             height="100"
           ></img>
         </div>
-      </main>
+      </div>
       <Footer />
-    </div>
+    </main>
   );
 };
 

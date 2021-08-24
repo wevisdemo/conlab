@@ -47,6 +47,16 @@
     box-shadow: 8px 8px black, 7px 7px black, 6px 6px black, 5px 5px black,
       4px 4px black, 3px 3px black, 2px 2px black, 1px 1px black;
   }
+
+  .text-oblique-shadow {
+    text-shadow:  /* bottom-left */ 4px 8px black, 3px 7px black, 2px 6px black,
+      1px 5px black, 0 4px black, -1px 3px black, -2px 2px black,
+      /* top-right */ 8px 4px black, 7px 3px black, 6px 2px black, 5px 1px black,
+      4px 0 black, 3px -1px black, 2px -2px black,
+      /* border correction*/ 0 -2px black, -2px 0 black, -2px -2px black,
+      /* shadow corection */ 8px 8px black, 8px 7px black, 8px 6px black,
+      8px 5px black, 8px 4px black;
+  }
 }
 
 @layer base {
