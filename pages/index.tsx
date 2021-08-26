@@ -69,7 +69,9 @@ const Home: FunctionComponent = () => {
               key={t.topicNumber}
             />
           ))}
-          <HowItWork />
+          <div ref={howItWork}>
+            <HowItWork />
+          </div>
         </div>
         <div className="section bg-blue-300 p-4 space-y-6 py-12">
           <h2 className="text-headline-1 text-left w-full">
