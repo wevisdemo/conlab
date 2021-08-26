@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { FunctionComponent, useRef } from 'react';
 import Button from '../components/button';
+import Card from '../components/card';
 import Footer from '../components/footer';
 import HowItWork from '../components/how-it-work';
 import NavigationBar from '../components/navigation-bar';
@@ -30,7 +31,7 @@ const Home: FunctionComponent = () => {
       />
       <div>
         <div className="section space-y-10 py-12">
-          <h1 className="text-large-2 text-oblique-shadow text-white">
+          <h1 className="text-large-2 text-oblique-shadow text-white w-full">
             รัฐธรรมนูญ
             <p className="text-blue-200">เป็นเรื่องของทุกคน</p>
             รัฐธรรมนูญ
@@ -73,7 +74,7 @@ const Home: FunctionComponent = () => {
             <HowItWork />
           </div>
         </div>
-        <div className="section bg-blue-300 p-4 space-y-6 py-12">
+        <div className="section bg-blue-300 p-4 space-y-8 py-12">
           <h2 className="text-headline-1 text-left w-full">
             CONLAB - รัฐธรรมนูญก้าวหน้า คือใคร?
           </h2>
@@ -83,8 +84,20 @@ const Home: FunctionComponent = () => {
             เพื่อคุณภาพชีวิตที่ดีของประชาชน ก่อตั้งขึ้นในช่วงหลังการเลือกตั้งปี
             2562
           </p>
+          <div>
+            <Card className="p-0 overflow-hidden">
+              <img
+                src={require('../assets/images/CONLAB-10-Dec-2019.jpg')}
+                alt="CONstitution LAB วันที่ 10 ธันวาคม 2562"
+              />
+            </Card>
+            <p className="text-xs font-normal text-center pt-3">
+              CONstitution LAB วันที่ 10 ธันวาคม 2562
+            </p>
+          </div>
+
           <p>รัฐธรรมนูญที่ “ก้าวหน้า” ต้องยึดอยู่บน 3 หลักการเสมอ</p>
-          <div className="space-y-4">
+          <div className="space-y-6">
             <AboutPoint title="1 - เป็นกลางและเป็นธรรม">
               สร้างกติกาที่เป็นที่ยอมรับของทุกฝ่ายในสังคม
               เปิดโอกาสให้ทุกกลุ่มความคิดสามารถรณรงค์-แข่งขัน
