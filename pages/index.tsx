@@ -27,10 +27,10 @@ const Home: FunctionComponent = () => {
       <img
         src={require('../assets/images/logo-main.png')}
         alt="CONstitution LAB"
-        className="w-64 md:w-96 mx-auto my-4"
+        className="w-64 md:w-96 mx-auto mt-16 mb-10"
       />
       <div>
-        <div className="section space-y-10 py-12">
+        <div className="section space-y-10 pb-12">
           <h1 className="text-large-2 text-oblique-shadow text-white w-full">
             รัฐธรรมนูญ
             <p className="text-blue-200">เป็นเรื่องของทุกคน</p>

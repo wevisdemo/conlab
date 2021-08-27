@@ -73,7 +73,7 @@ const TopBar: FunctionComponent<TopBarProps> = ({
     )}
     <button
       onClick={onClick}
-      className="rounded-full bg-black w-10 h-10 flex justify-center items-center m-3"
+      className="rounded-full bg-black w-10 h-10 flex justify-center items-center fixed top-2 right-2 z-50"
     >
       <img
         className={button === 'menu' ? 'w-4' : 'w-3'}
