@@ -8,6 +8,7 @@ type NavigationBarProps = {
   className?: string;
   showMenu?: boolean;
   hideLogo?: boolean;
+  fixHamburger?: boolean;
   menuToggleHandler?: (button: 'menu' | 'close') => void;
 };
 
@@ -16,6 +17,7 @@ const NavigationBar: FunctionComponent<NavigationBarProps> = ({
   className,
   showMenu: overrideShowMenu,
   hideLogo,
+  fixHamburger,
   menuToggleHandler,
 }) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -31,6 +33,7 @@ const NavigationBar: FunctionComponent<NavigationBarProps> = ({
           menuToggleHandler ? menuToggleHandler('menu') : setShowMenu(true)
         }
         hideLogo={hideLogo}
+        fixHamburger={fixHamburger}
       />
       {overrideShowMenu === true ||
       (overrideShowMenu === undefined && showMenu) ? (
@@ -49,6 +52,7 @@ type TopBarProps = {
   onClick?: MouseEventHandler<HTMLButtonElement>;
   hideLogo?: boolean;
   className?: string;
+  fixHamburger?: boolean;
 };
 
 const TopBar: FunctionComponent<TopBarProps> = ({
@@ -56,6 +60,7 @@ const TopBar: FunctionComponent<TopBarProps> = ({
   className,
   hideLogo,
   onClick,
+  fixHamburger,
 }) => (
   <div
     className={`${className} w-full flex items-start ${
@@ -73,7 +78,9 @@ const TopBar: FunctionComponent<TopBarProps> = ({
     )}
     <button
       onClick={onClick}
-      className="rounded-full bg-black w-10 h-10 flex justify-center items-center fixed top-2 right-2 z-50"
+      className={`rounded-full bg-black w-10 h-10 flex justify-center items-center ${
+        fixHamburger ? 'fixed top-2 right-2 z-50' : 'm-2'
+      }`}
     >
       <img
         className={button === 'menu' ? 'w-4' : 'w-3'}

@@ -27,7 +27,7 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
       <Head>
         <title>{topic.shortTitle} | Dream Constitution</title>
       </Head>
-      <NavigationBar className="bg-blue-300" theme="transparent" />
+      <NavigationBar className="bg-blue-300" theme="transparent" fixHamburger />
       <main>
         <div className="section bg-blue-300 space-y-4">
           <Pill>

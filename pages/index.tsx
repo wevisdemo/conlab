@@ -23,7 +23,7 @@ const Home: FunctionComponent = () => {
       <Head>
         <title>Dream Constitution</title>
       </Head>
-      <NavigationBar theme="transparent" hideLogo />
+      <NavigationBar theme="transparent" hideLogo fixHamburger />
       <img
         src={require('../assets/images/logo-main.png')}
         alt="CONstitution LAB"
