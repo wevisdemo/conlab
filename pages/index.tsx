@@ -43,7 +43,7 @@ const Home: FunctionComponent = () => {
           </div>
           <Button
             state="outline"
-            className="w-full"
+            className="w-full bg-gray-400"
             onClick={() =>
               howItWork.current?.scrollIntoView({ behavior: 'smooth' })
             }
