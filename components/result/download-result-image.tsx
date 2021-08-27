@@ -39,7 +39,7 @@ const DownloadResultImage: FunctionComponent<DownloadResultImageProps> = ({
         fill="black"
       />
     </svg>
-    ดาวน์โหลดภาพผลลัพธ์
+    ดาวน์โหลดภาพข้อเสนอของคุณ
   </Button>
 );
 
