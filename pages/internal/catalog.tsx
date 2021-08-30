@@ -28,7 +28,7 @@ const Catalog = () => {
           Toggle Menu
         </Button>
         <img
-          src={require('../assets/images/next.png')}
+          src={require('../../assets/images/next.png')}
           alt="Next"
           className="w-48"
         />
