@@ -9,6 +9,7 @@ const GenerateOgPage: FunctionComponent<TopicPageProps> = ({
   topic: { title },
 }) => (
   <div
+    id="og"
     className="w-[600px] h-[315px] flex flex-col items-center p-12"
     style={{
       backgroundImage: `url(${require('../../../assets/images/og/bg.png')})`,

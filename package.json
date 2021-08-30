@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build && next export",
     "lint": "next lint && prettier --write .",
-    "update-data": "ts-node scripts/data-updater.ts"
+    "update-data": "ts-node scripts/data-updater.ts",
+    "generate-og": "ts-node scripts/generate-og.ts"
   },
   "dependencies": {
     "firebase": "^8.8.1",
@@ -35,6 +36,7 @@
     "lint-staged": "^11.1.1",
     "next-optimized-images": "^2.6.2",
     "node-fetch": "^2.6.1",
+    "playwright": "^1.14.1",
     "postcss": "^8.3.5",
     "prettier": "^2.3.2",
     "tailwindcss": "^2.2.4",
