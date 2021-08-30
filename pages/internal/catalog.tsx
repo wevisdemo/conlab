@@ -1,12 +1,12 @@
 import Head from 'next/head';
-import Button from '../components/button';
-import Card from '../components/card';
-import Pill from '../components/pill';
-import Hint from '../components/result/hint';
-import TopicCard from '../components/topic-card';
-import HowItWork from '../components/how-it-work';
-import Footer from '../components/footer';
-import NavigationBar from '../components/navigation-bar';
+import Button from '../../components/button';
+import Card from '../../components/card';
+import Pill from '../../components/pill';
+import Hint from '../../components/result/hint';
+import TopicCard from '../../components/topic-card';
+import HowItWork from '../../components/how-it-work';
+import Footer from '../../components/footer';
+import NavigationBar from '../../components/navigation-bar';
 import { useState } from 'react';
 
 const Catalog = () => {
