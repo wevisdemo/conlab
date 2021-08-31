@@ -107,7 +107,6 @@ const Menu: FunctionComponent<MenuProps> = ({ onClick }) => {
       <div className="flex flex-col space-y-4 p-4 overflow-y-scroll items-center">
         <Link href="/" passHref>
           <MenuItem
-            topicNumber={0}
             subtitle="หน้าหลัก"
             title="รัฐธรรมนูญในฝันออกแบบได้"
             active={asPath === '/'}
@@ -129,7 +128,7 @@ const Menu: FunctionComponent<MenuProps> = ({ onClick }) => {
 };
 
 interface MenuItemProps {
-  topicNumber: number;
+  topicNumber?: number;
   title: string;
   subtitle: string;
   active: boolean;
@@ -147,7 +146,7 @@ const MenuItem: FunctionComponent<MenuItemProps> = React.forwardRef(
         } border-4  rounded-[12px]`}
       >
         <div className="text-large-1 min-w-[60px] text-center">
-          {topicNumber}
+          {topicNumber || ''}
         </div>
         <div>
           <div className="text-small-1">{subtitle}</div>
