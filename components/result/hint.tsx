@@ -1,7 +1,7 @@
 const Hint = () => {
   return (
     <div className="z-10 -mb-5">
-      <div className={'flex flex-col rounded-xl bg-blue-300 text-black'}>
+      <div className={'flex flex-col rounded-xl bg-yellow-400 text-black'}>
         <div
           className={
             'flex flex-inline items-center text-center pl-[14px] pt-[14px]'
@@ -38,7 +38,7 @@ const Hint = () => {
       </div>
       <div className="mt-[-14px] grid justify-items-stretch">
         <svg
-          className=" justify-self-end mr-[34px]"
+          className=" justify-self-end mr-[34px] text-yellow-400"
           width="24"
           height="27"
           viewBox="0 0 24 27"
@@ -47,7 +47,7 @@ const Hint = () => {
         >
           <path
             d="M24 14L13.5185 26.2284C12.7203 27.1596 11.2797 27.1596 10.4815 26.2284L0 14L12 0L24 14Z"
-            fill="#5CCCC5"
+            className="fill-current"
           />
         </svg>
       </div>

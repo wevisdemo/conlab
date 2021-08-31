@@ -168,7 +168,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
 
         <div className="pt-10 w-full">
           <Button
-            state="outline"
+            state={submitState === 'complete' ? 'solid' : 'outline'}
             className="w-full"
             onClick={() => setIsMenuOpen(true)}
           >
