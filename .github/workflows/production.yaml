@@ -1,9 +1,6 @@
-name: Deploy to Staging (Github Page)
+name: Deploy to Production (Firebase Hosting)
 
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   build:
@@ -22,14 +19,14 @@ jobs:
       - name: Build
         run: yarn build
         env:
-          BASE_PATH: '/dream-constitution'
           NEXT_PUBLIC_FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
           NEXT_PUBLIC_FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL }}
           NEXT_PUBLIC_FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
           NEXT_PUBLIC_FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
-          NEXT_PUBLIC_ENV: staging
-      - name: Publish to Github Pages
-        uses: peaceiris/actions-gh-pages@v3
+          NEXT_PUBLIC_ENV: production
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
