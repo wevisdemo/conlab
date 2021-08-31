@@ -108,7 +108,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
           ผลการออกแบบรัฐธรรมนูญของคุณ
         </h1>
 
-        <img src={topic.iconUrl} alt={topic.shortTitle} />
+        <img src={topic.iconUrl} alt={topic.shortTitle} className="w-32 h-32" />
 
         <SuggestedOptions options={suggestedOptions} />
 

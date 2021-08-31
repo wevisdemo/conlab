@@ -33,16 +33,14 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
             เรื่องที่ {topic.topicNumber}: {topic.shortTitle}
           </Pill>
           <div className="text-large-2 text-center">{topic.title}</div>
-          <Markdown>{topic.descriptionMarkdown}</Markdown>
           <div>
             <img
               src={topic.iconUrl}
-              alt=""
-              width="120"
-              height="120"
-              className="my-5"
-            ></img>
+              alt={topic.shortTitle}
+              className="my-5 w-32 h-32"
+            />
           </div>
+          <Markdown>{topic.descriptionMarkdown}</Markdown>
           <Button onClick={goToQuiz} state="solid" className="w-full">
             ออกแบบรัฐธรรมนูญ
           </Button>
