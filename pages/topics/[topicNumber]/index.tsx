@@ -28,34 +28,38 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
       <Metadata topic={topic} />
       <NavigationBar className="bg-blue-300" theme="transparent" fixHamburger />
       <main>
-        <div className="section bg-blue-300 space-y-4">
-          <Pill>
-            เรื่องที่ {topic.topicNumber}: {topic.shortTitle}
-          </Pill>
-          <div className="text-large-2 text-center">{topic.title}</div>
-          <div>
+        <div className="section bg-blue-300 space-y-10 pb-10">
+          <div className="space-y-6 flex flex-col items-center">
+            <div className="space-y-3">
+              <Pill>
+                เรื่องที่ {topic.topicNumber}: {topic.shortTitle}
+              </Pill>
+              <h1 className="text-large-2 text-center">{topic.title}</h1>
+            </div>
             <img
               src={topic.iconUrl}
               alt={topic.shortTitle}
-              className="my-5 w-32 h-32"
+              className="w-32 h-32"
             />
+            <Markdown>{topic.descriptionMarkdown}</Markdown>
           </div>
-          <Markdown>{topic.descriptionMarkdown}</Markdown>
-          <Button onClick={goToQuiz} state="solid" className="w-full">
-            ออกแบบรัฐธรรมนูญ
-          </Button>
-          <Button
-            state="outline"
-            className="w-full"
-            onClick={() =>
-              howItWork.current?.scrollIntoView({ behavior: 'smooth' })
-            }
-          >
-            CONstitution LAB คืออะไร?
-          </Button>
-          <div className="py-6">
-            <Sharer path={`/topics/${topic.topicNumber}`} />
+
+          <div className="space-y-3">
+            <Button onClick={goToQuiz} state="solid" className="w-full">
+              เริ่มออกแบบรัฐธรรมนูญ
+            </Button>
+            <Button
+              state="outline"
+              className="w-full"
+              onClick={() =>
+                howItWork.current?.scrollIntoView({ behavior: 'smooth' })
+              }
+            >
+              CONstitution LAB คืออะไร?
+            </Button>
           </div>
+
+          <Sharer path={`/topics/${topic.topicNumber}`} />
         </div>
         <div className="section mt-8" ref={howItWork}>
           <HowItWork />

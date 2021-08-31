@@ -12,6 +12,7 @@ import topics from '../data/topics';
 
 const Home: FunctionComponent = () => {
   const router = useRouter();
+  const topicSection = useRef<HTMLDivElement>(null);
   const howItWork = useRef<HTMLDivElement>(null);
 
   return (
@@ -30,7 +31,7 @@ const Home: FunctionComponent = () => {
         className="w-64 md:w-96 mx-auto mt-16 mb-10"
       />
       <div>
-        <div className="section space-y-10 pb-12">
+        <div className="section space-y-10 pb-10">
           <h1 className="text-large-2 text-oblique-shadow text-white w-full">
             รัฐธรรมนูญ
             <p className="text-blue-200">เป็นเรื่องของทุกคน</p>
@@ -41,18 +42,32 @@ const Home: FunctionComponent = () => {
             <b>CONLAB</b> - รัฐธรรมนูญก้าวหน้า
             ขอชวนทุกคนมาออกแบบรัฐธรรมนูญในแบบฉบับของตัวเองได้ที่นี่
           </div>
-          <Button
-            state="outline"
-            className="w-full bg-gray-400"
-            onClick={() =>
-              howItWork.current?.scrollIntoView({ behavior: 'smooth' })
-            }
-          >
-            CONstitution LAB คืออะไร?
-          </Button>
+          <div className="space-y-3">
+            <Button
+              state="solid"
+              className="w-full bg-gray-400"
+              onClick={() =>
+                topicSection.current?.scrollIntoView({ behavior: 'smooth' })
+              }
+            >
+              เริ่มออกแบบรัฐธรรมนูญ
+            </Button>
+            <Button
+              state="outline"
+              className="w-full bg-gray-400"
+              onClick={() =>
+                howItWork.current?.scrollIntoView({ behavior: 'smooth' })
+              }
+            >
+              CONstitution LAB คืออะไร?
+            </Button>
+          </div>
           <Sharer />
         </div>
-        <div className="section space-y-10 mt-2 p-4 bg-gray-100 py-12">
+        <div
+          className="section space-y-10 mt-2 p-4 bg-gray-100 py-12"
+          ref={topicSection}
+        >
           <div className="space-y-4">
             <h2 className="text-headline-1 text-center w-full">
               ออกแบบรัฐธรรมนูญ ไม่ยากอย่างที่คิด!
