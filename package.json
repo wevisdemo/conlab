@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && npm run generate-og",
+    "build": "next build && next export && npm run generate-og && rm -rf out/internal",
     "lint": "next lint && prettier --write .",
     "update-data": "ts-node scripts/data-updater.ts",
     "generate-og": "ts-node scripts/generate-og.ts"
