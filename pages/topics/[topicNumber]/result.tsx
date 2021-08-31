@@ -21,6 +21,7 @@ import Feedback from '../../../components/result/feedback';
 import { submitResult } from '../../../utils/firebase';
 import DownloadResultImage from '../../../components/result/download-result-image';
 import Sharer from '../../../components/sharer';
+import Metadata from '../../../components/metadata';
 
 const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
   const { query } = useRouter();
@@ -88,6 +89,8 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
 
   return (
     <div className="bg-black">
+      <Metadata topic={topic} />
+
       <NavigationBar
         theme="black"
         showMenu={isMenuOpen}

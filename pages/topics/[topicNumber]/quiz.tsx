@@ -4,7 +4,7 @@ import NavigationButtons from '../../../components/quiz/navigation-buttons';
 import QuestionDisplay from '../../../components/quiz/question-display';
 import AnswerDisplay from '../../../components/quiz/answer-display';
 import NavigationBar from '../../../components/navigation-bar';
-
+import Metadata from '../../../components/metadata';
 import {
   getTopicsStaticPaths,
   getTopicsStaticProps,
@@ -46,6 +46,8 @@ const Quiz: FunctionComponent<TopicPageProps> = ({ topic }) => {
 
   return (
     <div className="flex flex-col min-h-screen bg-black">
+      <Metadata topic={topic} />
+
       <NavigationBar theme="black" />
 
       <div className={`flex-1 rounded-t-2xl section space-y-6 ${bgColorClass}`}>

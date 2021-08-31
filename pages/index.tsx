@@ -1,10 +1,10 @@
-import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { FunctionComponent, useRef } from 'react';
 import Button from '../components/button';
 import Card from '../components/card';
 import Footer from '../components/footer';
 import HowItWork from '../components/how-it-work';
+import Metadata from '../components/metadata';
 import NavigationBar from '../components/navigation-bar';
 import TopicCard from '../components/topic-card';
 import topics from '../data/topics';
@@ -20,9 +20,8 @@ const Home: FunctionComponent = () => {
         backgroundImage: `url(${require('../assets/images/header-bg.png')})`,
       }}
     >
-      <Head>
-        <title>Dream Constitution</title>
-      </Head>
+      <Metadata />
+
       <NavigationBar theme="transparent" hideLogo fixHamburger />
       <img
         src={require('../assets/images/logo-main.png')}

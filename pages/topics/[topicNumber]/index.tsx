@@ -1,9 +1,9 @@
-import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { FunctionComponent, useRef } from 'react';
 import Button from '../../../components/button';
 import Footer from '../../../components/footer';
 import HowItWork from '../../../components/how-it-work';
+import Metadata from '../../../components/metadata';
 import NavigationBar from '../../../components/navigation-bar';
 import Pill from '../../../components/pill';
 import Markdown from '../../../components/result/markdown';
@@ -24,9 +24,7 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
 
   return (
     <div className="bg-gray-100">
-      <Head>
-        <title>{topic.shortTitle} | Dream Constitution</title>
-      </Head>
+      <Metadata topic={topic} />
       <NavigationBar className="bg-blue-300" theme="transparent" fixHamburger />
       <main>
         <div className="section bg-blue-300 space-y-4">
