@@ -70,7 +70,9 @@ const Home: FunctionComponent = () => {
         >
           <div className="space-y-4">
             <h2 className="text-headline-1 text-center w-full">
-              ออกแบบรัฐธรรมนูญ ไม่ยากอย่างที่คิด!
+              ออกแบบรัฐธรรมนูญ
+              <br />
+              ไม่ยากอย่างที่คิด!
             </h2>
             <p className="text-center w-full">ลองเริ่มต้นจากเรื่องที่คุณสนใจ</p>
           </div>
@@ -104,11 +106,11 @@ const Home: FunctionComponent = () => {
             <Card className="p-0 overflow-hidden">
               <img
                 src={require('../assets/images/CONLAB-10-Dec-2019.jpg')}
-                alt="CONstitution LAB วันที่ 10 ธันวาคม 2562"
+                alt="CONstitution LAB ครั้งที่ 1 วันที่ 10 ธันวาคม 2562"
               />
             </Card>
             <p className="text-xs font-normal text-center pt-3">
-              CONstitution LAB วันที่ 10 ธันวาคม 2562
+              CONstitution LAB ครั้งที่ 1 วันที่ 10 ธันวาคม 2562
             </p>
           </div>
 
@@ -119,7 +121,7 @@ const Home: FunctionComponent = () => {
               เปิดโอกาสให้ทุกกลุ่มความคิดสามารถรณรงค์-แข่งขัน
               ได้อย่างเท่าเทียมและอยู่ร่วมกันได้โดยไม่แตกแยก
             </AboutPoint>
-            <AboutPoint title="2 - สอดคล้องกับสากล">
+            <AboutPoint title="2 - สอดคล้องกับหลักประชาธิปไตยสากล">
               มีเนื้อหาที่คุ้มครองสิทธิเสรีภาพของประชาชน
               และวางความสัมพันธ์ของโครงสร้างทางการเมืองต่างๆ
               ให้มีความสอดคล้องระหว่างอำนาจและที่มา
