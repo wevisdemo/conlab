@@ -7,6 +7,7 @@ import Metadata from '../../../components/metadata';
 import NavigationBar from '../../../components/navigation-bar';
 import Pill from '../../../components/pill';
 import Markdown from '../../../components/result/markdown';
+import Sharer from '../../../components/sharer';
 import TopicCard from '../../../components/topic-card';
 import {
   getTopicsStaticPaths,
@@ -54,6 +55,9 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
           >
             CONstitution LAB คืออะไร?
           </Button>
+          <div className="py-6">
+            <Sharer path={`/topics/${topic.topicNumber}`} />
+          </div>
         </div>
         <div className="section mt-8" ref={howItWork}>
           <HowItWork />

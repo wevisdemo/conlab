@@ -1,8 +1,7 @@
 import { FunctionComponent } from 'react';
 import Button from './button';
 import ExternalLink from './external-link';
-
-const SHARE_URL = 'https://conlabth.com';
+import { DOMAIN_NAME } from './metadata';
 
 const ShareButton: FunctionComponent<{ href: string }> = ({
   href,
@@ -18,8 +17,8 @@ const ShareButton: FunctionComponent<{ href: string }> = ({
   </ExternalLink>
 );
 
-const Sharer: FunctionComponent = () => {
-  const encodedUrl = encodeURI(SHARE_URL);
+const Sharer: FunctionComponent<{ path?: string }> = ({ path }) => {
+  const encodedUrl = encodeURI(`${DOMAIN_NAME}${path || ''}`);
 
   return (
     <div className="flex flex-row space-x-3 items-center ">

@@ -164,7 +164,7 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
 
         <DownloadResultImage node={resultSummary} />
 
-        <Sharer />
+        <Sharer path={`/topics/${topic.topicNumber}`} />
 
         <div className="pt-10 w-full">
           <Button

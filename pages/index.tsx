@@ -6,6 +6,7 @@ import Footer from '../components/footer';
 import HowItWork from '../components/how-it-work';
 import Metadata from '../components/metadata';
 import NavigationBar from '../components/navigation-bar';
+import Sharer from '../components/sharer';
 import TopicCard from '../components/topic-card';
 import topics from '../data/topics';
 
@@ -49,6 +50,7 @@ const Home: FunctionComponent = () => {
           >
             CONstitution LAB คืออะไร?
           </Button>
+          <Sharer />
         </div>
         <div className="section space-y-10 mt-2 p-4 bg-gray-100 py-12">
           <div className="space-y-4">
