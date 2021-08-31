@@ -23,12 +23,19 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
     router.push(`/topics/${topic.topicNumber}/quiz`);
   };
 
+  const themeBackgroundColor =
+    topic.topicNumber % 2 === 0 ? 'bg-yellow-400' : 'bg-blue-300';
+
   return (
     <div className="bg-gray-100">
       <Metadata topic={topic} />
-      <NavigationBar className="bg-blue-300" theme="transparent" fixHamburger />
+      <NavigationBar
+        className={themeBackgroundColor}
+        theme="transparent"
+        fixHamburger
+      />
       <main>
-        <div className="section bg-blue-300 space-y-10 pb-10">
+        <div className={`section space-y-10 pb-10 ${themeBackgroundColor}`}>
           <div className="space-y-6 flex flex-col items-center">
             <div className="space-y-3">
               <Pill>

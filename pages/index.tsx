@@ -76,16 +76,18 @@ const Home: FunctionComponent = () => {
             </h2>
             <p className="text-center w-full">ลองเริ่มต้นจากเรื่องที่คุณสนใจ</p>
           </div>
-          {topics.map((t, index) => (
+          {topics.map((topic) => (
             <TopicCard
-              topicNumber={t.topicNumber}
-              shortTitle={t.shortTitle}
-              title={t.title}
-              iconUrl={t.iconUrl}
-              className={index % 2 === 0 ? 'bg-blue-300' : 'bg-yellow-400'}
-              onClick={() => router.push(`/topics/${t.topicNumber}`)}
+              topicNumber={topic.topicNumber}
+              shortTitle={topic.shortTitle}
+              title={topic.title}
+              iconUrl={topic.iconUrl}
+              className={
+                topic.topicNumber % 2 === 0 ? 'bg-yellow-400' : 'bg-blue-300'
+              }
+              onClick={() => router.push(`/topics/${topic.topicNumber}`)}
               showButton={false}
-              key={t.topicNumber}
+              key={topic.topicNumber}
             />
           ))}
           <div ref={howItWork}>
