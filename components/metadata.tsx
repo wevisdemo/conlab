@@ -25,6 +25,9 @@ const Metadata: FunctionComponent<MetadataProps> = ({ topic }) => {
       <title>{title}</title>
       <meta name="description" key="description" content={description} />
 
+      <link rel="manifest" href="/manifest.json" />
+      <link rel="shortcut icon" href="/favicon.ico" />
+
       <meta property="og:title" key="og:title" content={title} />
       <meta
         property="og:description"
