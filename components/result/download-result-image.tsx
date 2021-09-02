@@ -2,6 +2,8 @@ import { toPng } from 'html-to-image';
 import { FunctionComponent, RefObject } from 'react';
 import Button from '../button';
 
+const IMAGE_MARGIN = 24;
+
 type DownloadResultImageProps = {
   node: RefObject<HTMLDivElement>;
 };
@@ -16,6 +18,11 @@ const DownloadResultImage: FunctionComponent<DownloadResultImageProps> = ({
       if (node.current) {
         const imageUrl = await toPng(node.current, {
           cacheBust: true,
+          width: node?.current.clientWidth + IMAGE_MARGIN * 2,
+          height: node?.current.clientHeight + IMAGE_MARGIN * 2,
+          style: {
+            transform: `translate(${IMAGE_MARGIN}px, ${IMAGE_MARGIN}px)`,
+          },
         });
 
         const link = document.createElement('a');
