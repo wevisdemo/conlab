@@ -70,7 +70,9 @@ const OptionExplanation: FunctionComponent<OptionExplanationProps> = ({
       </div>
 
       <div className="p-4 space-y-4 text-body-2">
-        <Markdown>{selectedOption.descriptionMarkdown}</Markdown>
+        <Markdown className="text-gray-500 leading-[1.5] space-y-3">
+          {selectedOption.descriptionMarkdown}
+        </Markdown>
 
         <Button
           state="outline"

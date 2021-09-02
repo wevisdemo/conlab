@@ -18,7 +18,7 @@ const Markdown: FunctionComponent<Markdown> = ({
 }) => (
   <ReactMarkdown
     skipHtml
-    className={`space-y-2 text-body-2 ${className}`}
+    className={`space-y-3 text-body-2 ${className}`}
     components={{
       ...markdownComponents,
       ...components,
