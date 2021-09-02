@@ -80,7 +80,7 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
             shortTitle={topic.shortTitle}
             title={topic.title}
             iconUrl={topic.iconUrl}
-            className="bg-blue-300"
+            className={themeBackgroundColor}
             onClick={goToQuiz}
             showButton={true}
           />
