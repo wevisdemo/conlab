@@ -23,7 +23,7 @@ const HowItWork: FunctionComponent<HowItWorkProps> = ({ className }) => (
     </HowItWorkItem>
     <HowItWorkItem orderNo={4} imageName="Paper-Plane.svg">
       อ่านสรุปข้อเสนอของคุณ และส่งให้
-      <strong> CONLAB - รัฐธรรมนูญก้าวหน้า </strong>
+      <strong> กลุ่ม CONLAB - รัฐธรรมนูญก้าวหน้า </strong>
       นำไปจัดทำเป็นข้อเสนอเพื่อร่าง &quot;รัฐธรรมนูญก้าวหน้า&quot; ต่อไป!
     </HowItWorkItem>
   </div>
