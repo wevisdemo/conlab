@@ -5,7 +5,7 @@ import Spinner from '../spinner';
 
 type FeedbackProps = {
   onSubmit: (feedback: string) => Promise<void>;
-  onClose: () => void;
+  onClose: (done: boolean) => void;
 };
 
 const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit, onClose }) => {
@@ -29,7 +29,7 @@ const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit, onClose }) => {
         />
       </div>
       <div className={'flex flex-col text-center'}>
-        <Button state="solid" onClick={onClose}>
+        <Button state="solid" onClick={() => onClose(true)}>
           ปิด
         </Button>
       </div>
@@ -74,8 +74,14 @@ const Feedback: FunctionComponent<FeedbackProps> = ({ onSubmit, onClose }) => {
   };
 
   return (
-    <div className="section fixed z-40 inset-0 bg-black bg-opacity-20 flex flex-col justify-center items-center">
-      <Card className="bg-white space-y-4 w-full flex flex-col justify-center items-center">
+    <div
+      className="section fixed z-40 inset-0 bg-black bg-opacity-20 flex flex-col justify-center items-center"
+      onClick={() => onClose(false)}
+    >
+      <Card
+        className="bg-white space-y-4 w-full flex flex-col justify-center items-center"
+        onClick={(e) => e.stopPropagation()}
+      >
         {isLoading ? (
           <Spinner />
         ) : showResults ? (

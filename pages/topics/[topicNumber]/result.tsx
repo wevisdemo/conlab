@@ -190,7 +190,9 @@ const Result: FunctionComponent<TopicPageProps> = ({ topic }) => {
               feedback
             )
           }
-          onClose={() => setSubmitState('complete')}
+          onClose={(done: boolean) =>
+            setSubmitState(done ? 'complete' : 'idle')
+          }
         />
       )}
 
