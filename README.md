@@ -9,7 +9,7 @@
 ## Deployment Environments
 
 - Staging: https://electinth.github.io/dream-constitution/
-- Production: not deployed yet
+- Production: https://conlab.conlabth.com/
 
 ## Getting Start
 
