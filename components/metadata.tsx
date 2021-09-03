@@ -9,7 +9,7 @@ type MetadataProps = {
   topic?: Topic;
 };
 
-export const DOMAIN_NAME = 'https://conlab.conlabinth.com';
+export const DOMAIN_NAME = 'https://conlab.conlabth.com/';
 
 const Metadata: FunctionComponent<MetadataProps> = ({ topic }) => {
   const title = topic
