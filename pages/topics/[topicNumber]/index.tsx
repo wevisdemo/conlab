@@ -37,8 +37,8 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
       <main>
         <div className={`section space-y-10 pb-10 ${themeBackgroundColor}`}>
           <div className="space-y-6 flex flex-col items-center">
-            <div className="space-y-3">
-              <Pill>
+            <div className="space-y-3 flex flex-col items-center">
+              <Pill className="mx-auto">
                 เรื่องที่ {topic.topicNumber}: {topic.shortTitle}
               </Pill>
               <h1 className="text-large-2 text-center">{topic.title}</h1>
