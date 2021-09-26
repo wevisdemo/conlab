@@ -108,7 +108,7 @@ const Menu: FunctionComponent<MenuProps> = ({ onClick }) => {
         <Link href="/" passHref>
           <MenuItem
             subtitle="หน้าหลัก"
-            title="รัฐธรรมนูญในฝันออกแบบได้"
+            title="ห้องออกแบบรัฐธรรมนูญ"
             active={asPath === '/'}
           ></MenuItem>
         </Link>

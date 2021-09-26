@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import { FunctionComponent, useRef } from 'react';
 import Button from '../components/button';
 import Card from '../components/card';
+import ExternalLink from '../components/external-link';
 import Footer from '../components/footer';
 import HowItWork from '../components/how-it-work';
 import Metadata from '../components/metadata';
@@ -94,16 +95,15 @@ const Home: FunctionComponent = () => {
             <HowItWork />
           </div>
         </div>
-        <div className="section bg-blue-300 p-4 space-y-8 py-12">
+        <div className="section bg-blue-300 p-4 space-y-8 py-12 text-body-2">
           <h2 className="text-headline-1 text-left w-full">
             กลุ่ม CONLAB - รัฐธรรมนูญก้าวหน้า คือใคร?
           </h2>
-          <p>
-            กลุ่ม CONLAB - รัฐธรรมนูญก้าวหน้า คือ
-            กลุ่มคนรุ่นใหม่จากหลากหลายวงการ
-            ที่ต้องการผลักดันให้ประเทศไทยมีรัฐธรรมนูญที่ “ก้าวหน้า”
-            เพื่อคุณภาพชีวิตที่ดีของประชาชน ก่อตั้งขึ้นในช่วงหลังการเลือกตั้งปี
-            2562
+          <p className="text-body-1">
+            กลุ่ม CONLAB - รัฐธรรมนูญก้าวหน้า ก่อตั้งขึ้นหลังการเลือกตั้งปี 2562
+            โดยกลุ่มคนรุ่นใหม่จากหลากหลายวงการ
+            มีวัตถุประสงค์ในการผลักดันให้เกิดกระบวนการแก้ไขรัฐธรรมนูญฉบับปัจจุบันและในที่สุดเกิดกระบวนการร่างรัฐธรรมนูญฉบับใหม่ที่
+            &quot;ก้าวหน้า&quot; เพื่อคุณภาพชีวิตที่ดีของทุกคน
           </p>
           <div>
             <Card className="p-0 overflow-hidden">
@@ -116,8 +116,29 @@ const Home: FunctionComponent = () => {
               CONstitution LAB ครั้งที่ 1 วันที่ 10 ธันวาคม 2562
             </p>
           </div>
-
-          <p>รัฐธรรมนูญที่ “ก้าวหน้า” ต้องยึดอยู่บน 3 หลักการเสมอ</p>
+          <p>
+            ตลอด 2 ปีที่ผ่านมา กลุ่ม CONLAB
+            จึงได้จัดกิจกรรมออกแบบรัฐธรรมนูญเพื่อเป็นการแลกเปลี่ยนความรู้
+            รวบรวมความคิดเห็น
+            และขับเคลื่อนให้เกิดการสนทนาประเด็นทางรัฐธรรมนูญมากขึ้น ทั้งนี้
+            เพื่อแสดงให้ผู้เข้าร่วมกิจกรรมเห็นว่า
+            &quot;รัฐธรรมนูญเป็นเรื่องของทุกคน&quot; และ
+            &quot;การออกแบบรัฐธรรมนูญไม่ยากอย่างที่คิด&quot;
+          </p>
+          <p>
+            โดยมีการจัดทำเนื้อหาให้เข้าใจได้ง่ายและแบ่งออกเป็นประเด็นสำคัญ ๆ
+            เพื่อให้ผู้เข้าร่วมกิจกรรมสามารถออกแบบรัฐธรรมนูญในแบบฉบับของตัวเองได้ภายในระยะเวลาสั้น
+            ๆ และสามารถร่วมแลกเปลี่ยนความคิดเห็นกับผู้อื่นได้อย่างสร้างสรรค์
+          </p>
+          <ExternalLink
+            href="https://forms.gle/aLCqMHYBGURh4cvJ8"
+            className="underline"
+          >
+            ลงทะเบียนรับข่าวสารกิจกรรม
+          </ExternalLink>
+          <p className="w-full">
+            รัฐธรรมนูญที่ “ก้าวหน้า” ต้องยึดอยู่บน 3 หลักการเสมอ
+          </p>
           <div className="space-y-6">
             <AboutPoint title="1 - เป็นกลางและเป็นธรรม">
               สร้างกติกาที่เป็นที่ยอมรับของทุกฝ่ายในสังคม
