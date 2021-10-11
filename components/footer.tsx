@@ -21,7 +21,7 @@ const Footer = () => (
         ส่งข้อเสนอแนะเพื่อปรับปรุงเว็บไซต์
       </ExternalLink>
     </div>
-    <div className="grid grid-cols-2 py-6 md:py-12 md:grid-cols-4 w-full max-w-screen-xl mx-auto">
+    <div className="grid grid-cols-3 py-6 md:py-12 w-full max-w-screen-xl mx-auto">
       <Link href="/" passHref>
         <a className={footerLogoClass}>
           <img
@@ -33,7 +33,7 @@ const Footer = () => (
       <ExternalLink href="https://spp.cmu.ac.th/" className={footerLogoClass}>
         <img src={require('../assets/images/CMU-SPP.png')} alt="SPP" />
       </ExternalLink>
-      <ExternalLink
+      {/* <ExternalLink
         href="https://www.kas.de/th/web/thailand/"
         className={footerLogoClass}
       >
@@ -41,7 +41,7 @@ const Footer = () => (
           src={require('../assets/images/KAS-White.png')}
           alt="Supported by KAS"
         />
-      </ExternalLink>
+      </ExternalLink> */}
       <ExternalLink href="https://elect.in.th/" className={footerLogoClass}>
         <p className="text-white text-[10px] md:text-sm mb-2 md:mb-4 -mt-6 md:-mt-8 text-center">
           Powered by
