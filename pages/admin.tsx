@@ -7,6 +7,7 @@ import Button from '../components/button';
 import Card from '../components/card';
 import { getParticipantResults } from '../utils/firebase';
 import { parseResultToCsv } from '../utils/result-parser';
+import Spinner from '../components/spinner';
 
 const AdminPage: FunctionComponent = () => {
   const [email, setEmail] = useState('');
@@ -20,7 +21,7 @@ const AdminPage: FunctionComponent = () => {
     setUser(auth.currentUser);
   }, [auth.currentUser]);
 
-  const isSubmitDisabled = isLoading || !email.length || !password.length;
+  const isSubmitDisabled = !email.length || !password.length;
 
   const LogIn = () => {
     setIsLoading(true);
@@ -33,6 +34,8 @@ const AdminPage: FunctionComponent = () => {
   };
 
   const downloadParticipantsResult = async () => {
+    setIsLoading(true);
+
     try {
       const result = await getParticipantResults();
 
@@ -53,49 +56,55 @@ const AdminPage: FunctionComponent = () => {
       saveAs(fileBlob, `${folderName}.zip`);
     } catch (e) {
       alert(e);
+    } finally {
+      setIsLoading(false);
     }
   };
 
   return (
     <div className="flex justify-center items-center min-h-screen">
-      <Card className="space-y-4 w-96">
-        <h1 className="text-headline-1">Admin</h1>
-        {!user ? (
-          <>
-            <input
-              type="text"
-              className="bg-gray-100 rounded-xl w-full p-4"
-              placeholder="Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-            <input
-              type="password"
-              className="bg-gray-100 rounded-xl w-full p-4"
-              placeholder="Password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
-            <Button
-              state="solid"
-              className={`w-full ${isSubmitDisabled ? 'opacity-50' : ''}`}
-              onClick={() => !isSubmitDisabled && LogIn()}
-            >
-              {isLoading ? 'Loading...' : 'Log in'}
-            </Button>
-          </>
-        ) : (
-          <>
-            <Button
-              state="solid"
-              className="w-full"
-              onClick={downloadParticipantsResult}
-            >
-              Download participants result
-            </Button>
-          </>
-        )}
-      </Card>
+      {isLoading ? (
+        <Spinner />
+      ) : (
+        <Card className="space-y-4 w-96">
+          <h1 className="text-headline-1">Admin</h1>
+          {!user ? (
+            <>
+              <input
+                type="text"
+                className="bg-gray-100 rounded-xl w-full p-4"
+                placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <input
+                type="password"
+                className="bg-gray-100 rounded-xl w-full p-4"
+                placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              <Button
+                state="solid"
+                className={`w-full ${isSubmitDisabled ? 'opacity-50' : ''}`}
+                onClick={() => !isSubmitDisabled && LogIn()}
+              >
+                Log in
+              </Button>
+            </>
+          ) : (
+            <>
+              <Button
+                state="solid"
+                className="w-full"
+                onClick={downloadParticipantsResult}
+              >
+                Download participants result
+              </Button>
+            </>
+          )}
+        </Card>
+      )}
     </div>
   );
 };
