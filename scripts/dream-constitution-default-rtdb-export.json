@@ -1,0 +1,3739 @@
+{
+  "production": {
+    "topics": [
+      null,
+      {
+        "-Ml9T3giFdxBsOnDzIzu": {
+          "answers": [2, 2, 2, 1, 2, 2, 3, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 2, 2, 3, 1, 2, 1],
+          "submitAt": 1633336966713,
+          "suggestedOptions": [2, 1, 2, 2, 3, 1, 2, 1]
+        },
+        "-Ml9UEv2jtHGQZ6n5FX2": {
+          "answers": [2, 2, 2, 2, 3, 2, 3, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 1, 2],
+          "submitAt": 1633337279294,
+          "suggestedOptions": [2, 2, 3, 2, 3, 4, 1, 2]
+        },
+        "-Ml9VKFVCtLSWksoFVjQ": {
+          "answers": [1, 1, 2, 2, 3, 1, 2, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 1, 2, 4, 1, 2],
+          "submitAt": 1633337563004,
+          "suggestedOptions": [1, 2, 3, 1, 2, 4, 1, 2]
+        },
+        "-Ml9W3emcEo_yWh4nAla": {
+          "answers": [2, 2, 2, 2, 2, 2, 3, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 2, 3, 4, 1, 2],
+          "submitAt": 1633337757135,
+          "suggestedOptions": [2, 2, 2, 2, 3, 4, 1, 2]
+        },
+        "-Ml9XnN9up3tAZK-aFzV": {
+          "answers": [2, 1, 1, 1, 3, 1, 2, 4, 2, 2],
+          "feedback": "รัฐธรรมนูญไทยต้องเพิ่มความยืดหยุ่นเข้าไปอีก",
+          "finalOptions": [1, 1, 1, 1, 2, 4, 2, 2],
+          "submitAt": 1633338210351,
+          "suggestedOptions": [1, 1, 3, 1, 2, 4, 2, 2]
+        },
+        "-Ml9dCVRzcwkIce7IYrp": {
+          "answers": [1, 2, 1, 1, 3, 2, 2, 1, 3, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 1, 3, 2],
+          "submitAt": 1633339890387,
+          "suggestedOptions": [1, 1, 3, 2, 2, 1, 3, 1]
+        },
+        "-Ml9jHFNpu-LXM2ppUEj": {
+          "answers": [1, 2, 1, 2, 3, 2, 2, 1, 3, 3],
+          "feedback": "สวควรมีเลือกตั้งกึ่งนึงทุกๆ3 ปี และให้สังกัดพรรคการเมืองได้ หรือจะใช้แบบรัฐธรรมนูญ2489 ที่เป็นรูปแบบเลือกโดยอ้อม",
+          "finalOptions": [1, 2, 3, 2, 2, 1, 3, 3],
+          "submitAt": 1633341482542,
+          "suggestedOptions": [1, 2, 3, 2, 2, 1, 3, 3]
+        },
+        "-Ml9qRhyzJd4BVZJkMPM": {
+          "answers": [2, 2, 2, 1, 3, 2, 2, 4, 3, 2],
+          "feedback": "",
+          "finalOptions": [2, 1, 3, 2, 3, 1, 3, 1],
+          "submitAt": 1633343359333,
+          "suggestedOptions": [2, 1, 3, 2, 2, 4, 3, 2]
+        },
+        "-Ml9zakfHDLYfEzFeXTj": {
+          "answers": [2, 2, 2, 2, 3, 1, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 1, 3, 4, 1, 1],
+          "submitAt": 1633345760915,
+          "suggestedOptions": [2, 2, 3, 1, 3, 4, 1, 1]
+        },
+        "-MlABY2wCpL-8MdfErYQ": {
+          "answers": [2, 2, 2, 2, 3, 2, 3, 4, 2, 1],
+          "feedback": "รัฐธรรมนูญต้องเรียบง่าย แต่รับรองคนทุกกลุ่ม",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 2, 1],
+          "submitAt": 1633349153594,
+          "suggestedOptions": [2, 2, 3, 2, 3, 4, 2, 1]
+        },
+        "-MlAFc64byFhrJqC3kTx": {
+          "answers": [2, 2, 2, 3, 3, 2, 3, 3, 2, 1],
+          "feedback": "รัฐธรรมนูญ ต้องเป็นสิ่งที่ประชาชนทั่วไปสามารถอ่านแล้ว เข้าใจได้เลย ไม่ต้องผ่านการตีความกฎหมายที่ซับซ้อน",
+          "finalOptions": [2, 3, 3, 2, 3, 3, 2, 1],
+          "submitAt": 1633350222968,
+          "suggestedOptions": [2, 3, 3, 2, 3, 3, 2, 1]
+        },
+        "-MlALvS9-1fn0bubp0yI": {
+          "answers": [2, 2, 2, 3, 1, 2, 3, 4, 2, 1],
+          "feedback": "นายพล ข้าราชการเกษียณ ต้องเว้นวรรค 8 ปี หลังจากเกษียณถึงจะมีสิทธิ์ลงมัครรับเลือกตั้ง",
+          "finalOptions": [2, 3, 1, 2, 3, 4, 2, 1],
+          "submitAt": 1633351874855,
+          "suggestedOptions": [2, 3, 1, 2, 3, 4, 2, 1]
+        },
+        "-MlANpJjY6wCTIFDW0sV": {
+          "answers": [1, 1, 1, 3, 3, 2, 2, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 2, 2, 4, 2, 2],
+          "submitAt": 1633352374173,
+          "suggestedOptions": [1, 3, 3, 2, 2, 4, 2, 2]
+        },
+        "-MlAPy7r37ruZhMT1vQ8": {
+          "answers": [2, 2, 2, 1, 3, 1, 3, 4, 1, 1],
+          "feedback": "ข้อกฎหมายไม่มากเกินไปทำให้เกิดช่องโหว่ น้อยแต่มีประเด็นที่สำคัญ",
+          "finalOptions": [1, 1, 1, 2, 3, 4, 1, 1],
+          "submitAt": 1633352934515,
+          "suggestedOptions": [2, 1, 3, 1, 3, 4, 1, 1]
+        },
+        "-MlARmiEBkpsI_RjRcRo": {
+          "answers": [2, 2, 2, 1, 3, 2, 2, 4, 2, 1],
+          "feedback": "อยากให้รัฐธรรมนูนเข้าใจง่าย ปลูกฝังไปในการเรียนให้เด็กได้รับรูป และอยากให้หน่วยงานราชการ เจ้าหน้าที่รัฐมีความตระหนักรู้ในรัฐธรรมนูนด้วย",
+          "finalOptions": [2, 1, 3, 2, 2, 4, 2, 1],
+          "submitAt": 1633353412843,
+          "suggestedOptions": [2, 1, 3, 2, 2, 4, 2, 1]
+        },
+        "-MlASjfc_ZR2_zgFGsdW": {
+          "answers": [1, 1, 1, 2, 3, 1, 3, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 1, 3, 2, 2, 2],
+          "submitAt": 1633353663614,
+          "suggestedOptions": [1, 2, 3, 1, 3, 2, 2, 2]
+        },
+        "-MlASkImgnnxer9BqZtx": {
+          "answers": [2, 1, 2, 1, 3, 2, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 3, 2, 3, 4, 1, 1],
+          "submitAt": 1633353664632,
+          "suggestedOptions": [2, 1, 3, 2, 3, 4, 1, 1]
+        },
+        "-MlAVK-wcUkKhYri9Qza": {
+          "answers": [1, 1, 1, 2, 1, 2, 2, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 4, 2, 2],
+          "submitAt": 1633354337188,
+          "suggestedOptions": [1, 2, 1, 2, 2, 4, 2, 2]
+        },
+        "-MlAVLQIRwnJy_tKF2sd": {
+          "answers": [1, 1, 1, 2, 3, 1, 3, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 1, 3, 4, 2, 2],
+          "submitAt": 1633354344974,
+          "suggestedOptions": [1, 2, 3, 1, 3, 4, 1, 2]
+        },
+        "-MlAWIPNcKzvA1rt5yOz": {
+          "answers": [2, 2, 1, 2, 2, 1, 3, 4, 1, 2],
+          "feedback": "รัฐธรรมนูญไทยควรให้สิทธิประชาชนในการมีส่วนร่วมกระบวนการของรัฐสภา",
+          "finalOptions": [2, 2, 2, 1, 3, 4, 1, 2],
+          "submitAt": 1633354594469,
+          "suggestedOptions": [2, 2, 2, 1, 3, 4, 1, 2]
+        },
+        "-MlAWX7p9FkXJ5BnIQ53": {
+          "answers": [2, 2, 2, 2, 3, 1, 3, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 1, 3, 4, 1, 2],
+          "submitAt": 1633354659437,
+          "suggestedOptions": [2, 2, 3, 1, 3, 4, 1, 2]
+        },
+        "-MlAX5oUWcaQhhwH4Mu-": {
+          "answers": [1, 1, 1, 2, 3, 2, 2, 1, 3, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 1, 3, 2],
+          "submitAt": 1633354806751,
+          "suggestedOptions": [1, 2, 3, 2, 2, 1, 3, 1]
+        },
+        "-MlAXNvSv0CM1eXP52oR": {
+          "answers": [2, 2, 2, 3, 3, 2, 3, 4, 2, 1],
+          "feedback": "ควรมีการจำกัดพระราชอำนาจของพระมหากษัตริย์อย่างรัดกุม",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 2, 1],
+          "submitAt": 1633354879185,
+          "suggestedOptions": [2, 3, 3, 2, 3, 4, 2, 1]
+        },
+        "-MlAXSVWqquc7zczNpYR": {
+          "answers": [1, 1, 2, 2, 1, 2, 2, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 4, 2, 2],
+          "submitAt": 1633354899590,
+          "suggestedOptions": [1, 2, 1, 2, 2, 4, 2, 2]
+        },
+        "-MlAYs31XczsTMk1Y_5I": {
+          "answers": [1, 2, 2, 3, 3, 2, 3, 4, 3, 2],
+          "feedback": "เนื้อหาและหลักการควรชัดเจน ทุกคนสามารถอ่านและเข้าใจในทางเดียวกันโดยไม่ต้องอาศัยการตีความ",
+          "finalOptions": [2, 3, 3, 2, 3, 4, 3, 2],
+          "submitAt": 1633355269933,
+          "suggestedOptions": [2, 3, 3, 2, 3, 4, 3, 2]
+        },
+        "-MlAYtK3ZC3tp7i4SzP6": {
+          "answers": [1, 2, 1, 2, 3, 2, 2, 1, 3, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 1, 3, 2],
+          "submitAt": 1633355274065,
+          "suggestedOptions": [1, 2, 3, 2, 2, 1, 3, 2]
+        },
+        "-MlA_0LAYd_B8CyIIng3": {
+          "answers": [2, 2, 2, 3, 3, 2, 3, 1, 1, 2],
+          "feedback": "สภาผู้แทน (สส.)มีรูปแบบตรวจสอบคุณสมบัติผู้ที่จะดำรงตำแหน่งในฝ่ายบริหาร ตุลาการ (Conformationhearing)แบบสภาตปท.เพราะฝ่ายนิติบัญญัคิยึดโยงกับปชช.และมุ่งส่งเสริมระบบการทำงานของรัฐสภา กรรมาธิการให้ก้าวหน้าเข้มแข็งตรวจสอบถ่วงดุลการทำงานของฝ่ายบริหารตุลาการได้อย่างแท้จริง",
+          "finalOptions": [2, 3, 3, 2, 3, 1, 1, 2],
+          "submitAt": 1633355568955,
+          "suggestedOptions": [2, 3, 3, 2, 3, 1, 1, 2]
+        },
+        "-MlAa2a0yi1tUEeFgbx_": {
+          "answers": [2, 2, 2, 3, 3, 2, 2, 4, 1, 2],
+          "feedback": "ควรใช้ภาษาที่ง่าย",
+          "finalOptions": [2, 3, 3, 2, 2, 4, 1, 2],
+          "submitAt": 1633355841862,
+          "suggestedOptions": [2, 3, 3, 2, 2, 4, 1, 2]
+        },
+        "-MlAaNSOjrxS0t0jDAnN": {
+          "answers": [2, 2, 2, 2, 3, 2, 2, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 2, 3, 2, 2],
+          "submitAt": 1633355502356,
+          "suggestedOptions": [2, 2, 3, 2, 2, 4, 2, 2]
+        },
+        "-MlAaOJTLLLJ3oGF5Gfr": {
+          "answers": [2, 2, 2, 3, 3, 2, 3, 4, 1, 2],
+          "feedback": "สภาควรมีขนาดเล็กเพื่อป้องกันงูเห่า สว.ควรเลือกบ่อยๆ ส่วนสส.ต้องไม่บ่อยมากเพื่อให้รัฐบาลมีเวลาดำเนินนโยบาย",
+          "finalOptions": [2, 3, 3, 2, 3, 4, 1, 2],
+          "submitAt": 1633355931636,
+          "suggestedOptions": [2, 3, 3, 2, 3, 4, 1, 2]
+        },
+        "-MlAatvUgeSbM7dKFcKt": {
+          "answers": [2, 2, 2, 2, 3, 2, 2, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 2, 2, 2, 2, 1],
+          "submitAt": 1633356065786,
+          "suggestedOptions": [2, 2, 3, 2, 2, 2, 2, 1]
+        },
+        "-MlAbonOeE1uAaPuC0tL": {
+          "answers": [2, 2, 2, 3, 3, 1, 3, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 1, 3, 4, 1, 2],
+          "submitAt": 1633356303949,
+          "suggestedOptions": [2, 3, 3, 1, 3, 4, 1, 2]
+        },
+        "-MlAbpj_yAMjMDTRsc_3": {
+          "answers": [2, 2, 2, 2, 3, 2, 3, 3, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 3, 2, 1],
+          "submitAt": 1633356307881,
+          "suggestedOptions": [2, 2, 3, 2, 3, 3, 2, 1]
+        },
+        "-MlAdct_unve1NnfeHS9": {
+          "answers": [2, 2, 2, 2, 3, 2, 2, 3, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 3, 2, 2],
+          "submitAt": 1633356780215,
+          "suggestedOptions": [2, 2, 3, 2, 2, 3, 2, 2]
+        },
+        "-MlAeSDV0IaLXu8YM9sl": {
+          "answers": [1, 1, 2, 2, 3, 2, 3, 4, 2, 1],
+          "feedback": "ส.ว. ควรมีไม่เกิน70คน",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 2, 1],
+          "submitAt": 1633356993473,
+          "suggestedOptions": [1, 2, 3, 2, 3, 4, 2, 1]
+        },
+        "-MlAeh3gHbCq6r6qy_qD": {
+          "answers": [1, 2, 2, 3, 2, 2, 3, 1, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 2, 2, 3, 1, 2, 2],
+          "submitAt": 1633357058899,
+          "suggestedOptions": [2, 3, 2, 2, 3, 1, 2, 2]
+        },
+        "-MlAes1fjbceRBkegcVK": {
+          "answers": [2, 2, 2, 1, 3, 2, 3, 1, 2, 1],
+          "feedback": "รัฐธรรมนูญควรกระชับ ใช้ภาษาที่อ่านเข้าใจง่าย",
+          "finalOptions": [2, 1, 3, 2, 3, 1, 2, 1],
+          "submitAt": 1633357103672,
+          "suggestedOptions": [2, 1, 3, 2, 3, 1, 2, 1]
+        },
+        "-MlAevzvINnGsFo7MQc8": {
+          "answers": [2, 1, 1, 1, 3, 2, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 3, 2, 3, 2, 1, 1],
+          "submitAt": 1633357120150,
+          "suggestedOptions": [1, 1, 3, 2, 3, 2, 1, 1]
+        },
+        "-MlAfh2r6Qoxit8kqQLk": {
+          "answers": [1, 1, 1, 3, 1, 3, 3, 1, 3, 3],
+          "feedback": "ไม่ควรมีรัฐสภา",
+          "finalOptions": [1, 3, 1, 3, 3, 1, 3, 3],
+          "submitAt": 1633357322138,
+          "suggestedOptions": [1, 3, 1, 3, 3, 1, 3, 3]
+        },
+        "-MlAgQoVZ8C8n0vk3I8v": {
+          "answers": [2, 2, 1, 3, 3, 2, 3, 3, 3, 1],
+          "feedback": "ยุบรัฐสภาทึ้ง ไม่เอาระบบประชาธิปไตย การเลือกตั้ง การคัดเลือก",
+          "finalOptions": [2, 3, 3, 2, 3, 3, 3, 1],
+          "submitAt": 1633357515619,
+          "suggestedOptions": [2, 3, 3, 2, 3, 3, 3, 1]
+        },
+        "-MlAhU_b8-bGsTWO2sqQ": {
+          "answers": [2, 2, 2, 2, 3, 2, 3, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 3, 2, 2],
+          "submitAt": 1633357797103,
+          "suggestedOptions": [2, 2, 3, 2, 3, 4, 1, 2]
+        },
+        "-MlAjdyto3J1QPjqYyu2": {
+          "answers": [1, 2, 2, 2, 3, 2, 3, 4, 3, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 3, 1],
+          "submitAt": 1633358357106,
+          "suggestedOptions": [2, 2, 3, 2, 3, 4, 3, 1]
+        },
+        "-MlAjmYIlpliAP1MceCX": {
+          "answers": [2, 2, 2, 2, 3, 2, 3, 4, 2, 2],
+          "feedback": "ตามนั้นเลยครับ รัฐธรรมนูญ​ควรเขียนให้กระชับ ปชช.จะได้เข้าใจได้",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 2, 2],
+          "submitAt": 1633358429554,
+          "suggestedOptions": [2, 2, 3, 2, 3, 4, 2, 2]
+        },
+        "-MlAjrzC1MsB9L2v1CKj": {
+          "answers": [1, 1, 1, 2, 3, 2, 3, 4, 2, 1],
+          "feedback": "ควรเพิ่มที่มา​ สว.",
+          "finalOptions": [1, 2, 3, 2, 3, 4, 2, 1],
+          "submitAt": 1633358417506,
+          "suggestedOptions": [1, 2, 3, 2, 3, 4, 2, 1]
+        },
+        "-MlAl8qg1aD68honNeGz": {
+          "answers": [2, 2, 2, 1, 2, 2, 3, 4, 1, 1],
+          "feedback": "สภาเดี่ยวไปเลยจ้า",
+          "finalOptions": [2, 1, 2, 2, 3, 4, 1, 1],
+          "submitAt": 1633358748635,
+          "suggestedOptions": [2, 1, 2, 2, 3, 4, 1, 1]
+        },
+        "-MlAnnqn5qY9YU0WwJya": {
+          "answers": [1, 1, 2, 1, 2, 2, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 3, 4, 1, 1],
+          "submitAt": 1633359445837,
+          "suggestedOptions": [1, 1, 2, 2, 3, 4, 1, 1]
+        },
+        "-MlApmaaIOMRQlWJj0CW": {
+          "answers": [1, 1, 2, 2, 3, 2, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 3, 1, 1, 1],
+          "submitAt": 1633359975034,
+          "suggestedOptions": [1, 2, 3, 2, 3, 4, 1, 1]
+        },
+        "-MlAqLUfQB9_I2j9AsBp": {
+          "answers": [2, 2, 2, 1, 2, 2, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 1, 1],
+          "submitAt": 1633360113059,
+          "suggestedOptions": [2, 1, 2, 2, 3, 4, 1, 1]
+        },
+        "-MlAqtkPgkjYM1_GRDPC": {
+          "answers": [1, 2, 1, 2, 3, 2, 3, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 3, 1, 1, 1],
+          "submitAt": 1633360257726,
+          "suggestedOptions": [1, 2, 3, 2, 3, 1, 1, 1]
+        },
+        "-MlAu3a8hfJ-kkPZBuxV": {
+          "answers": [2, 1, 2, 2, 3, 2, 3, 4, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 2, 1],
+          "submitAt": 1633361087371,
+          "suggestedOptions": [2, 2, 3, 2, 3, 4, 2, 1]
+        },
+        "-MlAy9iZg0pAuCxc0WPd": {
+          "answers": [1, 2, 1, 1, 3, 2, 2, 4, 3, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 1, 3, 2],
+          "submitAt": 1633362170929,
+          "suggestedOptions": [1, 1, 3, 2, 2, 4, 3, 1]
+        },
+        "-MlB9K-rxX3IQ-KyjdkW": {
+          "answers": [1, 1, 1, 1, 3, 1, 2, 4, 1, 3],
+          "feedback": "ในกรณีส.ว.ในอนาคตเป็นตัวแทนปวงชนที่มาจากการเลือกตั้งถึงควรจะมีอำนาจเทียบเท่าส.ว.ชุดปัจจุบันนี้",
+          "finalOptions": [1, 1, 2, 1, 2, 4, 1, 3],
+          "submitAt": 1633365350523,
+          "suggestedOptions": [1, 1, 3, 1, 2, 4, 1, 3]
+        },
+        "-MlBApAF4CABgDOrMVre": {
+          "answers": [2, 2, 2, 2, 3, 2, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 1, 1],
+          "submitAt": 1633365743104,
+          "suggestedOptions": [2, 2, 3, 2, 3, 4, 1, 1]
+        },
+        "-MlBCVO7eyJ-ORVzTwD9": {
+          "answers": [2, 2, 2, 1, 3, 2, 2, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 3, 2, 2, 4, 1, 1],
+          "submitAt": 1633366181857,
+          "suggestedOptions": [2, 1, 3, 2, 2, 4, 1, 1]
+        },
+        "-MlBDed2WISBsQ_tIMg_": {
+          "answers": [2, 1, 1, 2, 3, 2, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 3, 4, 1, 1],
+          "submitAt": 1633366486750,
+          "suggestedOptions": [1, 2, 3, 2, 3, 4, 1, 1]
+        },
+        "-MlCz98lRPUue0kgVpZf": {
+          "answers": [2, 2, 2, 3, 3, 2, 3, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 2, 4, 2, 2],
+          "submitAt": 1633395975232,
+          "suggestedOptions": [2, 3, 3, 2, 3, 4, 2, 2]
+        },
+        "-MlD38iti0QvaeAjFqHc": {
+          "answers": [2, 1, 1, 2, 2, 2, 2, 4, 1, 2],
+          "feedback": "ขอสั้นเข้าใจง่าย พอ 4-5 หน้า ที่เหลือใส่ที่อื่น",
+          "finalOptions": [1, 2, 3, 2, 2, 4, 1, 2],
+          "submitAt": 1633397283895,
+          "suggestedOptions": [1, 2, 2, 2, 2, 4, 1, 2]
+        },
+        "-MlDJ3H0lyGZw6-SRrbQ": {
+          "answers": [1, 2, 2, 1, 3, 1, 2, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 1, 3, 1, 2, 4, 2, 2],
+          "submitAt": 1633401456256,
+          "suggestedOptions": [2, 1, 3, 1, 2, 4, 2, 2]
+        },
+        "-MlDZyjcKmh1fojonOVS": {
+          "answers": [2, 2, 2, 2, 3, 2, 3, 3, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 1, 3, 3, 3, 2, 2],
+          "submitAt": 1633405890070,
+          "suggestedOptions": [2, 2, 3, 2, 3, 3, 2, 2]
+        },
+        "-MlDjPZy4-h9LI_X0rQG": {
+          "answers": [2, 1, 2, 2, 3, 2, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 1, 1],
+          "submitAt": 1633408625550,
+          "suggestedOptions": [2, 2, 3, 2, 3, 4, 1, 1]
+        },
+        "-MlDpTkBiGmo7GbIQpBR": {
+          "answers": [2, 2, 2, 2, 3, 1, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 1, 3, 4, 1, 1],
+          "submitAt": 1633410215562,
+          "suggestedOptions": [2, 2, 3, 1, 3, 4, 1, 1]
+        },
+        "-MlEKULhXUYgBi6fHnGu": {
+          "answers": [1, 2, 2, 3, 3, 2, 1, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 2, 1, 1, 1, 2],
+          "submitAt": 1633418606627,
+          "suggestedOptions": [2, 3, 3, 2, 1, 1, 1, 2]
+        },
+        "-MlELT6CG91-U3RguuNb": {
+          "answers": [1, 2, 2, 3, 3, 2, 2, 1, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 2, 2, 1, 2, 2],
+          "submitAt": 1633418863824,
+          "suggestedOptions": [2, 3, 3, 2, 2, 1, 2, 2]
+        },
+        "-MlEMBZ-XKP4N0DT-tx4": {
+          "answers": [1, 1, 1, 2, 1, 2, 1, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 1, 1, 1, 2],
+          "submitAt": 1633419054683,
+          "suggestedOptions": [1, 2, 1, 2, 1, 1, 1, 2]
+        },
+        "-MlETeOFGNUMPSWaWWbh": {
+          "answers": [2, 2, 2, 2, 2, 2, 2, 4, 3, 2],
+          "feedback": "สภาผู้แทนฯควรมี ส.ส.เขตแค่ 300 คน + ส.ส.บัญชีรายชื่อ 150 คน โดยประมาณ; ใช้ระบบเลือกตั้ง MMP.  วุฒิสภาควรแบ่งเป็น ส.ว.ระดับชาติ 100 คน ระดับจังหวัด 100 คน ประชาชนแต่ละคนโหวตเลือก ส.ว.ระดับชาติได้ 1 คน ระดับ จว. ได้ 1 คน.",
+          "finalOptions": [1, 2, 3, 2, 2, 4, 3, 2],
+          "submitAt": 1633421010924,
+          "suggestedOptions": [2, 2, 2, 2, 2, 4, 3, 2]
+        },
+        "-MlEb-SUwt8Q4-PQdUjL": {
+          "answers": [2, 2, 2, 2, 2, 2, 3, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 1, 1, 1],
+          "submitAt": 1633423199484,
+          "suggestedOptions": [2, 2, 2, 2, 3, 1, 1, 1]
+        },
+        "-MlEcBMzvwP_Ag8wVA2s": {
+          "answers": [2, 2, 2, 2, 3, 2, 3, 1, 3, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 1, 3, 1],
+          "submitAt": 1633423368872,
+          "suggestedOptions": [2, 2, 3, 2, 3, 1, 3, 1]
+        },
+        "-MlEcf0vNiyjWfGWOROB": {
+          "answers": [2, 2, 2, 2, 3, 1, 2, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 1, 2, 4, 1, 2],
+          "submitAt": 1633423633441,
+          "suggestedOptions": [2, 2, 3, 1, 2, 4, 1, 2]
+        },
+        "-MlEhHJd73hdsQu3JtkL": {
+          "answers": [2, 2, 2, 1, 3, 1, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 3, 1, 3, 4, 1, 1],
+          "submitAt": 1633424847954,
+          "suggestedOptions": [2, 1, 3, 1, 3, 4, 1, 1]
+        },
+        "-MlEn8tpCJ6uheAqI3n6": {
+          "answers": [1, 2, 1, 2, 3, 2, 2, 1, 3, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 1, 3, 2],
+          "submitAt": 1633426382778,
+          "suggestedOptions": [1, 2, 3, 2, 2, 1, 3, 2]
+        },
+        "-MlFQjWJ7g_Ml37s-Me5": {
+          "answers": [1, 1, 1, 3, 2, 1, 2, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 1, 2, 1, 1, 2],
+          "submitAt": 1633437021837,
+          "suggestedOptions": [1, 3, 2, 1, 2, 1, 1, 2]
+        },
+        "-MlFWPaDOX9aKBqBLIAc": {
+          "answers": [1, 1, 1, 2, 3, 3, 2, 4, 3, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 3, 2, 4, 3, 2],
+          "submitAt": 1633438510306,
+          "suggestedOptions": [1, 2, 3, 3, 2, 4, 3, 2]
+        },
+        "-MlFX27Byju4iDmCoZth": {
+          "answers": [2, 1, 1, 2, 3, 2, 2, 4, 3, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 4, 3, 2],
+          "submitAt": 1633438676031,
+          "suggestedOptions": [1, 2, 3, 2, 2, 4, 3, 2]
+        },
+        "-MlFaaWIfsoHsGVxQjdf": {
+          "answers": [1, 1, 1, 2, 3, 1, 1, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 1, 1, 4, 1, 2],
+          "submitAt": 1633439870114,
+          "suggestedOptions": [1, 2, 3, 1, 1, 4, 1, 2]
+        },
+        "-MlFar7822wxkOPr-Jjt": {
+          "answers": [1, 1, 2, 2, 3, 1, 2, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 1, 2, 4, 1, 2],
+          "submitAt": 1633439943514,
+          "suggestedOptions": [1, 2, 3, 1, 2, 4, 1, 2]
+        },
+        "-MlFlESL-ycQd_Cad8fO": {
+          "answers": [1, 2, 1, 2, 3, 2, 2, 1, 3, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 1, 3, 2],
+          "submitAt": 1633442658637,
+          "suggestedOptions": [1, 2, 3, 2, 2, 1, 3, 2]
+        },
+        "-MlFnnbSryX0UH93NODi": {
+          "answers": [2, 2, 2, 2, 3, 2, 3, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 1, 3, 2, 3, 4, 2, 1],
+          "submitAt": 1633443330990,
+          "suggestedOptions": [2, 2, 3, 2, 3, 4, 2, 2]
+        },
+        "-MlG4xhxYi6ODHxabFZE": {
+          "answers": [1, 1, 1, 2, 3, 2, 2, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 4, 2, 2],
+          "submitAt": 1633448091763,
+          "suggestedOptions": [1, 2, 3, 2, 2, 4, 2, 2]
+        },
+        "-MlGBp9gnKR2tNlMz9UO": {
+          "answers": [2, 2, 2, 1, 3, 2, 3, 2, 3, 2],
+          "feedback": "สั้นอ่านง่าย ให้เด็ก ม.ต้นอ่านต้องเข้าใจ",
+          "finalOptions": [1, 1, 3, 2, 3, 4, 3, 2],
+          "submitAt": 1633449892492,
+          "suggestedOptions": [2, 1, 3, 2, 3, 2, 3, 2]
+        },
+        "-MlHEw06fimJX0-rauQ4": {
+          "answers": [2, 1, 1, 1, 3, 1, 1, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 3, 1, 1, 4, 1, 2],
+          "submitAt": 1633467482870,
+          "suggestedOptions": [1, 1, 3, 1, 1, 4, 1, 2]
+        },
+        "-MlI1mu7CxajOGF12axU": {
+          "answers": [2, 2, 1, 3, 3, 1, 3, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 1, 3, 4, 1, 2],
+          "submitAt": 1633480815001,
+          "suggestedOptions": [2, 3, 3, 1, 3, 4, 1, 2]
+        },
+        "-MlI4a4lhu8-BJlhSBOy": {
+          "answers": [2, 2, 2, 3, 3, 2, 2, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 2, 2, 4, 2, 2],
+          "submitAt": 1633481538264,
+          "suggestedOptions": [2, 3, 3, 2, 2, 4, 2, 2]
+        },
+        "-MlIcbkQVTP8f4o23v7l": {
+          "answers": [2, 2, 2, 2, 3, 1, 3, 4, 1, 1],
+          "feedback": "รัฐธรรมนูญไทยต้องเป็นประชาธิปไตยให้มากกว่านี้",
+          "finalOptions": [2, 2, 3, 3, 3, 4, 1, 1],
+          "submitAt": 1633490729390,
+          "suggestedOptions": [2, 2, 3, 1, 3, 4, 1, 1]
+        },
+        "-MlIdk8DYyesXx8b-gKJ": {
+          "answers": [2, 2, 2, 2, 3, 1, 3, 4, 1, 1],
+          "feedback": "รัฐธรรมนูญไทยต้องเป็นประชาธิปไตยมากกว่านี้",
+          "finalOptions": [2, 2, 3, 1, 3, 4, 1, 1],
+          "submitAt": 1633491026016,
+          "suggestedOptions": [2, 2, 3, 1, 3, 4, 1, 1]
+        },
+        "-MlIelYzhHVY49uWM8A3": {
+          "answers": [1, 1, 1, 3, 3, 2, 2, 4, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 2, 2, 4, 2, 3],
+          "submitAt": 1633491294978,
+          "suggestedOptions": [1, 3, 3, 2, 2, 4, 2, 3]
+        },
+        "-MlIfKQXYykOblgif_vi": {
+          "answers": [1, 1, 1, 3, 3, 2, 3, 4, 2, 3],
+          "feedback": "รัฐธรรมนูญต้องสั้นและอ่านง่าย",
+          "finalOptions": [1, 3, 3, 2, 3, 4, 2, 3],
+          "submitAt": 1633491441780,
+          "suggestedOptions": [1, 3, 3, 2, 3, 4, 2, 3]
+        },
+        "-MlIj1AaGEaXYChFXLYH": {
+          "answers": [2, 2, 2, 3, 3, 2, 3, 4, 1, 1],
+          "feedback": "Term limit on senator ",
+          "finalOptions": [2, 3, 3, 2, 3, 4, 1, 1],
+          "submitAt": 1633492412397,
+          "suggestedOptions": [2, 3, 3, 2, 3, 4, 1, 1]
+        },
+        "-MlJ-Ijfl9qo5g6VJOZu": {
+          "answers": [1, 2, 1, 3, 3, 2, 2, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 2, 2, 4, 2, 2],
+          "submitAt": 1633496940392,
+          "suggestedOptions": [1, 3, 3, 2, 2, 4, 2, 2]
+        },
+        "-MlJ0Q2g1RzrDMl-aw9J": {
+          "answers": [1, 1, 1, 2, 3, 2, 3, 4, 3, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 3, 4, 3, 2],
+          "submitAt": 1633497232170,
+          "suggestedOptions": [1, 2, 3, 2, 3, 4, 3, 2]
+        },
+        "-MlJ2ah5HiRT6_CLIOZf": {
+          "answers": [2, 2, 1, 3, 3, 2, 2, 1, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 2, 2, 1, 2, 2],
+          "submitAt": 1633497805305,
+          "suggestedOptions": [2, 3, 3, 2, 2, 1, 2, 2]
+        },
+        "-MlJAJhiexdgVczIzg9c": {
+          "answers": [1, 2, 2, 2, 3, 2, 3, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 3, 2, 3, 1, 3, 1],
+          "submitAt": 1633499827697,
+          "suggestedOptions": [2, 2, 3, 2, 3, 1, 1, 1]
+        },
+        "-MlJIX0Gc4amZ6kNe2V_": {
+          "answers": [1, 1, 1, 2, 3, 2, 3, 4, 3, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 3, 4, 3, 2],
+          "submitAt": 1633501979125,
+          "suggestedOptions": [1, 2, 3, 2, 3, 4, 3, 2]
+        },
+        "-MlJNWGl12xDQMKwdnQA": {
+          "answers": [1, 2, 1, 3, 3, 2, 2, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 2, 2, 4, 2, 2],
+          "submitAt": 1633503286646,
+          "suggestedOptions": [1, 3, 3, 2, 2, 4, 2, 2]
+        },
+        "-MlK4zTkH0EI0VSRgP5I": {
+          "answers": [2, 2, 1, 3, 3, 2, 3, 3, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 3, 2, 2],
+          "submitAt": 1633515204804,
+          "suggestedOptions": [2, 3, 3, 2, 3, 3, 2, 2]
+        },
+        "-MlKxA_fwqBOK0NHvUhE": {
+          "answers": [1, 2, 1, 3, 2, 1, 2, 3, 2, 2],
+          "feedback": "ทเั",
+          "finalOptions": [1, 3, 2, 1, 2, 3, 2, 2],
+          "submitAt": 1633529675273,
+          "suggestedOptions": [1, 3, 2, 1, 2, 3, 2, 2]
+        },
+        "-MlL5iCu18WcPIGJPmhp": {
+          "answers": [2, 2, 2, 2, 3, 2, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 3, 4, 1, 1],
+          "submitAt": 1633532166250,
+          "suggestedOptions": [2, 2, 3, 2, 3, 4, 1, 1]
+        },
+        "-MlLD-z3gC9V--uxXD4G": {
+          "answers": [2, 2, 2, 3, 2, 2, 2, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 2, 2, 2, 2, 2, 2],
+          "submitAt": 1633534089356,
+          "suggestedOptions": [2, 3, 2, 2, 2, 2, 2, 2]
+        },
+        "-MlOja-aBN1KWgxewBxR": {
+          "answers": [1, 2, 2, 3, 3, 1, 2, 3, 1, 3],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 1, 2, 3, 1, 3],
+          "submitAt": 1633593221674,
+          "suggestedOptions": [2, 3, 3, 1, 2, 3, 1, 3]
+        },
+        "-MlPKFlptcOghibD_BvZ": {
+          "answers": [1, 1, 1, 2, 3, 2, 2, 1, 3, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 4, 3, 1],
+          "submitAt": 1633603096724,
+          "suggestedOptions": [1, 2, 3, 2, 2, 1, 3, 3]
+        },
+        "-MlR-JrH3cqx3cScnP1a": {
+          "answers": [2, 2, 2, 2, 3, 1, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 1, 3, 4, 1, 1],
+          "submitAt": 1633631162525,
+          "suggestedOptions": [2, 2, 3, 1, 3, 4, 1, 1]
+        },
+        "-MlTG25CV5NLGXun5CZ3": {
+          "answers": [1, 1, 1, 2, 3, 1, 3, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 1, 3, 4, 1, 2],
+          "submitAt": 1633669100702,
+          "suggestedOptions": [1, 2, 3, 1, 3, 4, 1, 2]
+        },
+        "-MlTXb3rHV_VU2UOKvwd": {
+          "answers": [1, 1, 1, 2, 3, 2, 1, 4, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 1, 4, 2, 3],
+          "submitAt": 1633673704782,
+          "suggestedOptions": [1, 2, 3, 2, 1, 4, 2, 3]
+        },
+        "-MlT_fOKGZckQ8kM1H2_": {
+          "answers": [1, 1, 1, 2, 3, 2, 2, 1, 3, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 1, 3, 3],
+          "submitAt": 1633674509057,
+          "suggestedOptions": [1, 2, 3, 2, 2, 1, 3, 3]
+        },
+        "-MlTiokwmxh3oITJ7nSj": {
+          "answers": [2, 2, 2, 2, 3, 1, 3, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 1, 3, 4, 1, 2],
+          "submitAt": 1633676906130,
+          "suggestedOptions": [2, 2, 3, 1, 3, 4, 1, 2]
+        },
+        "-MlTmky29vxVMBcnXEQf": {
+          "answers": [1, 2, 1, 3, 3, 1, 2, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 1, 2, 4, 1, 2],
+          "submitAt": 1633677939055,
+          "suggestedOptions": [1, 3, 3, 1, 2, 4, 1, 2]
+        },
+        "-MlTp9c508rZhBkUfQeH": {
+          "answers": [1, 1, 1, 2, 1, 2, 1, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 1, 1, 2, 1],
+          "submitAt": 1633678568358,
+          "suggestedOptions": [1, 2, 1, 2, 1, 1, 2, 1]
+        },
+        "-MlTsEmQTIp_ipL8gy85": {
+          "answers": [1, 1, 2, 3, 3, 2, 2, 4, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 2, 2, 4, 2, 1],
+          "submitAt": 1633679375516,
+          "suggestedOptions": [1, 3, 3, 2, 2, 4, 2, 1]
+        },
+        "-MlUWW5wUFIY4vX6oBRk": {
+          "answers": [1, 1, 1, 2, 3, 1, 1, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 1, 1, 4, 1, 2],
+          "submitAt": 1633690195485,
+          "suggestedOptions": [1, 2, 3, 1, 1, 4, 1, 2]
+        },
+        "-MlUZNmsCvOpYNUwWPvy": {
+          "answers": [1, 1, 1, 2, 3, 1, 1, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 1, 1, 4, 1, 2],
+          "submitAt": 1633690947852,
+          "suggestedOptions": [1, 2, 3, 1, 1, 4, 1, 2]
+        },
+        "-MlUpz0IFgrqLFeralZm": {
+          "answers": [1, 1, 2, 2, 3, 2, 2, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 2, 2, 2],
+          "submitAt": 1633695551091,
+          "suggestedOptions": [1, 2, 3, 2, 2, 2, 2, 2]
+        },
+        "-MlVOeMsD2xo75Vk2mz_": {
+          "answers": [1, 2, 1, 1, 2, 2, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 2, 1, 1, 2, 3],
+          "submitAt": 1633704913891,
+          "suggestedOptions": [1, 1, 2, 2, 1, 1, 2, 3]
+        },
+        "-MlVX3pvh9Qq0mKynZwy": {
+          "answers": [1, 2, 2, 3, 3, 1, 3, 1, 1, 3],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 1, 3, 1, 1, 3],
+          "submitAt": 1633707118636,
+          "suggestedOptions": [2, 3, 3, 1, 3, 1, 1, 3]
+        },
+        "-MlVf5J1umvLM5tHferB": {
+          "answers": [2, 2, 2, 1, 2, 2, 3, 3, 3, 2],
+          "feedback": "อยากเห็นรัฐสภาไทยที่มีประสิทธิภาพมากกว่าเดิม",
+          "finalOptions": [2, 1, 2, 2, 3, 3, 3, 2],
+          "submitAt": 1633709483586,
+          "suggestedOptions": [2, 1, 2, 2, 3, 3, 3, 2]
+        },
+        "-MlVhVY_FOUC9P0Vun-P": {
+          "answers": [1, 1, 2, 2, 3, 2, 3, 4, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 3, 4, 2, 1],
+          "submitAt": 1633710115045,
+          "suggestedOptions": [1, 2, 3, 2, 3, 4, 2, 1]
+        },
+        "-MlZSyB_Gd_fo-2sRXgh": {
+          "answers": [1, 1, 1, 2, 3, 1, 2, 4, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 1, 2, 4, 1, 2],
+          "submitAt": 1633773153485,
+          "suggestedOptions": [1, 2, 3, 1, 2, 4, 1, 2]
+        },
+        "-MlaT0H9YE1RNkG8oO_n": {
+          "answers": [2, 2, 2, 2, 2, 1, 3, 4, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 1, 3, 4, 1, 1],
+          "submitAt": 1633806713286,
+          "suggestedOptions": [2, 2, 2, 1, 3, 4, 1, 1]
+        }
+      },
+      {
+        "-Ml9V22cYUgJHfaA4dy0": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633337488722,
+          "suggestedOptions": [1, 1, 1, 2, 2, 1, 1, 1, 2, 3]
+        },
+        "-Ml9ddSXyc1pc1FPgPdR": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 2, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633340004855,
+          "suggestedOptions": [1, 1, 1, 2, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlA-1Oq3-8p6YWlJaXR": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 1, 2, 7],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 7],
+          "submitAt": 1633345873953,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 7]
+        },
+        "-MlACkG0n3EgYp3dYQC2": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 5, 7, 4],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 5, 7, 4],
+          "submitAt": 1633349469337,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 5, 7, 4]
+        },
+        "-MlAQZxs3ZLHqysWkeui": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 3, 2, 5],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 3, 2, 5],
+          "submitAt": 1633353093368,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 3, 2, 5]
+        },
+        "-MlARJUpieHD6S7c2WL-": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 2, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 2, 1, 4],
+          "submitAt": 1633353287966,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 2, 1, 4]
+        },
+        "-MlASpX2TnX75gnu5gW_": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 5],
+          "feedback": "ในหัวข้อที่ให้เลือกความสำคัญ 1 2 3 อยากให้มีการสุ่มตัวเลือก เพื่อไม่ให้เป็นการชี้นำ",
+          "finalOptions": [1, 1, 1, 2, 2, 1, 1, 2, 1, 5],
+          "submitAt": 1633353686524,
+          "suggestedOptions": [1, 1, 1, 2, 2, 1, 1, 2, 1, 5]
+        },
+        "-MlATCF71cWIGeeLf-VL": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 2, 3, 4],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 2, 3, 4],
+          "submitAt": 1633353783166,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 2, 3, 4]
+        },
+        "-MlAU4aX8pxSEe_BUN3Z": {
+          "answers": [1, 1, 2, 2, 2, 1, 1, 1, 4, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 2, 2, 1, 1, 1, 4, 2],
+          "submitAt": 1633354014527,
+          "suggestedOptions": [1, 1, 2, 2, 2, 1, 1, 1, 4, 2]
+        },
+        "-MlAVQnCmm-aA4WswHVD": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 2, 1, 3],
+          "submitAt": 1633354366761,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 2, 1, 3]
+        },
+        "-MlAWVckDsQ7xrbmIPAY": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 5, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 5, 1, 2],
+          "submitAt": 1633354649006,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 5, 1, 2]
+        },
+        "-MlAX_1QFWleGeGEBPT5": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 2, 4, 5],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 2, 4, 5],
+          "submitAt": 1633354929259,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 2, 4, 5]
+        },
+        "-MlAXwwKCDZSofwK_IY9": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 1, 7, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 1, 7, 2],
+          "submitAt": 1633355026558,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 1, 7, 2]
+        },
+        "-MlAYBNlL2tpAupsX8Ce": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633355094523,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlAYPa6TP119bVbFb_W": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 2, 5, 4],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 2, 5, 4],
+          "submitAt": 1633355149759,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 2, 5, 4]
+        },
+        "-MlAagiquusI9jmdl0B8": {
+          "answers": [2, 2, 1, 2, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [2, 2, 1, 2, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633356009945,
+          "suggestedOptions": [2, 2, 1, 2, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlAbr4vAvA_0hbKJkCW": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633356312991,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlAcRj9pS4qOnvIy6E8": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633356467361,
+          "suggestedOptions": [1, 1, 1, 2, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlAdXGb3P-VBbuQTH8p": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 1, 4, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 1, 2, 2, 1, 1, 1, 4, 2],
+          "submitAt": 1633356328998,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 1, 4, 2]
+        },
+        "-MlAfQSwiyPSFFHz9FjE": {
+          "answers": [1, 1, 1, 1, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633357248646,
+          "suggestedOptions": [1, 1, 1, 1, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlAkS_Kxiw9opuq89Tq": {
+          "answers": [1, 2, 1, 1, 2, 1, 1, 1, 2, 4],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 4],
+          "submitAt": 1633358568128,
+          "suggestedOptions": [1, 2, 1, 1, 2, 1, 1, 1, 2, 4]
+        },
+        "-MlAlW_c5WYs9oPetJ_3": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 2, 8, 7],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 2, 8, 7],
+          "submitAt": 1633358847315,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 2, 8, 7]
+        },
+        "-MlAqhKOVBNFpr2LaqHK": {
+          "answers": [1, 2, 1, 1, 2, 1, 1, 7, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 2, 1, 1, 7, 2, 1],
+          "submitAt": 1633360215635,
+          "suggestedOptions": [1, 2, 1, 1, 2, 1, 1, 7, 2, 1]
+        },
+        "-MlAqqN-hWoQqSNDNQGV": {
+          "answers": [1, 1, 1, 1, 2, 1, 1, 1, 9, 4],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 1, 1, 1, 9, 4],
+          "submitAt": 1633360242459,
+          "suggestedOptions": [1, 1, 1, 1, 2, 1, 1, 1, 9, 4]
+        },
+        "-MlAr3QTuCDC_anXIr8u": {
+          "answers": [1, 2, 2, 1, 2, 1, 1, 1, 5, 7],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 2, 1, 1, 1, 5, 7],
+          "submitAt": 1633360301560,
+          "suggestedOptions": [1, 2, 2, 1, 2, 1, 1, 1, 5, 7]
+        },
+        "-MlAy4k-dg2ZPi_pldgh": {
+          "answers": [1, 1, 2, 2, 2, 1, 1, 7, 2, 3],
+          "feedback": "ต้องนำ มาตรา 26 ของ รธน40 กลับมาใส่ไว้เป็นข้อแรก เพราะการยืนยันถึงเจตนารมณ์ ของรธน. ประชาธิปไตย เพื่อป้องกันการใช้อำนาจเผด็จการ  ปัญหาที่เกิดขึ้นตอนนี้  คฝ ใช้ความรุนแรงกับปชช  อย่างไม่แคร์ใดๆก็เพราะในรธน60 วางแผนที่จะทำให้องค์กรรัฐ ไม่ต้องคพรึงถึงศักดิ์ศรีความเป็นมนุษย์ สิทธิ และเสรีภาพ ประชาชน",
+          "finalOptions": [1, 1, 2, 2, 2, 1, 1, 7, 2, 3],
+          "submitAt": 1633362140523,
+          "suggestedOptions": [1, 1, 2, 2, 2, 1, 1, 7, 2, 3]
+        },
+        "-MlB1ERw_l3ehx8AaGf7": {
+          "answers": [1, 1, 1, 1, 2, 1, 1, 1, 7, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 1, 1, 1, 7, 2],
+          "submitAt": 1633363238876,
+          "suggestedOptions": [1, 1, 1, 1, 2, 1, 1, 1, 7, 2]
+        },
+        "-MlB3eUMGIgce7eNS_ip": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 2, 3, 8],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 2, 3, 8],
+          "submitAt": 1633363866376,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 2, 3, 8]
+        },
+        "-MlBD4HOiBGTYZm0VYGX": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 2, 2, 1, 1, 1, 2, 6],
+          "submitAt": 1633366337336,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlBDUceteVXkV3zP7kC": {
+          "answers": [1, 2, 1, 1, 2, 1, 1, 5, 4, 7],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 2, 1, 1, 5, 4, 7],
+          "submitAt": 1633366440989,
+          "suggestedOptions": [1, 2, 1, 1, 2, 1, 1, 5, 4, 7]
+        },
+        "-MlD47NWRjSx7YE2QwrU": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 1, 4, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 1, 4, 2],
+          "submitAt": 1633397540876,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 1, 4, 2]
+        },
+        "-MlD47jvnKVNLUf3Ik1E": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 2, 1, 3],
+          "submitAt": 1633397541995,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 2, 1, 3]
+        },
+        "-MlELYS_vn-kj5oMPY8J": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 1, 7, 9],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 1, 7, 9],
+          "submitAt": 1633418885541,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 1, 7, 9]
+        },
+        "-MlEdUmT1-zp84oc2zI5": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 2, 8, 7],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 2, 8, 7],
+          "submitAt": 1633423710958,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 2, 8, 7]
+        },
+        "-MlEgQw2nebhIsMF1qa-": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 2, 1, 1, 2, 1, 3],
+          "submitAt": 1633424620184,
+          "suggestedOptions": [1, 1, 1, 2, 2, 1, 1, 2, 1, 3]
+        },
+        "-MlEiGLIlLKxPxQMgIkD": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 7, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 7, 2, 1],
+          "submitAt": 1633425102545,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 7, 2, 1]
+        },
+        "-MlEnnrS0PUYxRrixDGm": {
+          "answers": [1, 2, 1, 1, 2, 1, 1, 1, 2, 5],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 2, 1, 1, 1, 2, 5],
+          "submitAt": 1633426554605,
+          "suggestedOptions": [1, 2, 1, 1, 2, 1, 1, 1, 2, 5]
+        },
+        "-MlFlQIHeRIUO0FvQek1": {
+          "answers": [1, 2, 1, 1, 2, 1, 1, 1, 2, 5],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 2, 1, 1, 1, 2, 5],
+          "submitAt": 1633442708035,
+          "suggestedOptions": [1, 2, 1, 1, 2, 1, 1, 1, 2, 5]
+        },
+        "-MlIf9vCRvQ097ehHBI1": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 1, 2, 4],
+          "feedback": "สิทธิเสรีภาพเป็นสิ่งที่สำคัญที่รัฐควรจะต้องให้ความสำคัญมากกว่านี้กับประชาชน",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 1, 2, 4],
+          "submitAt": 1633491398085,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 1, 2, 4]
+        },
+        "-MlIjnvzF6H76grZFt1G": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633492616102,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlJLQrgUhpz9xNhsdkI": {
+          "answers": [1, 2, 1, 1, 1, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 1, 1, 1, 2, 3],
+          "submitAt": 1633502740571,
+          "suggestedOptions": [1, 2, 1, 1, 1, 1, 1, 1, 2, 3]
+        },
+        "-MlK35dGy4R5DiluA7KV": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 1, 3, 7],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 1, 1, 1, 3, 7],
+          "submitAt": 1633514712408,
+          "suggestedOptions": [1, 1, 1, 2, 2, 1, 1, 1, 3, 7]
+        },
+        "-MlKT_wHnCN6QQ1OQWf_": {
+          "answers": [2, 2, 1, 1, 1, 1, 1, 1, 4, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 1, 1, 1, 1, 1, 1, 4, 2],
+          "submitAt": 1633521656066,
+          "suggestedOptions": [2, 2, 1, 1, 1, 1, 1, 1, 4, 2]
+        },
+        "-MlL68EOo7SUIbBTnojd": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633532276430,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlLGiERD_BaU5Gc3dEo": {
+          "answers": [2, 1, 1, 2, 1, 1, 1, 2, 3, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 2, 1, 1, 1, 2, 3, 1],
+          "submitAt": 1633535063436,
+          "suggestedOptions": [2, 1, 1, 2, 1, 1, 1, 2, 3, 1]
+        },
+        "-MlNtYlJSK4ru4aQXxdh": {
+          "answers": [1, 1, 2, 2, 2, 1, 1, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 2, 2, 1, 1, 2, 4, 1],
+          "submitAt": 1633579056798,
+          "suggestedOptions": [1, 1, 2, 2, 2, 1, 1, 2, 4, 1]
+        },
+        "-MlOlBi1Ep9b2X7olx4b": {
+          "answers": [2, 2, 2, 2, 2, 1, 1, 1, 2, 7],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 2, 2, 1, 1, 1, 2, 7],
+          "submitAt": 1633593642238,
+          "suggestedOptions": [2, 2, 2, 2, 2, 1, 1, 1, 2, 7]
+        },
+        "-MlR0EaNBCNueECjXOrt": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633631402813,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlTP_g-_eN0pmWgTLEx": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 2, 3, 5],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 2, 3, 5],
+          "submitAt": 1633671596635,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 2, 3, 5]
+        },
+        "-MlTprkhWpeFezu-wn03": {
+          "answers": [1, 1, 2, 2, 2, 1, 1, 2, 5, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 2, 2, 1, 1, 2, 5, 1],
+          "submitAt": 1633678753107,
+          "suggestedOptions": [1, 1, 2, 2, 2, 1, 1, 2, 5, 1]
+        },
+        "-MlTx6VIqyhiWYCIB4UO": {
+          "answers": [1, 2, 1, 1, 2, 2, 1, 5, 3, 6],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 2, 2, 1, 5, 3, 6],
+          "submitAt": 1633680652399,
+          "suggestedOptions": [1, 2, 1, 1, 2, 2, 1, 5, 3, 6]
+        },
+        "-MlTxgYKKdiazseSrpcW": {
+          "answers": [1, 2, 2, 1, 2, 1, 2, 7, 6, 9],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 2, 1, 2, 7, 6, 9],
+          "submitAt": 1633680803990,
+          "suggestedOptions": [1, 2, 2, 1, 2, 1, 2, 7, 6, 9]
+        },
+        "-MlTyC36BS-gkCctehIg": {
+          "answers": [1, 2, 2, 2, 1, 1, 2, 2, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 1, 1, 2, 2, 2, 3],
+          "submitAt": 1633680937992,
+          "suggestedOptions": [1, 2, 2, 2, 1, 1, 2, 2, 2, 3]
+        },
+        "-MlUYd4lRJK4pNbKLESb": {
+          "answers": [2, 1, 1, 2, 2, 1, 1, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 2, 2, 1, 1, 2, 1, 3],
+          "submitAt": 1633690752508,
+          "suggestedOptions": [2, 1, 1, 2, 2, 1, 1, 2, 1, 3]
+        },
+        "-MlUZfPi9YTzyob6HPzG": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 5],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 1, 1, 1, 2, 1, 5],
+          "submitAt": 1633691024099,
+          "suggestedOptions": [1, 1, 1, 2, 1, 1, 1, 2, 1, 5]
+        },
+        "-MlUgufHMcHVHiX0JnES": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 1, 2, 5],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 5],
+          "submitAt": 1633693183169,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 5]
+        },
+        "-MlUh1OkASP6mXkoIsYU": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 1, 3, 9],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 1, 3, 9],
+          "submitAt": 1633693211022,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 1, 3, 9]
+        },
+        "-MlUkLRz1JB1mVlBSpvH": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 1, 2, 5],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 1, 2, 5],
+          "submitAt": 1633694083587,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 1, 2, 5]
+        },
+        "-MlVO4nmQ1XIFoC_le1V": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 2, 3, 8],
+          "feedback": "รัฐธรรมนูญควรกำหนดเพียงหลักการที่สำคัญและใช้ภาษาที่เข้าใจง่าย ส่วนรายละเอียดควรออกมาเป็นพระราชบัญญัติเพื่อไม่ให้รัฐธรรมนูญไม่ยาวเกินไปและสามารถแก้ไขรายละเอียดของเรื่องต่าง ๆ ได้ง่าย จะช่วยยืดอายุของรัฐธรรมนูญได้",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 2, 3, 8],
+          "submitAt": 1633704763883,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 2, 3, 8]
+        },
+        "-MlVXXvBv7yAznIN3OCM": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 3, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 2, 1, 1, 3, 1, 2],
+          "submitAt": 1633707241727,
+          "suggestedOptions": [1, 1, 1, 2, 2, 1, 1, 3, 1, 2]
+        },
+        "-MlVkTpA632KurAKbmV5": {
+          "answers": [1, 2, 1, 2, 1, 1, 1, 1, 2, 5],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 1, 1, 1, 1, 2, 5],
+          "submitAt": 1633710894173,
+          "suggestedOptions": [1, 2, 1, 2, 1, 1, 1, 1, 2, 5]
+        },
+        "-MlZFwCIans3Trnt1t6U": {
+          "answers": [1, 2, 1, 2, 2, 1, 1, 7, 8, 1],
+          "feedback": "รัฐะรรมนูญต้องส่งเสริมรากฐานประชาธิปไตย นั่นก็คือ สิทธิและเสรีภาพ และความร่วมมือของประชาชน",
+          "finalOptions": [1, 2, 1, 2, 2, 1, 1, 7, 8, 1],
+          "submitAt": 1633769736446,
+          "suggestedOptions": [1, 2, 1, 2, 2, 1, 1, 7, 8, 1]
+        },
+        "-MlaW0wZLZA7Y1Dpdyp1": {
+          "answers": [1, 2, 2, 2, 2, 1, 1, 7, 2, 8],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 7, 2, 8],
+          "submitAt": 1633807504494,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 7, 2, 8]
+        }
+      },
+      {
+        "-Ml9VsJ0QZGRe_FVaPfU": {
+          "answers": [1, 2, 2, 3, 1, 2, 2, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 3, 1, 2, 2, 2, 4, 1],
+          "submitAt": 1633337706129,
+          "suggestedOptions": [1, 2, 2, 3, 1, 2, 2, 2, 4, 1]
+        },
+        "-Ml9Vye0a5le80GfDsFK": {
+          "answers": [1, 2, 3, 3, 2, 3, 2, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 3, 2, 3, 2, 2, 1, 2],
+          "submitAt": 1633337732800,
+          "suggestedOptions": [1, 2, 3, 3, 2, 3, 2, 2, 1, 2]
+        },
+        "-Ml9WsApybxeu0p7FSEb": {
+          "answers": [1, 2, 2, 2, 2, 4, 4, 1, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 4, 4, 1, 4, 1],
+          "submitAt": 1633337965812,
+          "suggestedOptions": [1, 2, 2, 2, 2, 4, 4, 1, 4, 1]
+        },
+        "-Ml9e8Ek0eyDYe9qZlGE": {
+          "answers": [2, 2, 2, 2, 3, 3, 2, 2, 4, 1],
+          "feedback": "แยกอำนาจรัฐบาลกลางกับรัฐบาลท้องถิ่นให้ชัดเจน",
+          "finalOptions": [2, 2, 2, 2, 3, 3, 2, 2, 4, 1],
+          "submitAt": 1633340134884,
+          "suggestedOptions": [2, 2, 2, 2, 3, 3, 2, 2, 4, 1]
+        },
+        "-Ml9r4X6ZsTKcd5SmaoY": {
+          "answers": [2, 1, 2, 1, 4, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 2, 1, 4, 1, 1, 1, 1, 1],
+          "submitAt": 1633343526662,
+          "suggestedOptions": [2, 1, 2, 1, 4, 1, 1, 1, 1, 1]
+        },
+        "-MlA-aPCyMuhaT1RjB8T": {
+          "answers": [1, 1, 2, 2, 2, 2, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 2, 2, 2, 1, 2, 1, 1],
+          "submitAt": 1633346021382,
+          "suggestedOptions": [1, 1, 2, 2, 2, 2, 1, 2, 1, 1]
+        },
+        "-MlAIYssxNcu3QjHJ-HA": {
+          "answers": [1, 4, 1, 3, 2, 1, 5, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 4, 1, 3, 2, 1, 5, 2, 4, 1],
+          "submitAt": 1633350991472,
+          "suggestedOptions": [1, 4, 1, 3, 2, 1, 5, 2, 4, 1]
+        },
+        "-MlARLDq-GKyWh0ftz_m": {
+          "answers": [1, 3, 3, 3, 2, 3, 1, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 3, 2, 3, 1, 1, 2, 1],
+          "submitAt": 1633353295172,
+          "suggestedOptions": [1, 3, 3, 3, 2, 3, 1, 1, 2, 1]
+        },
+        "-MlAS4-ypyZxDEDgx7Ef": {
+          "answers": [1, 2, 1, 1, 4, 1, 3, 1, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 4, 3, 3, 1, 4, 1],
+          "submitAt": 1633353489496,
+          "suggestedOptions": [1, 2, 1, 1, 4, 1, 3, 1, 4, 1]
+        },
+        "-MlATbjM066fbimPcy17": {
+          "answers": [1, 2, 1, 1, 3, 4, 2, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 3, 4, 2, 1, 1, 1],
+          "submitAt": 1633353891750,
+          "suggestedOptions": [1, 2, 1, 1, 3, 4, 2, 1, 1, 1]
+        },
+        "-MlAU3MhvhwbIuFwSe-5": {
+          "answers": [2, 2, 2, 2, 2, 1, 3, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 2, 2, 3, 3, 2, 2, 1],
+          "submitAt": 1633354009350,
+          "suggestedOptions": [2, 2, 2, 2, 2, 1, 3, 2, 2, 1]
+        },
+        "-MlAVx_GDzihMFO3HZBk": {
+          "answers": [1, 4, 3, 1, 2, 3, 3, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 4, 3, 1, 2, 3, 3, 1, 2, 1],
+          "submitAt": 1633354505814,
+          "suggestedOptions": [1, 4, 3, 1, 2, 3, 3, 1, 2, 1]
+        },
+        "-MlAXdiXVj3m-9IngZXv": {
+          "answers": [1, 2, 3, 3, 1, 2, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 3, 1, 2, 1, 2, 1, 1],
+          "submitAt": 1633354948207,
+          "suggestedOptions": [1, 2, 3, 3, 1, 2, 1, 2, 1, 1]
+        },
+        "-MlAYDa8TSgwCB2EpH9O": {
+          "answers": [2, 1, 2, 1, 4, 3, 1, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 2, 1, 4, 3, 1, 2, 4, 1],
+          "submitAt": 1633355099582,
+          "suggestedOptions": [2, 1, 2, 1, 4, 3, 1, 2, 4, 1]
+        },
+        "-MlAZ-u7CBFc6_MhyjO7": {
+          "answers": [1, 3, 3, 3, 2, 3, 2, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 3, 2, 3, 2, 2, 1, 1],
+          "submitAt": 1633355305021,
+          "suggestedOptions": [1, 3, 3, 3, 2, 3, 2, 2, 1, 1]
+        },
+        "-MlAZb8GYrAhsPiBDZHx": {
+          "answers": [1, 2, 2, 2, 2, 5, 4, 1, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 5, 4, 1, 4, 1],
+          "submitAt": 1633355461308,
+          "suggestedOptions": [1, 2, 2, 2, 2, 5, 4, 1, 4, 1]
+        },
+        "-MlAaEetM5QuKRKEEGKE": {
+          "answers": [1, 1, 1, 1, 1, 3, 3, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 3, 3, 2, 4, 1],
+          "submitAt": 1633355894212,
+          "suggestedOptions": [1, 1, 1, 1, 1, 3, 3, 2, 4, 1]
+        },
+        "-MlAdAFWbHbFMcH_SA9N": {
+          "answers": [1, 2, 3, 3, 2, 3, 4, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 3, 3, 2, 3, 4, 2, 4, 1],
+          "submitAt": 1633356657842,
+          "suggestedOptions": [1, 2, 3, 3, 2, 3, 4, 2, 4, 1]
+        },
+        "-MlAdbrgRM-y0JQrWT23": {
+          "answers": [1, 4, 3, 1, 1, 1, 1, 2, 3, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 1, 1, 2, 1, 2, 3, 1],
+          "submitAt": 1633356775366,
+          "suggestedOptions": [1, 4, 3, 1, 1, 1, 1, 2, 3, 1]
+        },
+        "-MlAfsqhkt7IGvWf9kob": {
+          "answers": [1, 1, 2, 1, 2, 5, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 1, 2, 5, 1, 1, 1, 1],
+          "submitAt": 1633357370156,
+          "suggestedOptions": [1, 1, 2, 1, 2, 5, 1, 1, 1, 1]
+        },
+        "-MlAgDWr4y9m4x0TzZPZ": {
+          "answers": [2, 3, 3, 3, 2, 3, 2, 1, 4, 1],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 3, 2, 3, 2, 1, 4, 1],
+          "submitAt": 1633357457571,
+          "suggestedOptions": [2, 3, 3, 3, 2, 3, 2, 1, 4, 1]
+        },
+        "-MlAgsiM2UAbMKNhSBpJ": {
+          "answers": [1, 3, 3, 3, 2, 2, 2, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 3, 2, 2, 2, 2, 2, 1],
+          "submitAt": 1633357207274,
+          "suggestedOptions": [1, 3, 3, 3, 2, 2, 2, 2, 2, 1]
+        },
+        "-MlAhIDvq3-5PvreNRr6": {
+          "answers": [2, 2, 3, 2, 4, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 4, 1, 1, 2, 1, 1],
+          "submitAt": 1633357739220,
+          "suggestedOptions": [2, 2, 3, 2, 4, 1, 1, 2, 1, 1]
+        },
+        "-MlAm3KzqGnVz5GxmONX": {
+          "answers": [1, 2, 2, 3, 2, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 3, 2, 1, 1, 2, 1, 1],
+          "submitAt": 1633358988143,
+          "suggestedOptions": [1, 2, 2, 3, 2, 1, 1, 2, 1, 1]
+        },
+        "-MlArGY7Btmt2EOrRJRO": {
+          "answers": [1, 1, 3, 2, 2, 4, 2, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 3, 2, 2, 4, 2, 2, 4, 1],
+          "submitAt": 1633360355056,
+          "suggestedOptions": [1, 1, 3, 2, 2, 4, 2, 2, 4, 1]
+        },
+        "-MlAryxuP4LbmzinPHCe": {
+          "answers": [2, 2, 2, 2, 4, 5, 2, 1, 4, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 2, 4, 5, 2, 1, 4, 1],
+          "submitAt": 1633360549871,
+          "suggestedOptions": [2, 2, 2, 2, 4, 5, 2, 1, 4, 1]
+        },
+        "-MlBKUWk2cE3rugRqaEt": {
+          "answers": [1, 2, 1, 3, 4, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 3, 2, 1, 1, 1, 1, 1],
+          "submitAt": 1633368275764,
+          "suggestedOptions": [1, 2, 1, 3, 4, 1, 1, 1, 1, 1]
+        },
+        "-MlD5IYc7MtqObpVrkfE": {
+          "answers": [1, 2, 1, 2, 2, 2, 2, 1, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 2, 2, 2, 2, 1, 4, 1],
+          "submitAt": 1633397848388,
+          "suggestedOptions": [1, 2, 1, 2, 2, 2, 2, 1, 4, 1]
+        },
+        "-MlD6SW1cOtuPedKsPzw": {
+          "answers": [1, 3, 1, 3, 3, 2, 1, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 3, 3, 2, 1, 2, 4, 1],
+          "submitAt": 1633398151353,
+          "suggestedOptions": [1, 3, 1, 3, 3, 2, 1, 2, 4, 1]
+        },
+        "-MlDJtRNB0bVbpfptpKq": {
+          "answers": [1, 1, 2, 2, 4, 3, 1, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 2, 4, 2, 1, 1, 2, 1],
+          "submitAt": 1633401674019,
+          "suggestedOptions": [1, 1, 2, 2, 4, 3, 1, 1, 2, 1]
+        },
+        "-MlEcuQQ-P0K4DcC8ipZ": {
+          "answers": [2, 2, 3, 3, 3, 3, 2, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 3, 3, 3, 2, 2, 4, 1],
+          "submitAt": 1633423698971,
+          "suggestedOptions": [2, 2, 3, 3, 3, 3, 2, 2, 4, 1]
+        },
+        "-MlEi-L_JICYEd_MZvTE": {
+          "answers": [2, 2, 2, 1, 2, 5, 3, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 1, 2, 5, 3, 2, 4, 1],
+          "submitAt": 1633424892479,
+          "suggestedOptions": [2, 2, 2, 1, 2, 5, 3, 2, 4, 1]
+        },
+        "-MlEoNJZYK8hUHbTSP0E": {
+          "answers": [2, 1, 2, 2, 4, 3, 2, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 2, 2, 4, 3, 2, 2, 4, 1],
+          "submitAt": 1633426703894,
+          "suggestedOptions": [2, 1, 2, 2, 4, 3, 2, 2, 4, 1]
+        },
+        "-MlEqtgtyMvmHIVNFZax": {
+          "answers": [1, 2, 3, 3, 2, 2, 2, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 3, 2, 2, 2, 1, 2, 1],
+          "submitAt": 1633427365064,
+          "suggestedOptions": [1, 2, 3, 3, 2, 2, 2, 1, 2, 1]
+        },
+        "-MlFleTufWV1Y1iQ2cLZ": {
+          "answers": [2, 1, 2, 2, 4, 3, 1, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 2, 2, 4, 3, 1, 2, 4, 1],
+          "submitAt": 1633442769473,
+          "suggestedOptions": [2, 1, 2, 2, 4, 3, 1, 2, 4, 1]
+        },
+        "-MlJAot8vllyV-CIXV2U": {
+          "answers": [1, 2, 3, 2, 2, 4, 2, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 4, 2, 2, 4, 1],
+          "submitAt": 1633499952573,
+          "suggestedOptions": [1, 2, 3, 2, 2, 4, 2, 2, 4, 1]
+        },
+        "-MlJM7LMVTXcrxZAYV9S": {
+          "answers": [1, 4, 1, 3, 1, 5, 3, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 4, 1, 3, 1, 5, 3, 2, 4, 1],
+          "submitAt": 1633502922838,
+          "suggestedOptions": [1, 4, 1, 3, 1, 5, 3, 2, 4, 1]
+        },
+        "-MlKULWP8Xu-ARrAbxsW": {
+          "answers": [1, 2, 1, 1, 1, 3, 3, 1, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 3, 3, 1, 4, 1],
+          "submitAt": 1633521854893,
+          "suggestedOptions": [1, 2, 1, 1, 1, 3, 3, 1, 4, 1]
+        },
+        "-MlL72HDMSdP_5FBvHvE": {
+          "answers": [1, 4, 3, 3, 3, 1, 1, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 4, 3, 3, 3, 1, 1, 2, 4, 1],
+          "submitAt": 1633532514094,
+          "suggestedOptions": [1, 4, 3, 3, 3, 1, 1, 2, 4, 1]
+        },
+        "-MlLHpSYi8qq21664_MD": {
+          "answers": [1, 4, 1, 3, 1, 3, 3, 1, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 4, 1, 3, 1, 3, 3, 1, 4, 1],
+          "submitAt": 1633535351847,
+          "suggestedOptions": [1, 4, 1, 3, 1, 3, 3, 1, 4, 1]
+        },
+        "-MlNuOsPpyBlYWn6RoEZ": {
+          "answers": [1, 2, 1, 1, 1, 3, 5, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 3, 5, 2, 1, 1],
+          "submitAt": 1633579278483,
+          "suggestedOptions": [1, 2, 1, 1, 1, 3, 5, 2, 1, 1]
+        },
+        "-MlOmUA9mSelxItkjZsm": {
+          "answers": [1, 2, 3, 3, 1, 3, 5, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 3, 1, 3, 5, 2, 4, 1],
+          "submitAt": 1633593982163,
+          "suggestedOptions": [1, 2, 3, 3, 1, 3, 5, 2, 4, 1]
+        },
+        "-MlR0sr1759k18nAtMMc": {
+          "answers": [1, 4, 1, 2, 1, 3, 3, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 4, 1, 2, 1, 3, 3, 2, 4, 1],
+          "submitAt": 1633631571796,
+          "suggestedOptions": [1, 4, 1, 2, 1, 3, 3, 2, 4, 1]
+        },
+        "-MlThcvEyB3ilUAjL0ig": {
+          "answers": [1, 4, 3, 3, 2, 1, 1, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 3, 2, 1, 1, 2, 4, 1],
+          "submitAt": 1633676596008,
+          "suggestedOptions": [1, 4, 3, 3, 2, 1, 1, 2, 4, 1]
+        },
+        "-MlTqFHk6oWD_BHrA90p": {
+          "answers": [1, 2, 1, 1, 1, 3, 3, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 3, 3, 1, 1, 1],
+          "submitAt": 1633678853459,
+          "suggestedOptions": [1, 2, 1, 1, 1, 3, 3, 1, 1, 1]
+        },
+        "-MlU_gHKss4atNh_Aw9k": {
+          "answers": [1, 4, 1, 1, 1, 3, 3, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 4, 1, 1, 1, 3, 3, 1, 2, 1],
+          "submitAt": 1633691289953,
+          "suggestedOptions": [1, 4, 1, 1, 1, 3, 3, 1, 2, 1]
+        },
+        "-MlUhmVhyXHLwHZQiSZD": {
+          "answers": [2, 2, 2, 2, 4, 5, 2, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 2, 4, 5, 2, 1, 1, 1],
+          "submitAt": 1633693411807,
+          "suggestedOptions": [2, 2, 2, 2, 4, 5, 2, 1, 1, 1]
+        },
+        "-MlVXtwmuhhKLJCvrXTg": {
+          "answers": [1, 4, 1, 3, 1, 3, 3, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 4, 1, 3, 1, 3, 3, 1, 1, 1],
+          "submitAt": 1633707335902,
+          "suggestedOptions": [1, 4, 1, 3, 1, 3, 3, 1, 1, 1]
+        },
+        "-MlVZczbOih6Vc9LPEy4": {
+          "answers": [2, 1, 2, 2, 2, 2, 2, 1, 4, 1],
+          "feedback": "รัฐธรรมนูญควรมีเนื้อหาที่เข้าใจง่ายและไม่ยาวจนเกินไป รายละเอียดควรตราออกมาเป็นพระราชบัญญัติเพื่อให้สามารถแก้ไขได้ง่ายและเป็นการยืดอายุรัฐธรรมนูญ",
+          "finalOptions": [2, 1, 2, 2, 2, 2, 2, 1, 4, 1],
+          "submitAt": 1633707791233,
+          "suggestedOptions": [2, 1, 2, 2, 2, 2, 2, 1, 4, 1]
+        },
+        "-MlVgbj0Bd-kc5Z4FndX": {
+          "answers": [1, 2, 2, 3, 4, 1, 1, 1, 3, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 3, 4, 1, 1, 1, 3, 1],
+          "submitAt": 1633709882409,
+          "suggestedOptions": [1, 2, 2, 3, 4, 1, 1, 1, 3, 1]
+        },
+        "-MlVmfNDJrjkEml4kcXi": {
+          "answers": [2, 2, 2, 3, 4, 5, 3, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 3, 4, 5, 3, 2, 4, 1],
+          "submitAt": 1633711469740,
+          "suggestedOptions": [2, 2, 2, 3, 4, 5, 3, 2, 4, 1]
+        },
+        "-MlZKkf7GCYucj8CCZPx": {
+          "answers": [2, 1, 2, 2, 2, 5, 3, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 2, 2, 2, 5, 3, 2, 2, 1],
+          "submitAt": 1633770998517,
+          "suggestedOptions": [2, 1, 2, 2, 2, 5, 3, 2, 2, 1]
+        },
+        "-MlaT7NvouyjkbQ5vAD5": {
+          "answers": [2, 2, 3, 2, 2, 3, 3, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 3, 2, 2, 3, 3, 2, 4, 1],
+          "submitAt": 1633806747546,
+          "suggestedOptions": [2, 2, 3, 2, 2, 3, 3, 2, 4, 1]
+        }
+      },
+      {
+        "-Ml9XOr6V8O5uVKe5Jxe": {
+          "answers": [2, 1, 1, 1, 2, 2, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 2, 2, 3, 2, 1, 1],
+          "submitAt": 1633338106304,
+          "suggestedOptions": [2, 1, 1, 1, 2, 2, 3, 2, 1, 1]
+        },
+        "-Ml9eDqA9X_J-Sa6n9p4": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 2, 1, 1, 1, 2, 1, 1],
+          "submitAt": 1633340158909,
+          "suggestedOptions": [1, 1, 1, 2, 1, 1, 1, 2, 1, 1]
+        },
+        "-Ml9eoSurD6HjiRF1UD-": {
+          "answers": [2, 1, 1, 1, 1, 1, 3, 1, 1, 1],
+          "feedback": "กกต.ไม่มีก็ได้ให้ใช้แบบเยอรมันกับฝระ่งเศสที่มาจากหน่วยงสนที่แยกขาดกัน",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 3, 1, 1, 1],
+          "submitAt": 1633340311937,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 3, 1, 1, 1]
+        },
+        "-MlA0BOsRzTf52CiOiqH": {
+          "answers": [2, 1, 1, 1, 1, 2, 3, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 3, 1, 1, 1],
+          "submitAt": 1633346177117,
+          "suggestedOptions": [2, 1, 1, 1, 1, 2, 3, 1, 1, 1]
+        },
+        "-MlARxXHHTMDsnLp-uB5": {
+          "answers": [2, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1633353456139,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "-MlASVxWTLyi2ioVWmrD": {
+          "answers": [1, 1, 1, 1, 1, 1, 2, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 2, 1, 1, 1],
+          "submitAt": 1633353602626,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 2, 1, 1, 1]
+        },
+        "-MlAU0lplwCFtA-EuY7p": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 2, 2, 1],
+          "submitAt": 1633353998295,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 2, 2, 1]
+        },
+        "-MlAUeuZtCVlMfDM7YNY": {
+          "answers": [2, 1, 1, 1, 1, 1, 3, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 3, 1, 1, 1],
+          "submitAt": 1633354167147,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 3, 1, 1, 1]
+        },
+        "-MlAXYMC9Knk-6jw7P6R": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 3, 2, 2, 1],
+          "submitAt": 1633354922718,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 3, 2, 2, 1]
+        },
+        "-MlAYlC3nanpApqjcEQ_": {
+          "answers": [2, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "submitAt": 1633355240757,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 3, 2, 1, 1]
+        },
+        "-MlAZPd3_M_rg4HsYg-R": {
+          "answers": [1, 1, 1, 2, 2, 1, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 2, 1, 3, 2, 1, 1],
+          "submitAt": 1633355410719,
+          "suggestedOptions": [1, 1, 1, 2, 2, 1, 3, 2, 1, 1]
+        },
+        "-MlAbBKThBw5TXFQBf2S": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "submitAt": 1633356145563,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1]
+        },
+        "-MlAc6giwlgq9UKMSQ_c": {
+          "answers": [2, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "submitAt": 1633356386003,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 1, 2, 1, 1]
+        },
+        "-MlAcbiRXDeLQUHwjLi5": {
+          "answers": [2, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "submitAt": 1633356512192,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 1, 2, 1, 1]
+        },
+        "-MlAdiebLbixn3i4rNLp": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 3, 2, 2, 1],
+          "submitAt": 1633356802893,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 3, 2, 2, 1]
+        },
+        "-MlAhk1ApayoS4CmSmlx": {
+          "answers": [2, 1, 2, 2, 1, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 2, 2, 1, 1, 1, 2, 1, 1],
+          "submitAt": 1633357857146,
+          "suggestedOptions": [2, 1, 2, 2, 1, 1, 1, 2, 1, 1]
+        },
+        "-MlAiaaPI20ZPG_wfnV5": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "submitAt": 1633358081295,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1]
+        },
+        "-MlAme99UHPgaUvoyqSj": {
+          "answers": [2, 2, 2, 2, 1, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 2, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1633359143001,
+          "suggestedOptions": [2, 2, 2, 2, 1, 1, 1, 1, 1, 1]
+        },
+        "-MlAreYSW8CGiLdwExC1": {
+          "answers": [2, 1, 1, 1, 1, 1, 4, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 4, 2, 1, 1],
+          "submitAt": 1633360032796,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 4, 2, 1, 1]
+        },
+        "-MlAsXtiakBpuI70AAIg": {
+          "answers": [1, 1, 2, 2, 2, 2, 1, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 2, 2, 2, 1, 2, 2, 1],
+          "submitAt": 1633360698809,
+          "suggestedOptions": [1, 1, 2, 2, 2, 2, 1, 2, 2, 1]
+        },
+        "-MlAuAkwra1e0m-zHsW0": {
+          "answers": [1, 2, 2, 2, 2, 1, 3, 1, 1, 1],
+          "feedback": "ควรกำหนดว่าหากกกต.จัดการเลือกตั้งไม่ได้ ให้กระทรวงมหาดไทยจัดแทนได้",
+          "finalOptions": [1, 1, 2, 2, 2, 1, 3, 1, 1, 1],
+          "submitAt": 1633361117887,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 3, 1, 1, 1]
+        },
+        "-MlBALAoBU8OY7FGmqQ4": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "feedback": "ในตัวเลือกที่มีเกี่ยวกับ ส.ว. อาจจะต้องระบุให้ชัดว่าหมายถึง ส.ว. ในปัจจุปัน หรือหมายถึง ส.ว. ที่ไม่ใช่การแต่งตั้งแบบตอนนี้ ",
+          "finalOptions": [1, 2, 1, 1, 1, 1, 3, 2, 1, 1],
+          "submitAt": 1633365616959,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1]
+        },
+        "-MlBCA2eAQ3NlBHNmaC4": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "submitAt": 1633366094776,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 2, 1, 1]
+        },
+        "-MlBL1gIjxZvr0eFXZLS": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "submitAt": 1633368419595,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1]
+        },
+        "-MlD6b3VdQ8RjJ9FrBZu": {
+          "answers": [2, 2, 2, 2, 2, 2, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 2, 1, 1, 2, 1, 2, 1, 1],
+          "submitAt": 1633398190466,
+          "suggestedOptions": [2, 2, 2, 2, 2, 2, 1, 2, 1, 1]
+        },
+        "-MlD9VqSNJvX5WHkAI0C": {
+          "answers": [1, 1, 1, 1, 1, 1, 4, 3, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 3, 2, 1],
+          "submitAt": 1633398951428,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 4, 3, 2, 1]
+        },
+        "-MlDeIVmanQPCxyph8jo": {
+          "answers": [2, 1, 2, 2, 2, 2, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 2, 2, 2, 2, 1, 1, 1, 1],
+          "submitAt": 1633407287911,
+          "suggestedOptions": [2, 1, 2, 2, 2, 2, 1, 1, 1, 1]
+        },
+        "-MlEjeD85tpG_W0LiCZA": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "submitAt": 1633425466546,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 2, 1, 1]
+        },
+        "-MlEjmTRDvU86fmOlrH1": {
+          "answers": [1, 1, 1, 1, 1, 2, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 3, 2, 1, 1],
+          "submitAt": 1633425359950,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 3, 2, 1, 1]
+        },
+        "-MlEqamp62CqfWwZBInB": {
+          "answers": [2, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "submitAt": 1633427289723,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 3, 2, 1, 1]
+        },
+        "-MlFlpzmBGqGvvHxo6Wu": {
+          "answers": [2, 1, 1, 1, 1, 1, 3, 3, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 3, 3, 1, 1],
+          "submitAt": 1633442816435,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 3, 3, 1, 1]
+        },
+        "-MlJMaetnm2xbduaKJLt": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "submitAt": 1633503047003,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1]
+        },
+        "-MlJQoT81CSSdFUCJt_g": {
+          "answers": [2, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "submitAt": 1633504153865,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 3, 2, 1, 1]
+        },
+        "-MlKV5JAmqkKpawSoCrx": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 3, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 3, 3, 1, 2],
+          "submitAt": 1633522050876,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 3, 3, 1, 2]
+        },
+        "-MlL6rgMFx94RETMb3Ty": {
+          "answers": [1, 1, 1, 1, 1, 1, 2, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 2, 2, 1, 1],
+          "submitAt": 1633532466669,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+        },
+        "-MlLImDXnKIC6m4dwFm_": {
+          "answers": [1, 1, 1, 1, 2, 2, 3, 3, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 2, 3, 3, 1, 1],
+          "submitAt": 1633535600601,
+          "suggestedOptions": [1, 1, 1, 1, 2, 2, 3, 3, 1, 1]
+        },
+        "-MlNuv09VMSwNYbu-tfS": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1633579413916,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "-MlOn-Z_p3s4xIas0yNE": {
+          "answers": [1, 1, 1, 1, 2, 2, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 2, 3, 2, 1, 1],
+          "submitAt": 1633594117914,
+          "suggestedOptions": [1, 1, 1, 1, 2, 2, 3, 2, 1, 1]
+        },
+        "-MlTjZo2Ue0TRFxwjyzB": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1633677102874,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 2, 1, 1]
+        },
+        "-MlUannHkG887kNbVnGy": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1],
+          "submitAt": 1633691582671,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 3, 2, 1, 1]
+        },
+        "-MlUedoB0YgBH2pmtTi_": {
+          "answers": [1, 1, 1, 1, 2, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 1, 1, 2, 1, 1],
+          "submitAt": 1633692589881,
+          "suggestedOptions": [1, 1, 1, 1, 2, 1, 1, 2, 1, 1]
+        },
+        "-MlVSmX3Y9sY7j4y5Nhm": {
+          "answers": [1, 1, 2, 2, 2, 2, 1, 2, 1, 1],
+          "feedback": "องค์กรที่จะต้องตีความบทบัญญัติกฎหมายที่เกี่ยวข้องกับการเมืองควรเป็นองค์กรที่มีความรู้ทางกฎหมายและเป็นที่ยอมรับของฝ่ายต่าง ๆ ในทางการเมือง จึงควรมีศาลรัฐธรรมนูญที่เป็นองค์กรกึ่งตุลการกึ่งการเมือง ไม่ควรยกให้เป็นอำนาจของศาลยุติธรรมเพราะจะทำให้องค์กรตุลาการมีความเกี่ยวข้อรื่องทางการ",
+          "finalOptions": [1, 1, 2, 2, 2, 2, 1, 2, 1, 1],
+          "submitAt": 1633705995323,
+          "suggestedOptions": [1, 1, 2, 2, 2, 2, 1, 2, 1, 1]
+        },
+        "-MlVnlVQu1x3S8qyszyn": {
+          "answers": [2, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 1, 2, 1, 1],
+          "submitAt": 1633711756965,
+          "suggestedOptions": [2, 1, 1, 1, 1, 1, 1, 2, 1, 1]
+        },
+        "-MlZIKKFhYUo3b0X9bjY": {
+          "answers": [1, 1, 1, 1, 1, 1, 4, 3, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 4, 3, 1, 1],
+          "submitAt": 1633770363578,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 4, 3, 1, 1]
+        }
+      },
+      {
+        "-Ml9YHnegJ39ungD1ox6": {
+          "answers": [1, 1, 1, 3, 1, 1, 2, 1, 1, 4],
+          "feedback": "ระบบเลือกตั้ง จะต้องสะท้อนเสียงเเละเจตนารมณ์ของคนเลือก",
+          "finalOptions": [1, 3, 1, 1, 2, 1, 1, 4],
+          "submitAt": 1633338338960,
+          "suggestedOptions": [1, 3, 1, 1, 2, 1, 1, 4]
+        },
+        "-Ml9YhRRECVOW_9dkMB-": {
+          "answers": [1, 1, 1, 3, 1, 2, 1, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 2, 1, 1, 1, 4],
+          "submitAt": 1633338448645,
+          "suggestedOptions": [1, 3, 1, 2, 1, 1, 1, 4]
+        },
+        "-Ml9fUY4p5nrAAqs7PgS": {
+          "answers": [2, 2, 2, 3, 2, 1, 1, 1, 1, 2],
+          "feedback": "การเปลี่ยนผ่านจากระบอบเผด็จการโดยเป็นรัฐบาลผสมไม่อาจสร้างเสถียรภาพในสารบบการเมืองไทยได้จึงควรเป็นแบบพรรคใหญ่ก่อนค่อยปรับภายหลัง(ระบบเลือกตั้งให้อยู่ในพรปแทน)",
+          "finalOptions": [2, 3, 2, 1, 1, 1, 1, 2],
+          "submitAt": 1633340488278,
+          "suggestedOptions": [2, 3, 2, 1, 1, 1, 1, 2]
+        },
+        "-Ml9kWt--mwstugYIJwQ": {
+          "answers": [2, 2, 2, 3, 1, 1, 1, 1, 1, 2],
+          "feedback": "ระบบMMP ในเยอรมันไม่ใช่มันจะใช้ง่ายๆ เพราะเยอรมันเป็นระบบสหพันธ์ ที่รัฐบาลกลางจะทำอะไรก็ต้องไปถามรัฐบาลภูมิภาคก่อน มันจึงไม่เหมาะสมกับไทย หรือถ้าหากใช้MMPก็ควรกำหนด%ขั้นต่ำไง้ที่5% ไม่งั้นจะได้รัฐบาลผสมที่ไม่มีเสถียรภาพเลยเหมือนเยอรมันยุคสาธารณรัฐไวมาร์",
+          "finalOptions": [2, 3, 1, 1, 1, 1, 1, 2],
+          "submitAt": 1633341809340,
+          "suggestedOptions": [2, 3, 1, 1, 1, 1, 1, 2]
+        },
+        "-Ml9rP6TFunYOKWItUJc": {
+          "answers": [2, 1, 2, 3, 2, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [2, 3, 2, 1, 1, 1, 2, 3],
+          "submitAt": 1633343610736,
+          "suggestedOptions": [2, 3, 2, 1, 1, 1, 2, 3]
+        },
+        "-MlA0jV-JS9C2WR9hkpi": {
+          "answers": [1, 1, 2, 3, 1, 1, 2, 1, 2, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 1, 2, 1, 2, 4],
+          "submitAt": 1633346320780,
+          "suggestedOptions": [1, 3, 1, 1, 2, 1, 2, 4]
+        },
+        "-MlAShYf93tmn5_QaC2F": {
+          "answers": [1, 1, 1, 3, 1, 1, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 1, 2, 1, 1, 4],
+          "submitAt": 1633353652817,
+          "suggestedOptions": [1, 3, 1, 1, 2, 1, 1, 4]
+        },
+        "-MlAUPQgTpSPbh1Fw8_O": {
+          "answers": [2, 1, 1, 3, 4, 1, 1, 2, 2, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 4, 1, 1, 2, 2, 4],
+          "submitAt": 1633354099278,
+          "suggestedOptions": [1, 3, 4, 1, 1, 2, 2, 4]
+        },
+        "-MlAVbjv7rnp90--iqvT": {
+          "answers": [1, 1, 2, 3, 1, 1, 1, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 1, 1, 1, 1, 4],
+          "submitAt": 1633354416401,
+          "suggestedOptions": [1, 3, 1, 1, 1, 1, 1, 4]
+        },
+        "-MlAX60vigEDrUcIy1Zw": {
+          "answers": [1, 1, 2, 3, 3, 1, 2, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 1, 2, 1, 1, 2],
+          "submitAt": 1633354805745,
+          "suggestedOptions": [1, 3, 3, 1, 2, 1, 1, 2]
+        },
+        "-MlAZE2TMAecAacHoQGf": {
+          "answers": [1, 1, 2, 3, 2, 2, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 2, 2, 1, 1, 4],
+          "submitAt": 1633355363428,
+          "suggestedOptions": [1, 3, 2, 2, 2, 1, 1, 4]
+        },
+        "-MlAZTFer-oIqYrq6mB4": {
+          "answers": [1, 1, 2, 3, 1, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 1, 1, 1, 2, 3],
+          "submitAt": 1633355425549,
+          "suggestedOptions": [1, 3, 1, 1, 1, 1, 2, 3]
+        },
+        "-MlAZyqG8mled48TCVsR": {
+          "answers": [2, 1, 1, 3, 3, 2, 2, 2, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 2, 2, 2, 1, 4],
+          "submitAt": 1633355558951,
+          "suggestedOptions": [1, 3, 3, 2, 2, 2, 1, 4]
+        },
+        "-MlA_91E3bSnA6bfb_3m": {
+          "answers": [1, 1, 2, 1, 1, 1, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 1, 1, 4],
+          "submitAt": 1633355605698,
+          "suggestedOptions": [1, 1, 1, 1, 2, 1, 1, 4]
+        },
+        "-MlA_nSQgSRaFOffJ-Jf": {
+          "answers": [1, 2, 1, 3, 1, 3, 2, 2, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 3, 2, 2, 1, 4],
+          "submitAt": 1633355774642,
+          "suggestedOptions": [1, 3, 1, 3, 2, 2, 1, 4]
+        },
+        "-MlAcG7ReKUjofqmmI0O": {
+          "answers": [1, 1, 2, 3, 2, 1, 2, 1, 2, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 1, 2, 1, 2, 4],
+          "submitAt": 1633356421496,
+          "suggestedOptions": [1, 3, 2, 1, 2, 1, 2, 4]
+        },
+        "-MlAdK4LShyro_KvE8JL": {
+          "answers": [1, 1, 1, 3, 1, 2, 2, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 2, 2, 2, 1, 2],
+          "submitAt": 1633356698273,
+          "suggestedOptions": [1, 3, 1, 2, 2, 2, 1, 2]
+        },
+        "-MlAgSbQOUuyOVR-e-VN": {
+          "answers": [1, 1, 2, 1, 1, 1, 2, 1, 1, 4],
+          "feedback": "ยกเลิกระบบเลือกสส.บัญชีรายชื่อ และสส.ไม่จำเป็นต้องสังกัดพรรคการเมือง",
+          "finalOptions": [1, 1, 1, 1, 2, 1, 1, 4],
+          "submitAt": 1633357520939,
+          "suggestedOptions": [1, 1, 1, 1, 2, 1, 1, 4]
+        },
+        "-MlAiPYS1rTh9gZnecaX": {
+          "answers": [1, 1, 1, 3, 3, 1, 1, 1, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 1, 1, 1, 1, 3],
+          "submitAt": 1633358031314,
+          "suggestedOptions": [1, 3, 3, 1, 1, 1, 1, 3]
+        },
+        "-MlAiXym3BuvSQhKUSiT": {
+          "answers": [2, 2, 2, 2, 1, 1, 1, 1, 2, 1],
+          "feedback": "เอา FPTP ไม่ก็ไม่ต้องเลือกตั้งไปเลย",
+          "finalOptions": [2, 2, 1, 1, 1, 1, 2, 1],
+          "submitAt": 1633358066737,
+          "suggestedOptions": [2, 2, 1, 1, 1, 1, 2, 1]
+        },
+        "-MlAjFXu5LtUWy30TzjO": {
+          "answers": [1, 1, 1, 3, 4, 1, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 4, 1, 2, 1, 1, 4],
+          "submitAt": 1633358252620,
+          "suggestedOptions": [1, 3, 4, 1, 2, 1, 1, 4]
+        },
+        "-MlAnjFGD3-tew8pbi-z": {
+          "answers": [1, 1, 1, 3, 3, 2, 1, 1, 1, 3],
+          "feedback": "อยากได้ MMP แบบส่งไปรษณีย์ได้",
+          "finalOptions": [1, 3, 3, 2, 1, 1, 1, 3],
+          "submitAt": 1633359426044,
+          "suggestedOptions": [1, 3, 3, 2, 1, 1, 1, 3]
+        },
+        "-MlAtS2pycJ1NyPnX53R": {
+          "answers": [1, 1, 2, 3, 3, 1, 1, 1, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 1, 1, 1, 1, 3],
+          "submitAt": 1633360936295,
+          "suggestedOptions": [1, 3, 3, 1, 1, 1, 1, 3]
+        },
+        "-MlAu6H7Tu7DVbnhktJB": {
+          "answers": [1, 1, 1, 2, 2, 2, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 4],
+          "submitAt": 1633361098132,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 4]
+        },
+        "-MlAu_NNftm1HylMejj-": {
+          "answers": [2, 2, 2, 3, 1, 1, 1, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 1, 1, 1, 2, 2, 2],
+          "submitAt": 1633361223523,
+          "suggestedOptions": [2, 3, 1, 1, 1, 2, 2, 2]
+        },
+        "-MlB5ZDGKQWf19zkPK9J": {
+          "answers": [1, 1, 2, 3, 3, 2, 2, 1, 2, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 2, 2, 1, 1, 4],
+          "submitAt": 1633364363737,
+          "suggestedOptions": [1, 3, 3, 2, 2, 1, 2, 4]
+        },
+        "-MlB74hRIaOrZ3K1IUvT": {
+          "answers": [1, 1, 2, 3, 4, 2, 1, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [2, 3, 4, 2, 1, 1, 1, 4],
+          "submitAt": 1633364338247,
+          "suggestedOptions": [1, 3, 4, 2, 1, 1, 1, 4]
+        },
+        "-MlBF1pvD6ePKvsjBL_Y": {
+          "answers": [1, 1, 1, 3, 1, 1, 1, 2, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 1, 1, 2, 1, 4],
+          "submitAt": 1633366847296,
+          "suggestedOptions": [1, 3, 1, 1, 1, 2, 1, 4]
+        },
+        "-MlBLs2iKqxHtczfhytc": {
+          "answers": [1, 1, 1, 3, 4, 1, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 4, 1, 2, 1, 1, 4],
+          "submitAt": 1633368638456,
+          "suggestedOptions": [1, 3, 4, 1, 2, 1, 1, 4]
+        },
+        "-MlD7tjORHc_2O2lCq5D": {
+          "answers": [1, 1, 1, 3, 4, 2, 2, 1, 2, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 4, 2, 2, 1, 2, 4],
+          "submitAt": 1633398529092,
+          "suggestedOptions": [1, 3, 4, 2, 2, 1, 2, 4]
+        },
+        "-MlDC4C0tOYfrITr29kh": {
+          "answers": [2, 2, 2, 3, 2, 1, 1, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 2, 1, 1, 1, 1, 2],
+          "submitAt": 1633399625213,
+          "suggestedOptions": [2, 3, 2, 1, 1, 1, 1, 2]
+        },
+        "-MlDKHmlajfsfBDoaEeK": {
+          "answers": [1, 1, 2, 3, 3, 1, 2, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 1, 2, 1, 2, 1],
+          "submitAt": 1633401777706,
+          "suggestedOptions": [1, 3, 3, 1, 2, 1, 2, 1]
+        },
+        "-MlEe0cAJNWmjza_Z0vk": {
+          "answers": [2, 1, 1, 3, 2, 1, 1, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [2, 3, 2, 1, 1, 1, 1, 3],
+          "submitAt": 1633423990496,
+          "suggestedOptions": [1, 3, 2, 1, 1, 2, 1, 3]
+        },
+        "-MlEl6LIy3RiRhhI_Alo": {
+          "answers": [1, 1, 1, 3, 3, 1, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 1, 2, 1, 1, 4],
+          "submitAt": 1633425848205,
+          "suggestedOptions": [1, 3, 3, 1, 2, 1, 1, 4]
+        },
+        "-MlEqj3UTbKI1ic1wHK-": {
+          "answers": [1, 1, 1, 3, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633427181048,
+          "suggestedOptions": [1, 3, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlErVClnmOIGiD7EiLu": {
+          "answers": [1, 1, 2, 3, 1, 1, 1, 1, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 1, 1, 1, 1, 3],
+          "submitAt": 1633427524172,
+          "suggestedOptions": [1, 3, 1, 1, 1, 1, 1, 3]
+        },
+        "-MlFm0Vx09C4r3FB0HeQ": {
+          "answers": [1, 1, 2, 3, 1, 1, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 1, 1, 1, 2, 3],
+          "submitAt": 1633442863544,
+          "suggestedOptions": [1, 3, 1, 1, 1, 1, 2, 3]
+        },
+        "-MlJNEb5ok4wdyDwT3CY": {
+          "answers": [1, 1, 2, 3, 1, 1, 2, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 1, 2, 2, 1, 1],
+          "submitAt": 1633503214479,
+          "suggestedOptions": [1, 3, 1, 1, 2, 2, 1, 1]
+        },
+        "-MlKVoS8K-212a794abe": {
+          "answers": [2, 1, 2, 3, 1, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 3, 1, 1, 1, 2, 1, 1],
+          "submitAt": 1633522239511,
+          "suggestedOptions": [2, 3, 1, 1, 1, 2, 1, 1]
+        },
+        "-MlKqArBYMiQ8NlXi02y": {
+          "answers": [1, 1, 2, 3, 1, 2, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 2, 2, 1, 1, 4],
+          "submitAt": 1633527841158,
+          "suggestedOptions": [1, 3, 1, 2, 2, 1, 1, 4]
+        },
+        "-MlL7Og5mWDQarRaiwlH": {
+          "answers": [2, 1, 1, 3, 3, 1, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 1, 2, 1, 1, 4],
+          "submitAt": 1633532605866,
+          "suggestedOptions": [1, 3, 3, 1, 2, 1, 1, 4]
+        },
+        "-MlLKWNPd5u8FPGz_IIm": {
+          "answers": [1, 2, 2, 3, 4, 1, 2, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 3, 4, 1, 2, 2, 2, 1],
+          "submitAt": 1633536055920,
+          "suggestedOptions": [2, 3, 4, 1, 2, 2, 2, 1]
+        },
+        "-MlNvVc3gDkaPeLl4-O9": {
+          "answers": [1, 1, 1, 3, 1, 3, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 3, 2, 1, 1, 4],
+          "submitAt": 1633579568042,
+          "suggestedOptions": [1, 3, 1, 3, 2, 1, 1, 4]
+        },
+        "-MlOnY8XWtothsn90IeJ": {
+          "answers": [2, 1, 1, 3, 1, 3, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 3, 2, 1, 1, 4],
+          "submitAt": 1633594258976,
+          "suggestedOptions": [1, 3, 1, 3, 2, 1, 1, 4]
+        },
+        "-MlTkXmuJsyu9d79zPdm": {
+          "answers": [1, 1, 2, 3, 4, 1, 2, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 4, 1, 2, 2, 1, 1],
+          "submitAt": 1633677357637,
+          "suggestedOptions": [1, 3, 4, 1, 2, 2, 1, 1]
+        },
+        "-MlTqw_eCqXSJgp2oapl": {
+          "answers": [1, 1, 1, 3, 3, 2, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 2, 2, 1, 1, 4],
+          "submitAt": 1633679034989,
+          "suggestedOptions": [1, 3, 3, 2, 2, 1, 1, 4]
+        },
+        "-MlUbZGyKDke3nZMSpyy": {
+          "answers": [1, 1, 1, 3, 4, 2, 2, 2, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 4, 2, 2, 2, 1, 4],
+          "submitAt": 1633691781184,
+          "suggestedOptions": [1, 3, 4, 2, 2, 2, 1, 4]
+        },
+        "-MlUfGPtgH3CwLbKJVBB": {
+          "answers": [1, 1, 1, 3, 3, 1, 1, 1, 2, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 1, 1, 1, 2, 4],
+          "submitAt": 1633692751994,
+          "suggestedOptions": [1, 3, 3, 1, 1, 1, 2, 4]
+        },
+        "-MlVQ2wScBTSYMC60XOU": {
+          "answers": [2, 1, 1, 3, 3, 1, 2, 1, 1, 4],
+          "feedback": "ควรใช้ระบบการเลือกตั้งแบบเยอรมนีเป็นต้นแบบเพื่อให้แต่ละพรรคได้จำนวนส.ส.ตามสัดส่วนที่ประชาชนต้องการ และควรเปิดโอกาสให้มีผู้สมัครอิสระได้",
+          "finalOptions": [1, 3, 3, 1, 2, 1, 1, 4],
+          "submitAt": 1633705280524,
+          "suggestedOptions": [1, 3, 3, 1, 2, 1, 1, 4]
+        },
+        "-MlVfejL5jQKAhk0F-48": {
+          "answers": [1, 1, 1, 3, 4, 2, 2, 1, 1, 4],
+          "feedback": "",
+          "finalOptions": [1, 3, 4, 2, 2, 1, 1, 4],
+          "submitAt": 1633709632722,
+          "suggestedOptions": [1, 3, 4, 2, 2, 1, 1, 4]
+        },
+        "-MlVpIGwMp8R8QQflvFP": {
+          "answers": [1, 1, 2, 3, 4, 1, 1, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 4, 1, 1, 1, 1, 2],
+          "submitAt": 1633712157512,
+          "suggestedOptions": [1, 3, 4, 1, 1, 1, 1, 2]
+        }
+      },
+      {
+        "-Ml9TsCD3GnoHcfIfOVH": {
+          "answers": [1, 1, 1, 2, 1, 1, 3, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 3, 2, 1, 3],
+          "submitAt": 1633337181640,
+          "suggestedOptions": [1, 2, 1, 1, 3, 2, 1, 3]
+        },
+        "-Ml9_Jik3dOcx6T4jBpH": {
+          "answers": [1, 1, 1, 2, 3, 2, 3, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 3, 2, 1, 3],
+          "submitAt": 1633338871817,
+          "suggestedOptions": [1, 2, 3, 2, 3, 2, 1, 3]
+        },
+        "-Ml9fzj_VUsOxb86H-cF": {
+          "answers": [1, 1, 2, 2, 2, 2, 3, 2, 1, 3],
+          "feedback": "ญี่ปุ่นเป็นโมเดลที่ดีในการกระจายอำนาจ",
+          "finalOptions": [1, 2, 2, 2, 3, 2, 1, 3],
+          "submitAt": 1633340621104,
+          "suggestedOptions": [1, 2, 2, 2, 3, 2, 1, 3]
+        },
+        "-MlA1AOEhq15st-5TNcR": {
+          "answers": [1, 1, 2, 2, 2, 2, 3, 1, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 3, 1, 1, 3],
+          "submitAt": 1633346434901,
+          "suggestedOptions": [1, 2, 2, 2, 3, 1, 1, 3]
+        },
+        "-MlATKYmlzSUbrf9Glq5": {
+          "answers": [1, 1, 1, 1, 1, 2, 2, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 2, 1, 2, 1],
+          "submitAt": 1633353816714,
+          "suggestedOptions": [1, 1, 1, 2, 2, 1, 2, 1]
+        },
+        "-MlATRvm713tNhdC7BNN": {
+          "answers": [1, 1, 2, 2, 2, 2, 2, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 1],
+          "submitAt": 1633353847740,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 1]
+        },
+        "-MlAUo8blLLfA50v81fg": {
+          "answers": [2, 1, 1, 2, 2, 3, 3, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 3, 3, 2, 1, 3],
+          "submitAt": 1633354204675,
+          "suggestedOptions": [1, 2, 2, 3, 3, 2, 1, 3]
+        },
+        "-MlAWQOdi6OQN5JjoHfR": {
+          "answers": [1, 1, 2, 2, 2, 2, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 1, 2, 1, 1],
+          "submitAt": 1633354627901,
+          "suggestedOptions": [1, 2, 2, 2, 1, 2, 1, 1]
+        },
+        "-MlAZoEMEGcmtP_psg_b": {
+          "answers": [1, 1, 1, 2, 2, 2, 2, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 2, 1, 3],
+          "submitAt": 1633355515540,
+          "suggestedOptions": [1, 2, 2, 2, 2, 2, 1, 3]
+        },
+        "-MlA_ED17J4wAd6he0Rz": {
+          "answers": [1, 1, 1, 2, 2, 2, 3, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 3, 2, 1, 3],
+          "submitAt": 1633355625600,
+          "suggestedOptions": [1, 2, 2, 2, 3, 2, 1, 3]
+        },
+        "-MlA_XrGMnhdsWBhY3p1": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 3, 1, 2, 1],
+          "submitAt": 1633355707786,
+          "suggestedOptions": [1, 1, 1, 1, 3, 1, 2, 1]
+        },
+        "-MlAa9MWeQjvq9cNRyKu": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 3, 2, 2, 1],
+          "submitAt": 1633355868988,
+          "suggestedOptions": [1, 1, 1, 1, 3, 2, 2, 1]
+        },
+        "-MlAf5mztwgeudcawRXs": {
+          "answers": [1, 1, 2, 2, 2, 3, 3, 2, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 3, 3, 2, 2, 3],
+          "submitAt": 1633357165556,
+          "suggestedOptions": [1, 2, 2, 3, 3, 2, 2, 3]
+        },
+        "-MlAfsDpZ6Me9hQ-CUZg": {
+          "answers": [1, 1, 1, 2, 2, 2, 2, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 2, 1, 3],
+          "submitAt": 1633357366431,
+          "suggestedOptions": [1, 2, 2, 2, 2, 2, 1, 3]
+        },
+        "-MlAjnV_JUY7XdEFmcH2": {
+          "answers": [1, 1, 1, 2, 2, 2, 3, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 3, 2, 1, 1],
+          "submitAt": 1633358395937,
+          "suggestedOptions": [1, 2, 2, 2, 3, 2, 1, 1]
+        },
+        "-MlAqCpFjnJvedCasn5z": {
+          "answers": [1, 1, 2, 2, 2, 2, 3, 1, 1, 3],
+          "feedback": "อะไรที่กระทบกับท้องถิ่นควรให้ท้องถิ่นจัดการแต่ปัญหาอยู่ที่งบประมาณ",
+          "finalOptions": [1, 2, 2, 2, 3, 1, 1, 3],
+          "submitAt": 1633360086091,
+          "suggestedOptions": [1, 2, 2, 2, 3, 1, 1, 3]
+        },
+        "-MlAsXB61yqIN2uPtRNu": {
+          "answers": [1, 1, 1, 2, 2, 2, 3, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 3, 1, 2, 1],
+          "submitAt": 1633360683272,
+          "suggestedOptions": [1, 2, 2, 2, 3, 1, 2, 1]
+        },
+        "-MlAtF0q6UBHHVRiP6bK": {
+          "answers": [1, 2, 1, 2, 2, 1, 3, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 3, 2, 1, 3],
+          "submitAt": 1633360872213,
+          "suggestedOptions": [1, 2, 2, 1, 3, 2, 1, 3]
+        },
+        "-MlAtlMAKrsTy-uMTBrS": {
+          "answers": [1, 1, 1, 2, 2, 2, 3, 2, 2, 3],
+          "feedback": "รัฐธรรมนูญไทยควรกำหนดสัญลักษณ์ของชาติ (ดอกไม้ประจำชาติ สัตว์ประจำชาติ) ตราแผ่นดิน เมืองหลวง และคำขวัญประจำชาติ",
+          "finalOptions": [1, 2, 2, 2, 3, 2, 2, 3],
+          "submitAt": 1633361009787,
+          "suggestedOptions": [1, 2, 2, 2, 3, 2, 2, 3]
+        },
+        "-MlAuc2Xfz-AqTuDs5YY": {
+          "answers": [1, 1, 1, 2, 1, 2, 3, 3, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 3, 3, 1, 3],
+          "submitAt": 1633361242454,
+          "suggestedOptions": [1, 2, 1, 2, 3, 3, 1, 3]
+        },
+        "-MlB-36ziOT7pLCQJX33": {
+          "answers": [1, 1, 2, 2, 2, 2, 3, 3, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 3, 3, 1, 3],
+          "submitAt": 1633362669251,
+          "suggestedOptions": [1, 2, 2, 2, 3, 3, 1, 3]
+        },
+        "-MlBG4fu2FvGtEfBu7yc": {
+          "answers": [1, 1, 1, 2, 1, 2, 3, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 3, 2, 1, 3],
+          "submitAt": 1633367121046,
+          "suggestedOptions": [1, 2, 1, 2, 3, 2, 1, 3]
+        },
+        "-MlBMMWkUZk07q9ec575": {
+          "answers": [1, 1, 1, 2, 2, 2, 2, 1, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 3],
+          "submitAt": 1633368766834,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 1, 3]
+        },
+        "-MlC_CXa-_Sm0saxgFyK": {
+          "answers": [1, 1, 1, 2, 3, 1, 2, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 2, 1, 1],
+          "submitAt": 1633389173222,
+          "suggestedOptions": [1, 2, 3, 1, 2, 2, 1, 1]
+        },
+        "-MlD8jqb18AraIykjYCg": {
+          "answers": [1, 1, 1, 2, 2, 1, 2, 1, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 1, 3],
+          "submitAt": 1633398750729,
+          "suggestedOptions": [1, 2, 2, 1, 2, 1, 1, 3]
+        },
+        "-MlDKozDz-EPgOOQ38pg": {
+          "answers": [1, 1, 1, 2, 2, 2, 2, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 2, 1, 3],
+          "submitAt": 1633401917622,
+          "suggestedOptions": [1, 2, 2, 2, 2, 2, 1, 3]
+        },
+        "-MlEecfVObJ1JEua6Bgb": {
+          "answers": [1, 1, 1, 2, 2, 2, 3, 1, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 3, 1, 1, 3],
+          "submitAt": 1633424150404,
+          "suggestedOptions": [1, 2, 2, 2, 3, 1, 1, 3]
+        },
+        "-MlEoGcyKQ7ul2QItQ4b": {
+          "answers": [1, 1, 1, 2, 3, 3, 3, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 3, 3, 1, 1, 1],
+          "submitAt": 1633426676577,
+          "suggestedOptions": [1, 2, 3, 3, 3, 1, 1, 1]
+        },
+        "-MlEurt-QrbqAbzwiPi8": {
+          "answers": [1, 1, 1, 2, 1, 2, 2, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 2, 1, 3],
+          "submitAt": 1633428406352,
+          "suggestedOptions": [1, 2, 1, 2, 2, 2, 1, 3]
+        },
+        "-MlEvd7l8242U8ccxYjL": {
+          "answers": [1, 1, 1, 2, 2, 2, 2, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 2, 1, 3],
+          "submitAt": 1633428467386,
+          "suggestedOptions": [1, 2, 2, 2, 2, 2, 1, 3]
+        },
+        "-MlFmPdMRP-AiOpXu-m5": {
+          "answers": [1, 1, 1, 2, 1, 2, 2, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 2, 1, 3],
+          "submitAt": 1633442967622,
+          "suggestedOptions": [1, 2, 1, 2, 2, 2, 1, 3]
+        },
+        "-MlJNvY244CVYXulTnD4": {
+          "answers": [1, 1, 2, 1, 3, 3, 1, 3, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 1, 3, 3, 1, 3, 1, 3],
+          "submitAt": 1633503394667,
+          "suggestedOptions": [1, 1, 3, 3, 1, 3, 1, 3]
+        },
+        "-MlKWNIB7M1j3Zr_VWCz": {
+          "answers": [1, 1, 2, 3, 2, 1, 2, 2, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 1, 2, 2, 2, 3],
+          "submitAt": 1633522386485,
+          "suggestedOptions": [1, 3, 2, 1, 2, 2, 2, 3]
+        },
+        "-MlL-fad-lcM_r4WWU8g": {
+          "answers": [1, 1, 1, 2, 1, 2, 3, 2, 1, 2],
+          "feedback": "ยกเลิกนายอำเภอ เพื่อนำงบประมาณไปให้ท้องถิ่นโดยตรง กลุ่มจังหวัดสามารถเก็บภาษีบางประเภทได้เองเพื่อนำเงินไปพัฒนาและสนัสนุนท้องถิ่น เช่นภาษีรถยนต์ ภาษีพาณิชย์ ภาษีบุหรี่",
+          "finalOptions": [1, 2, 1, 2, 3, 2, 1, 2],
+          "submitAt": 1633530592610,
+          "suggestedOptions": [1, 2, 1, 2, 3, 2, 1, 2]
+        },
+        "-MlL7mX4cFNMW9MuwcL9": {
+          "answers": [1, 1, 1, 2, 1, 1, 3, 3, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 3, 3, 1, 1],
+          "submitAt": 1633532707882,
+          "suggestedOptions": [1, 2, 1, 1, 3, 3, 1, 1]
+        },
+        "-MlLMVMgmKk8X6S5SNNy": {
+          "answers": [2, 1, 1, 2, 2, 2, 2, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 2, 2, 1, 1],
+          "submitAt": 1633536576145,
+          "suggestedOptions": [1, 2, 2, 2, 2, 2, 1, 1]
+        },
+        "-MlNarhhiZxJo_VO7At0": {
+          "answers": [1, 1, 1, 1, 1, 1, 3, 1, 1, 3],
+          "feedback": "รัฐธรรมนูญต้องตอบโจทย์การพัฒนาประเทศ และสอดคล้องกับความเป็นประชาธิปไตยที่แท้จริง",
+          "finalOptions": [1, 1, 1, 1, 3, 1, 1, 3],
+          "submitAt": 1633574160306,
+          "suggestedOptions": [1, 1, 1, 1, 3, 1, 1, 3]
+        },
+        "-MlNvw_ILiZu-Kf1Aq_o": {
+          "answers": [1, 1, 1, 3, 3, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 3, 1, 1, 1, 1, 1],
+          "submitAt": 1633579682642,
+          "suggestedOptions": [1, 3, 3, 1, 1, 1, 1, 1]
+        },
+        "-MlOpoi8Vhfy4iJsaquc": {
+          "answers": [1, 1, 1, 2, 3, 1, 3, 2, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 1, 3, 2, 2, 3],
+          "submitAt": 1633594855154,
+          "suggestedOptions": [1, 2, 3, 1, 3, 2, 2, 3]
+        },
+        "-MlTl6r2bgMQULg34LrH": {
+          "answers": [1, 1, 1, 2, 1, 2, 3, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 3, 1, 2, 1],
+          "submitAt": 1633677508521,
+          "suggestedOptions": [1, 2, 1, 2, 3, 1, 2, 1]
+        },
+        "-MlTrINfKfZKfbiEBdPG": {
+          "answers": [1, 1, 2, 1, 1, 1, 2, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 2, 1, 1],
+          "submitAt": 1633679128209,
+          "suggestedOptions": [1, 1, 1, 1, 2, 2, 1, 1]
+        },
+        "-MlUcgnrJdsgc5IUhoOc": {
+          "answers": [1, 1, 1, 2, 2, 2, 3, 1, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 2, 3, 1, 1, 3],
+          "submitAt": 1633692078405,
+          "suggestedOptions": [1, 2, 2, 2, 3, 1, 1, 3]
+        },
+        "-MlUfiYR7qYFMSMaM0as": {
+          "answers": [1, 1, 1, 2, 1, 2, 3, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 3, 2, 1, 3],
+          "submitAt": 1633692871299,
+          "suggestedOptions": [1, 2, 1, 2, 3, 2, 1, 3]
+        },
+        "-MlV_xYDbbEblkTGqDhM": {
+          "answers": [1, 1, 1, 2, 1, 2, 2, 2, 2, 3],
+          "feedback": "หากผู้บริหารท้องถิ่นมีอำนาจในการควบคุมดูแลท้องถิ่นของตนเองมากขึ้นจะทำให้แต่ละพื้นที่มีการพัฒนาและสร้างเอกลักษณ์เป็นของตนเอง เช่นที่เกิดขึ้นในประเทศญี่ปุ่น",
+          "finalOptions": [2, 2, 1, 2, 2, 2, 2, 3],
+          "submitAt": 1633708137550,
+          "suggestedOptions": [1, 2, 1, 2, 2, 2, 2, 3]
+        },
+        "-MlVg08rt8tcP8SAoVZj": {
+          "answers": [1, 1, 1, 2, 2, 1, 3, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [2, 3, 2, 1, 3, 2, 1, 3],
+          "submitAt": 1633709724316,
+          "suggestedOptions": [1, 2, 2, 1, 3, 2, 1, 3]
+        },
+        "-MlVqrFKf2gZRm2mw_4e": {
+          "answers": [1, 1, 2, 2, 3, 3, 3, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 3, 3, 2, 1, 3],
+          "submitAt": 1633712566927,
+          "suggestedOptions": [1, 2, 3, 3, 3, 2, 1, 3]
+        }
+      },
+      {
+        "-Ml9a7_OScwPTw1NMvnZ": {
+          "answers": [1, 1, 1, 3, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633339084135,
+          "suggestedOptions": [1, 3, 2, 1, 1, 2, 1, 2]
+        },
+        "-Ml9h-3jvShFWefeUqtI": {
+          "answers": [1, 1, 2, 3, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633340883630,
+          "suggestedOptions": [1, 3, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlA1_0ryeoR81WP5-ah": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633346539950,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlAAhSBRofdiYfsyJQ1": {
+          "answers": [1, 2, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633348935157,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlADJAdIxaOirHa3zqx": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633349616787,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlAPuMHDpv_yLZV_-dr": {
+          "answers": [1, 1, 1, 2, 6, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 6, 1, 1, 2, 1, 2],
+          "submitAt": 1633352919475,
+          "suggestedOptions": [1, 2, 6, 1, 1, 2, 1, 2]
+        },
+        "-MlAQj7NcRUH2A-mBKLg": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633353135103,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlAUJpmfWW-C0G43Grb": {
+          "answers": [1, 1, 1, 2, 1, 2, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633354075851,
+          "suggestedOptions": [1, 2, 1, 2, 1, 2, 1, 2]
+        },
+        "-MlAUa6dXC25Dyx3SW41": {
+          "answers": [1, 1, 1, 3, 2, 2, 1, 2, 1, 2],
+          "feedback": "การมีสิทธิพิเศษ การได้รับการปฏิบัติเป็นพิเศษ หรือการได้รับความคุ้มครองพิเศษ ให้มีได้เฉพาะผู้ที่เป็นประมุขของรัฐเท่านั้น ไม่ให้นับรวมถึงพระพรมวงศานุวงศ์",
+          "finalOptions": [1, 3, 2, 2, 1, 2, 1, 2],
+          "submitAt": 1633354147862,
+          "suggestedOptions": [1, 3, 2, 2, 1, 2, 1, 2]
+        },
+        "-MlAVJ87vGOo80BPnUib": {
+          "answers": [1, 1, 1, 1, 6, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 6, 1, 1, 2, 1, 2],
+          "submitAt": 1633354336704,
+          "suggestedOptions": [1, 1, 6, 1, 1, 2, 1, 2]
+        },
+        "-MlAWxxPvTWUnFArNdL7": {
+          "answers": [1, 1, 1, 2, 5, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 5, 1, 1, 2, 1, 2],
+          "submitAt": 1633354769456,
+          "suggestedOptions": [1, 2, 5, 1, 1, 2, 1, 2]
+        },
+        "-MlAXWAk0ab4BzYJ9NTH": {
+          "answers": [1, 1, 1, 1, 6, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 6, 1, 1, 2, 1, 2],
+          "submitAt": 1633354912804,
+          "suggestedOptions": [1, 1, 6, 1, 1, 2, 1, 2]
+        },
+        "-MlAYHF-docUihmmsouE": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633355115313,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlAZEQZAHCWpnlfwJcI": {
+          "answers": [1, 1, 1, 2, 6, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 6, 1, 1, 2, 1, 2],
+          "submitAt": 1633355366182,
+          "suggestedOptions": [1, 2, 6, 1, 1, 2, 1, 2]
+        },
+        "-MlAZTknSb-0Cs_jbMe4": {
+          "answers": [1, 1, 1, 2, 6, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 6, 1, 1, 2, 1, 2],
+          "submitAt": 1633355431740,
+          "suggestedOptions": [1, 2, 6, 1, 1, 2, 1, 2]
+        },
+        "-MlAZYYEowTk-pDzeq65": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "ควรมีการจำกัดพระราชอำนาจของพระมหากษัตริย์อย่างรัดกุมมากขึ้น",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633355447036,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlA_EGH9Yi_y_z67sBa": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633355626715,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlA_kBcWEfgGasxbhP8": {
+          "answers": [1, 1, 1, 2, 4, 1, 1, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 4, 1, 1, 2, 2, 1],
+          "submitAt": 1633355762807,
+          "suggestedOptions": [1, 2, 4, 1, 1, 2, 2, 1]
+        },
+        "-MlAaN4abTx21ktitqs2": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633355924695,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlAauS8as_aOpDj5C8j": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "รัฐธรรมนูญต้องเขียนให้อ่านเข้าใจง่าย โดยไม่ต้องอาศักการตีความจากองกรณ์อิสระ และต้องจำเป็นต้องมีคำกำกวมที่สามารถตีความหลากหลายให้น้อยที่สุด",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633356064624,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlAbS14GerGiU1hjPFR": {
+          "answers": [1, 1, 1, 2, 5, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 5, 1, 1, 2, 1, 2],
+          "submitAt": 1633356208287,
+          "suggestedOptions": [1, 2, 5, 1, 1, 2, 1, 2]
+        },
+        "-MlAeFBDkxE1C9d7L8oA": {
+          "answers": [1, 1, 1, 1, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633356940256,
+          "suggestedOptions": [1, 1, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlAeRJcZvrYvF95mYfL": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633356989880,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlAgAHfk9mbtx4-LHet": {
+          "answers": [1, 1, 1, 1, 6, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 6, 1, 1, 2, 1, 2],
+          "submitAt": 1633357446046,
+          "suggestedOptions": [1, 1, 6, 1, 1, 2, 1, 2]
+        },
+        "-MlAgUs9RUvNU1fnuS8Z": {
+          "answers": [1, 1, 1, 3, 2, 2, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 2, 1, 2, 1, 2],
+          "submitAt": 1633357529427,
+          "suggestedOptions": [1, 3, 2, 2, 1, 2, 1, 2]
+        },
+        "-MlAisAmF2J0Zg-9qmHJ": {
+          "answers": [1, 1, 1, 1, 1, 2, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 1, 2, 1, 2],
+          "submitAt": 1633358152829,
+          "suggestedOptions": [1, 1, 1, 2, 1, 2, 1, 2]
+        },
+        "-MlAkQ9wMLZCNliR_-YS": {
+          "answers": [1, 1, 1, 3, 6, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 6, 1, 1, 2, 1, 2],
+          "submitAt": 1633358558346,
+          "suggestedOptions": [1, 3, 6, 1, 1, 2, 1, 2]
+        },
+        "-MlAlF1VXE1QatmYrwkF": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 2, 2, 1, 2],
+          "submitAt": 1633358775807,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlAmL_j8XehVbijij1R": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "รัก♥️ ไอ้ต๊าวคนเก่ง งู้ยยย",
+          "finalOptions": [1, 2, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633359064041,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlAqhs2C2ugJvad1cCd": {
+          "answers": [1, 1, 1, 2, 3, 2, 2, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 2, 2, 2, 2, 2],
+          "submitAt": 1633360209090,
+          "suggestedOptions": [1, 2, 3, 2, 2, 2, 2, 2]
+        },
+        "-MlAr1ljNIQruI-6GB4B": {
+          "answers": [1, 1, 1, 3, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633360302424,
+          "suggestedOptions": [1, 3, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlAsWEAk2awrwFzGeyj": {
+          "answers": [1, 1, 1, 2, 4, 1, 2, 2, 1, 2],
+          "feedback": "อยากให้มีการตรวจสอบสถาบันอย่างตรงไปตรงมาและโปร่งใสเนื่องจากงบประมาณมาจากภาษีประชาชน",
+          "finalOptions": [1, 2, 2, 1, 2, 2, 1, 2],
+          "submitAt": 1633360680162,
+          "suggestedOptions": [1, 2, 4, 1, 2, 2, 1, 2]
+        },
+        "-MlAsgOyGxEvvJKQXJeJ": {
+          "answers": [1, 1, 1, 3, 2, 1, 1, 2, 1, 2],
+          "feedback": "King ต้องมีผู้สำเร็จราชการเมื่อไม่อยู่ในประเทศ  และต้องมีผู้รับสนองพระราชโองการทุกครั้ง// และต้องไม่มีคุกเฉพาะตามพระราชอัธยาศัย   ที่สำคัญต้องมีรายละเอียดและการแจกแจงงบประมาณ",
+          "finalOptions": [1, 3, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633360725963,
+          "suggestedOptions": [1, 3, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlAtPtXYxCWn32Kzp03": {
+          "answers": [1, 1, 1, 3, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633360918126,
+          "suggestedOptions": [1, 3, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlAtenjYlMh9xIXVptR": {
+          "answers": [1, 1, 1, 2, 5, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 5, 1, 1, 2, 1, 2],
+          "submitAt": 1633360981856,
+          "suggestedOptions": [1, 2, 5, 1, 1, 2, 1, 2]
+        },
+        "-MlAuzEUZV20AY6YbPPF": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "ยกเลิก 112",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633361326546,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlAvKxeccxUZuTdtrPi": {
+          "answers": [1, 1, 1, 2, 5, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 5, 1, 1, 2, 1, 2],
+          "submitAt": 1633361430540,
+          "suggestedOptions": [1, 2, 5, 1, 1, 2, 1, 2]
+        },
+        "-MlB3ysL_Z8HCMiei9Bj": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633363951758,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlB6h8FGVgtUWutKeH_": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633364661372,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlB6uGnR_rF54dwAyDr": {
+          "answers": [1, 1, 1, 1, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633364719035,
+          "suggestedOptions": [1, 1, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlB75buia2IKbdwxDe3": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633364765684,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlB7AZihZuagDhJpW9k": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633364785972,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlB7JTwJbnSaplkrU09": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633364822728,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlB7OhXkdLYu_xQVhjv": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "รัฐธรรมนูญต้องไม่คลุมเครือและง่ายต่อการเข้าใจของประชาชน ",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633364844080,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlB7RKXY5dnHyurXrO-": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633364856929,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlB8BGfe-h-EmhC-ikE": {
+          "answers": [1, 1, 1, 1, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633365052587,
+          "suggestedOptions": [1, 1, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlB9NarNbis_xTh0GnQ": {
+          "answers": [1, 1, 1, 2, 1, 1, 2, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 2, 2, 1, 2],
+          "submitAt": 1633365369229,
+          "suggestedOptions": [1, 2, 1, 1, 2, 2, 1, 2]
+        },
+        "-MlBBKEKtdKyPja6HgqW": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633365874241,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlBD-m2-Mh87swIFFM3": {
+          "answers": [1, 1, 1, 1, 2, 1, 1, 2, 1, 2],
+          "feedback": "เอาสิทธิมนุษยชนและความเท่าเทียมเป็นที่ตั้ง",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633366314701,
+          "suggestedOptions": [1, 1, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlBFo1AGmPm2UXo6KJg": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633367052355,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlBKk1K0-kJic8T2-BG": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633368346307,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlBNkWKWO5hSvnx82Wp": {
+          "answers": [1, 1, 2, 2, 2, 2, 1, 2, 1, 2],
+          "feedback": "การเลือกรัชทายาท ควรมาจากการเลือกตั้งด้วยวิธี approval",
+          "finalOptions": [1, 2, 2, 2, 1, 2, 1, 2],
+          "submitAt": 1633369131503,
+          "suggestedOptions": [1, 2, 2, 2, 1, 2, 1, 2]
+        },
+        "-MlD9Es2M3O-ugDH5zo8": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633398881858,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlDKYsTRY89O2zx8rcH": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633401847694,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlDd6mMkB2lD_mbtvz9": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633406977478,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlDpvejmrA6Lx9al_Eu": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633410333961,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlEfHzS_v9HGo6_2qoA": {
+          "answers": [1, 1, 1, 1, 4, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 4, 1, 1, 2, 1, 2],
+          "submitAt": 1633424323660,
+          "suggestedOptions": [1, 1, 4, 1, 1, 2, 1, 2]
+        },
+        "-MlEm1Keceu6M_oUTNo6": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633426089579,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlEvEnYzGZALu5eIP7p": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633428504229,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlEwQs8IktH43NL5IWx": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633428675160,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlFXshS-S15R6qnu9We": {
+          "answers": [1, 1, 2, 3, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633438894949,
+          "suggestedOptions": [1, 3, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlIjQQXVvCdxmyWSvFV": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633492515758,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        },
+        "-MlJOqKmAg4GeGst7LXI": {
+          "answers": [1, 1, 1, 4, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 4, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633503635253,
+          "suggestedOptions": [1, 4, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlK3dZoaHYLqjzbseh5": {
+          "answers": [1, 1, 1, 2, 1, 1, 2, 2, 1, 2],
+          "feedback": "กษัตริย์ไม่ควรมีอำนาจในการควบคุมทหารแบบปัจจุบัน ยกเลิกตำแหน่งจอมทัพไทย",
+          "finalOptions": [1, 2, 1, 1, 2, 2, 1, 2],
+          "submitAt": 1633514855041,
+          "suggestedOptions": [1, 2, 1, 1, 2, 2, 1, 2]
+        },
+        "-MlKXHW11NEPxKeFJAwa": {
+          "answers": [1, 1, 1, 2, 6, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 6, 1, 1, 2, 1, 2],
+          "submitAt": 1633522624785,
+          "suggestedOptions": [1, 2, 6, 1, 1, 2, 1, 2]
+        },
+        "-MlLNajvcuqQPzxv1RxR": {
+          "answers": [1, 1, 1, 3, 2, 1, 2, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 2, 1, 2, 2, 1, 2],
+          "submitAt": 1633536864239,
+          "suggestedOptions": [1, 3, 2, 1, 2, 2, 1, 2]
+        },
+        "-MlNwOskOocFF8E1mXAq": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 1, 1, 3],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 3],
+          "submitAt": 1633579802612,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 3]
+        },
+        "-MlOr4Ld8i85n3XH7VVX": {
+          "answers": [1, 1, 1, 1, 4, 1, 1, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 4, 1, 1, 1, 1, 2],
+          "submitAt": 1633595185287,
+          "suggestedOptions": [1, 1, 4, 1, 1, 1, 1, 2]
+        },
+        "-MlR2JYYwzf3Sn0zbSH4": {
+          "answers": [1, 1, 1, 1, 5, 2, 2, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 5, 2, 2, 2, 1, 2],
+          "submitAt": 1633631947322,
+          "suggestedOptions": [1, 1, 5, 2, 2, 2, 1, 2]
+        },
+        "-MlTlf5KBz3GnHfA7dg2": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 2, 2, 1, 2],
+          "submitAt": 1633677652851,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlTrYvTGRQQm22_AG2u": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 1, 1, 2],
+          "submitAt": 1633679195986,
+          "suggestedOptions": [1, 2, 1, 1, 1, 1, 1, 2]
+        },
+        "-MlUeMcViICGNbr-MzN2": {
+          "answers": [1, 1, 1, 2, 4, 2, 2, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 4, 2, 2, 2, 1, 2],
+          "submitAt": 1633692515885,
+          "suggestedOptions": [1, 2, 4, 2, 2, 2, 1, 2]
+        },
+        "-MlUg7VhUEoWVHYBFEm1": {
+          "answers": [1, 1, 1, 2, 5, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 5, 1, 1, 2, 1, 2],
+          "submitAt": 1633692977635,
+          "suggestedOptions": [1, 2, 5, 1, 1, 2, 1, 2]
+        },
+        "-MlVQy5J3-qHQi00ooHs": {
+          "answers": [1, 1, 1, 1, 3, 1, 1, 2, 1, 2],
+          "feedback": "พระมหากษัตริย์ควรมีอำนาจอย่างจำกัดและต้องปฏิบัติตนโดยคำนึงถึงหลัก The king can do no wrong อีกทั้งพระมหากษัตริย์ควรเป็นกลางทางการเมืองและสามารถถูกตรวจสอบได้โดยผู้แทนของประชาชน",
+          "finalOptions": [1, 1, 3, 1, 1, 2, 1, 2],
+          "submitAt": 1633705518327,
+          "suggestedOptions": [1, 1, 3, 1, 1, 2, 1, 2]
+        },
+        "-MlVsdak_3bf0ekqusCS": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633713035331,
+          "suggestedOptions": [1, 2, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlaWdk1jMGSQFO3UbCE": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1633807667520,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlalY5hW4OUwtWToR5t": {
+          "answers": [1, 1, 1, 2, 2, 1, 1, 2, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 2, 1, 1, 2, 1, 2],
+          "submitAt": 1633811837904,
+          "suggestedOptions": [1, 2, 2, 1, 1, 2, 1, 2]
+        }
+      },
+      {
+        "-Ml9axLtwoL0rPZTU6G6": {
+          "answers": [1, 1, 2, 1, 2, 2, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 2, 2, 1, 1, 1, 1],
+          "submitAt": 1633339300247,
+          "suggestedOptions": [1, 1, 2, 2, 1, 1, 1, 1]
+        },
+        "-Ml9he_YEVYSaboQkkq6": {
+          "answers": [2, 1, 1, 1, 2, 4, 1, 1, 1, 2],
+          "feedback": "ไม่เอารัฐบาลภูมิภาค",
+          "finalOptions": [1, 1, 2, 4, 1, 1, 1, 2],
+          "submitAt": 1633341057897,
+          "suggestedOptions": [1, 1, 2, 4, 1, 1, 1, 2]
+        },
+        "-MlA24EsE3ruMVA1tm3G": {
+          "answers": [1, 1, 2, 1, 1, 3, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 3, 1, 1, 1, 1],
+          "submitAt": 1633346671934,
+          "suggestedOptions": [1, 1, 1, 3, 1, 1, 1, 1]
+        },
+        "-MlAV2Y9miz1JnMIfiau": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 1, 2, 1],
+          "submitAt": 1633354267182,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 2, 1]
+        },
+        "-MlAV4nw4xOChP975geP": {
+          "answers": [1, 1, 2, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1633354277785,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "-MlAVkXDsKmt4ANja0Qh": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1633354452030,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "-MlAXa701SmYKwOjb58e": {
+          "answers": [1, 1, 2, 1, 1, 1, 1, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 2],
+          "submitAt": 1633354934016,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 2]
+        },
+        "-MlA_uAJrJ_lrwn-VJlB": {
+          "answers": [1, 1, 2, 1, 1, 3, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 3, 1, 1, 1, 1],
+          "submitAt": 1633355801698,
+          "suggestedOptions": [1, 1, 1, 3, 1, 1, 1, 1]
+        },
+        "-MlAbNeCKK9KEIJYDfTv": {
+          "answers": [1, 1, 1, 1, 1, 4, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 4, 1, 1, 1, 1],
+          "submitAt": 1633356189239,
+          "suggestedOptions": [1, 1, 1, 4, 1, 1, 1, 1]
+        },
+        "-MlAf55UrZhSu31QQTLt": {
+          "answers": [1, 1, 1, 2, 3, 4, 1, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 4, 1, 2, 2, 2],
+          "submitAt": 1633357162259,
+          "suggestedOptions": [1, 2, 3, 4, 1, 2, 2, 2]
+        },
+        "-MlAgl-wh96nFTLeyU3D": {
+          "answers": [1, 1, 2, 1, 1, 1, 1, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 2, 1],
+          "submitAt": 1633357599633,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 2, 1]
+        },
+        "-MlAipZtstGR_q_EBGbl": {
+          "answers": [1, 1, 1, 1, 1, 3, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 3, 1, 1, 1, 1],
+          "submitAt": 1633358142041,
+          "suggestedOptions": [1, 1, 1, 3, 1, 1, 1, 1]
+        },
+        "-MlAlBgnpZO_q6UL0p2T": {
+          "answers": [1, 1, 1, 3, 1, 4, 1, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 4, 1, 2, 2, 2],
+          "submitAt": 1633358761487,
+          "suggestedOptions": [1, 3, 1, 4, 1, 2, 2, 2]
+        },
+        "-MlAmFRssWQBXWE9uiE7": {
+          "answers": [1, 1, 1, 1, 1, 2, 1, 1, 1, 1],
+          "feedback": "ในระบบรัฐสภา โดยเฉพาะเรื่องการอภิปรายไม่ไว้วางใจรวมทั้งการอนุมัติงบประมาณ ควรให้ประชาชนมีส่วนร่วมในการโหวตด้วย app กลาง ที่ประชาชนสามารถร่วมโหวตได้ ",
+          "finalOptions": [1, 1, 1, 2, 1, 1, 1, 1],
+          "submitAt": 1633359039309,
+          "suggestedOptions": [1, 1, 1, 2, 1, 1, 1, 1]
+        },
+        "-MlAs9qpNfV3S955wDTZ": {
+          "answers": [1, 1, 1, 1, 1, 3, 1, 2, 2, 1],
+          "feedback": "ควรให้ประชาชนออกแบบเองทั้งหมด",
+          "finalOptions": [1, 1, 1, 3, 1, 2, 2, 1],
+          "submitAt": 1633360597757,
+          "suggestedOptions": [1, 1, 1, 3, 1, 2, 2, 1]
+        },
+        "-MlAuw1R75puypjcN8iq": {
+          "answers": [2, 2, 1, 1, 3, 1, 1, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [2, 1, 3, 1, 1, 1, 1, 2],
+          "submitAt": 1633361315582,
+          "suggestedOptions": [2, 1, 3, 1, 1, 1, 1, 2]
+        },
+        "-MlAw9R9dTZSZm9yih2a": {
+          "answers": [1, 1, 2, 2, 1, 3, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 3, 1, 1, 1, 1],
+          "submitAt": 1633361645796,
+          "suggestedOptions": [1, 2, 1, 3, 1, 1, 1, 1]
+        },
+        "-MlB0NB6jZvoJxFfxKfA": {
+          "answers": [1, 1, 1, 2, 1, 2, 1, 1, 2, 2],
+          "feedback": "แก้ไข ถ้อยคำที่ให้อำนาจ king แต่งตั้ง ไล่ออก ข้าราชการ ทหาร ศาล ฯลฯ  แม้แต่สงฆ์",
+          "finalOptions": [1, 1, 1, 2, 1, 1, 2, 1],
+          "submitAt": 1633363002432,
+          "suggestedOptions": [1, 2, 1, 2, 1, 1, 2, 2]
+        },
+        "-MlB6bRWixHwveeNdF_4": {
+          "answers": [1, 1, 1, 1, 1, 2, 1, 1, 2, 1],
+          "feedback": "เพิ่มส่วนร่วมประชาชนให้มากขึ้น",
+          "finalOptions": [1, 1, 1, 2, 1, 1, 2, 1],
+          "submitAt": 1633364636998,
+          "suggestedOptions": [1, 1, 1, 2, 1, 1, 2, 1]
+        },
+        "-MlBOuOsTV31EguUYbFH": {
+          "answers": [1, 1, 2, 2, 2, 2, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 1, 1, 1, 1],
+          "submitAt": 1633369434201,
+          "suggestedOptions": [1, 2, 2, 2, 1, 1, 1, 1]
+        },
+        "-MlDA0YjQ0ZKR1CexWOR": {
+          "answers": [1, 1, 1, 2, 1, 2, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 1, 1, 1, 1],
+          "submitAt": 1633399085402,
+          "suggestedOptions": [1, 2, 1, 2, 1, 1, 1, 1]
+        },
+        "-MlEABubt6VOl6f1_PE6": {
+          "answers": [1, 1, 1, 2, 1, 1, 1, 1, 1, 1],
+          "feedback": "เพิ่มเติมการแก้ไขได้ทุกประเด็น ในประเด็นเฉพาะจงเจาะในเรื่องของการเกณฑ์ทหาร ผมคิดว่าเป็นต้นต่อหนึ่งของการทุจริตในวงการทหาร คือการที่คนคนหนึ่งจะให้ยอมจับใบดำแดงเพื่อไปเป็นทหาร โดยต้องแยกออกจากประเภทที่1มีความไม่สมบูรณ์ทางร่างกายอย่างใดอย่างหนึ่ง เป็นผลให้เกิดการจ่ายเงินใต้โต๊ะขึ้น ",
+          "finalOptions": [1, 1, 1, 2, 1, 1, 2, 1],
+          "submitAt": 1633415911304,
+          "suggestedOptions": [1, 2, 1, 1, 1, 1, 1, 1]
+        },
+        "-MlEn2FsHaxQ6rV66eiW": {
+          "answers": [1, 1, 1, 1, 1, 3, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1633426355620,
+          "suggestedOptions": [1, 1, 1, 3, 1, 1, 1, 1]
+        },
+        "-MlEyWrSLcwNW3_xy13F": {
+          "answers": [1, 1, 1, 1, 2, 3, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 2, 3, 1, 1, 1, 1],
+          "submitAt": 1633429224154,
+          "suggestedOptions": [1, 1, 2, 3, 1, 1, 1, 1]
+        },
+        "-MlGEv_ZSKmBUZdjuvPb": {
+          "answers": [1, 1, 2, 1, 1, 2, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 1, 1, 1, 1],
+          "submitAt": 1633450704238,
+          "suggestedOptions": [1, 1, 1, 2, 1, 1, 1, 1]
+        },
+        "-MlJPUkEMxnWAKCx6khM": {
+          "answers": [1, 1, 1, 1, 1, 4, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 4, 1, 1, 1, 1],
+          "submitAt": 1633503805129,
+          "suggestedOptions": [1, 1, 1, 4, 1, 1, 1, 1]
+        },
+        "-MlKXifeg27j2kBmJomV": {
+          "answers": [1, 2, 2, 1, 1, 1, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [2, 1, 1, 1, 1, 2, 1, 1],
+          "submitAt": 1633522740442,
+          "suggestedOptions": [2, 1, 1, 1, 1, 2, 1, 1]
+        },
+        "-MlLOFQe3I2mtvmBj-7k": {
+          "answers": [2, 1, 2, 3, 1, 3, 1, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 3, 1, 3, 1, 1, 2, 1],
+          "submitAt": 1633537034994,
+          "suggestedOptions": [2, 3, 1, 3, 1, 1, 2, 1]
+        },
+        "-MlNwfkxORz5hTKwsSEq": {
+          "answers": [1, 1, 2, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1633579875645,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "-MlOra3WJiY41B2LWcSw": {
+          "answers": [1, 1, 2, 3, 1, 4, 1, 2, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 4, 1, 2, 1, 1],
+          "submitAt": 1633595318720,
+          "suggestedOptions": [1, 3, 1, 4, 1, 2, 1, 1]
+        },
+        "-MlTKi-Dyovbe_jEiQbX": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 2, 1],
+          "submitAt": 1633670324978,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 2, 1]
+        },
+        "-MlTco1n48ZLYQCCVYG4": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 2, 1],
+          "submitAt": 1633675330206,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 2, 1]
+        },
+        "-MlTeHCI6yKS-xFlUkCk": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 2, 1],
+          "feedback": "รัฐธรรนูญไทยต้องสั่นและอ่านง่าย",
+          "finalOptions": [2, 3, 3, 2, 1, 1, 2, 1],
+          "submitAt": 1633675715934,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 2, 1]
+        },
+        "-MlTh8kLEiSB3tjvOFxQ": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1633676468335,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "-MlTrh4OOIDg6dsHtAJb": {
+          "answers": [1, 1, 2, 1, 1, 2, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 1, 1, 1, 1],
+          "submitAt": 1633679233493,
+          "suggestedOptions": [1, 1, 1, 2, 1, 1, 1, 1]
+        },
+        "-MlU0Qow-MNDMCFSAZDz": {
+          "answers": [1, 1, 2, 3, 1, 2, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 2, 1, 1, 1, 1],
+          "submitAt": 1633681784714,
+          "suggestedOptions": [1, 3, 1, 2, 1, 1, 1, 1]
+        },
+        "-MlUfphTJ8iOn4Kal67b": {
+          "answers": [1, 1, 1, 3, 1, 2, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 3, 1, 2, 1, 1, 1, 1],
+          "submitAt": 1633692902183,
+          "suggestedOptions": [1, 3, 1, 2, 1, 1, 1, 1]
+        },
+        "-MlUgWxnti_uwE29yD-V": {
+          "answers": [1, 1, 1, 1, 1, 3, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 3, 1, 1, 1, 1],
+          "submitAt": 1633693081898,
+          "suggestedOptions": [1, 1, 1, 3, 1, 1, 1, 1]
+        },
+        "-MlVPd1bvjqkY1xxgvy-": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 2, 1],
+          "submitAt": 1633705169656,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 2, 1]
+        },
+        "-MlVbetoenXF_Five8oX": {
+          "answers": [1, 1, 2, 1, 2, 3, 1, 1, 2, 1],
+          "feedback": "ควรจะสามารถแก้ไขเพิ่มเติมรัฐธรรมนูญได้ไม่ยากจนเกินไป เพื่อให้รัฐธรรมนูญสามารถปรับเข้ากับความเปลี่ยนแปลงของสถานการณ์ในช่วงเวลาต่าง ๆ ได้",
+          "finalOptions": [1, 1, 2, 3, 1, 1, 2, 1],
+          "submitAt": 1633708585736,
+          "suggestedOptions": [1, 1, 2, 3, 1, 1, 2, 1]
+        },
+        "-MlVttRvZZIoTTAtv9pD": {
+          "answers": [1, 1, 2, 1, 1, 1, 1, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 2, 1],
+          "submitAt": 1633713362297,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 2, 1]
+        },
+        "-MlW99r4ZxYAuhZmg693": {
+          "answers": [1, 1, 2, 2, 3, 3, 1, 1, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 2, 3, 3, 1, 1, 2, 1],
+          "submitAt": 1633717628944,
+          "suggestedOptions": [1, 2, 3, 3, 1, 1, 2, 1]
+        },
+        "-MlZJ4NFitoNshatjzOg": {
+          "answers": [1, 1, 2, 1, 1, 3, 1, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 3, 1, 1, 1, 2],
+          "submitAt": 1633770560350,
+          "suggestedOptions": [1, 1, 1, 3, 1, 1, 1, 2]
+        },
+        "-Ml_3PUZZuLMth117Tmh": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 2, 1],
+          "feedback": "รัฐธรรมนูญของราชอณาจักรไทย ควรได้รับการเสนอของประชามติ และไม่ควรมีการปรับเปรี่ยนหรือแก้ไขรัฐธรรมนูญบ่อยจนเกินไป",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 2, 1],
+          "submitAt": 1633783229289,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 2, 1]
+        },
+        "-MlbQXf3wNKfU89Rg04C": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 2, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 2, 1],
+          "submitAt": 1633822838683,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 2, 1]
+        }
+      }
+    ]
+  },
+  "staging": {
+    "topics": [
+      null,
+      {
+        "-MfqNHRPbvpSO0qQmUT4": {
+          "answers": [1, 1, 2, 2, 2, 2, 2, 1, 2, 3],
+          "feedback": "helooooo",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 2, 3],
+          "submitAt": 1627631201710,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 2, 3]
+        },
+        "-MfqPIiMSeLp4NOqT10c": {
+          "answers": [1, 1, 2, 2, 2, 2, 2, 1, 2, 3],
+          "feedback": "test 2",
+          "finalOptions": [2, 1, 2, 2, 2, 1, 2, 2],
+          "submitAt": 1627631732336,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 2, 3]
+        },
+        "-Mfr6IpW91KFb3bAhntE": {
+          "answers": [1, 1, 2, 2, 2, 2, 2, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [2, 3, 2, 2, 2, 1, 2, 3],
+          "submitAt": 1627643529248,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 2, 3]
+        },
+        "-Mg5eg5I1CLRsbjCAjM0": {
+          "answers": [1, 2, 1, 2, 2, 3, 3, 2, 3, 3],
+          "feedback": "testest",
+          "finalOptions": [1, 1, 2, 3, 3, 2, 2, 3],
+          "submitAt": 1627904462198,
+          "suggestedOptions": [1, 2, 2, 3, 3, 2, 3, 3]
+        },
+        "-Mg7-pj7_z6qSV_CdMdJ": {
+          "answers": [1, 2, 1, 2, 1, 2, 3, 2, 3, 1],
+          "feedback": "eieiza",
+          "finalOptions": [1, 2, 1, 2, 2, 2, 3, 1],
+          "submitAt": 1627927044565,
+          "suggestedOptions": [1, 2, 1, 2, 3, 2, 3, 1]
+        },
+        "-Mgcp32V1QZe3-jYUmMI": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1628477606210,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "-Mgjxb3-KbTRF_U6F5CW": {
+          "answers": [1, 2, 1, 2, 1, 3, 1, 2, 3, 1],
+          "feedback": "test",
+          "finalOptions": [1, 2, 1, 3, 1, 2, 1, 2],
+          "submitAt": 1628597286017,
+          "suggestedOptions": [1, 2, 1, 3, 1, 2, 3, 1]
+        },
+        "-MgkYzQvxC0HQYrJS3M_": {
+          "answers": [1, 1, 1, 2, 3, 2, 2, 3, 2, 1],
+          "feedback": "112",
+          "finalOptions": [1, 2, 3, 2, 2, 3, 2, 1],
+          "submitAt": 1628607352076,
+          "suggestedOptions": [1, 2, 3, 2, 2, 3, 2, 1]
+        },
+        "-MhV872yM8QJX8VFRuLj": {
+          "answers": [2, 2, 2, 3, 3, 2, 3, 4, 2, 1],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 2, 3, 4, 2, 1],
+          "submitAt": 1629405611862,
+          "suggestedOptions": [2, 3, 3, 2, 3, 4, 2, 1]
+        },
+        "-MiLokTMoFaZLufBR1q-": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "ไก่ย่าง",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1630323018237,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "-MiMEJWhjDbEyWS2m_FF": {
+          "answers": [1, 1, 1, 3, 2, 3, 2, 3, 2, 2],
+          "feedback": "hello Pao",
+          "finalOptions": [2, 1, 3, 3, 2, 2, 1, 2],
+          "submitAt": 1630329981275,
+          "suggestedOptions": [1, 3, 2, 3, 2, 3, 2, 2]
+        },
+        "-MiMEnaDyTJC0lITBDpj": {
+          "answers": [1, 1, 1, 3, 3, 3, 3, 3, 3, 2],
+          "feedback": "z",
+          "finalOptions": [1, 3, 3, 3, 3, 3, 3, 2],
+          "submitAt": 1630330108345,
+          "suggestedOptions": [1, 3, 3, 3, 3, 3, 3, 2]
+        },
+        "-MiPach3SbIwUd-l_mn7": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "test",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1630386427593,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "-MibEFhZLXimU04BykXy": {
+          "answers": [1, 1, 2, 2, 2, 2, 2, 1, 2, 3],
+          "feedback": "test",
+          "finalOptions": [1, 2, 2, 2, 2, 1, 2, 3],
+          "submitAt": 1630598402285,
+          "suggestedOptions": [1, 2, 2, 2, 2, 1, 2, 3]
+        },
+        "-MiyFUYHUv49gLZaaLUg": {
+          "answers": [1, 1, 1, 1, 2, 3, 2, 2, 2, 2],
+          "feedback": "สภาคู่",
+          "finalOptions": [2, 2, 2, 3, 2, 2, 2, 2],
+          "submitAt": 1630984601582,
+          "suggestedOptions": [1, 1, 2, 3, 2, 2, 2, 2]
+        },
+        "-MlQkVYsE1s9_BsgUP2K": {
+          "answers": [2, 1, 2, 1, 3, 2, 3, 4, 3, 2],
+          "feedback": "",
+          "finalOptions": [2, 1, 3, 2, 3, 4, 3, 2],
+          "submitAt": 1633627017112,
+          "suggestedOptions": [2, 1, 3, 2, 3, 4, 3, 2]
+        },
+        "-MlTRZtmZSs4d3yvmK8_": {
+          "answers": [1, 1, 1, 2, 1, 2, 2, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 2, 2, 2, 2, 2],
+          "submitAt": 1633672122473,
+          "suggestedOptions": [1, 2, 1, 2, 2, 2, 2, 2]
+        },
+        "-MlThllCODWEPD-Do2uA": {
+          "answers": [2, 2, 1, 3, 3, 2, 2, 4, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 3, 3, 2, 2, 4, 2, 2],
+          "submitAt": 1633676631548,
+          "suggestedOptions": [2, 3, 3, 2, 2, 4, 2, 2]
+        }
+      },
+      {
+        "-MhTa2WaEagUUQGeHV3B": {
+          "answers": [1, 2, 1, 1, 2, 1, 1, 2, 2, 2, 0, 1, 5],
+          "feedback": "",
+          "finalOptions": [1, 2, 1, 1, 2, 1, 1, 2, 2, 2],
+          "submitAt": 1629379640647,
+          "suggestedOptions": [1, 2, 1, 1, 2, 1, 1, 2, 2, 2]
+        },
+        "-MiRB1UCmpjuuqPgNiBT": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 2, 2, 2],
+          "submitAt": 1630412991535,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 2, 2, 2]
+        },
+        "-MiRBjzzrJo2o1NMrTBp": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 2, 2, 2],
+          "submitAt": 1630413177631,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 2, 2, 2]
+        }
+      },
+      {
+        "-MjOl6jQ8oO-zY3KWAQT": {
+          "answers": [2, 2, 2, 2, 2, 2, 3, 2, 2, 2],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 2, 2, 2, 3, 2, 2, 2],
+          "submitAt": 1631446140122,
+          "suggestedOptions": [2, 2, 2, 2, 2, 2, 3, 2, 2, 2]
+        },
+        "-MlV7lPlS7PdHxR8CsBA": {
+          "answers": [1, 4, 2, 2, 2, 5, 5, 2, 4, 1],
+          "feedback": "",
+          "finalOptions": [1, 4, 2, 2, 2, 5, 5, 2, 4, 1],
+          "submitAt": 1633700483753,
+          "suggestedOptions": [1, 4, 2, 2, 2, 5, 5, 2, 4, 1]
+        }
+      },
+      null,
+      {
+        "-MlQ2m9Y34VwlpiItXo3": {
+          "answers": [1, 2, 2, 3, 2, 1, 2, 2, 2, 4],
+          "feedback": "",
+          "finalOptions": [2, 3, 2, 1, 2, 2, 2, 4],
+          "submitAt": 1633615293112,
+          "suggestedOptions": [2, 3, 2, 1, 2, 2, 2, 4]
+        }
+      },
+      {
+        "-MlYa4L5JPyHEE2S0YaL": {
+          "answers": [2, 1, 2, 2, 2, 2, 1, 2, 1, 3],
+          "feedback": "",
+          "finalOptions": [2, 2, 2, 2, 1, 2, 1, 3],
+          "submitAt": 1633758499825,
+          "suggestedOptions": [2, 2, 2, 2, 1, 2, 1, 3]
+        }
+      },
+      {
+        "-MhrTmydTOSsUeU5IigQ": {
+          "answers": [1, 2, 1, 2, 2, 2, 1, 2, 1, 2],
+          "feedback": "แก้มาตรา 1",
+          "finalOptions": [1, 2, 2, 2, 1, 2, 1, 2],
+          "submitAt": 1629797167495,
+          "suggestedOptions": [1, 2, 2, 2, 1, 2, 1, 2]
+        },
+        "-MiyFny9kL5OkiUv35Gy": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 2, 1, 2],
+          "feedback": "รัฐธรรมนูญต้องเป็นมิตร ต้อง friendly กับทุกกลุ่ม ทุกคน  มีความยินดี ไม่ยินร้ายที่จะมีส่วนร่วมกับมัน",
+          "finalOptions": [1, 1, 1, 1, 1, 2, 1, 2],
+          "submitAt": 1630984684404,
+          "suggestedOptions": [1, 1, 1, 1, 1, 2, 1, 2]
+        },
+        "-MlYbt7NRlhJTcsOQCec": {
+          "answers": [1, 2, 1, 4, 6, 1, 1, 1, 1, 2],
+          "feedback": "",
+          "finalOptions": [1, 4, 6, 1, 1, 1, 1, 2],
+          "submitAt": 1633758974859,
+          "suggestedOptions": [1, 4, 6, 1, 1, 1, 1, 2]
+        }
+      },
+      {
+        "-Mhc_N6meeW32CubXw3z": {
+          "answers": [1, 2, 1, 1, 1, 2, 1, 1, 2, 3],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 2, 1, 1, 2, 3],
+          "submitAt": 1629547234430,
+          "suggestedOptions": [1, 1, 1, 2, 1, 1, 2, 3]
+        },
+        "-MhuXQKGAQBFsAAcYi3v": {
+          "answers": [1, 1, 1, 1, 2, 2, 1, 1, 1, 1],
+          "feedback": "123",
+          "finalOptions": [2, 2, 1, 2, 1, 1, 1, 2],
+          "submitAt": 1629848435161,
+          "suggestedOptions": [1, 1, 2, 2, 1, 1, 1, 1]
+        },
+        "-Mi2aLnJTOx47YbAqNL8": {
+          "answers": [1, 1, 2, 1, 1, 1, 1, 1, 2, 1],
+          "feedback": "Test",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 2, 1],
+          "submitAt": 1630000459614,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 2, 1]
+        },
+        "-MiR91pj0-nc_is2uB52": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "Test",
+          "finalOptions": [1, 2, 1, 2, 1, 1, 1, 1],
+          "submitAt": 1630412469004,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "-MiW5XIsuLU1GYKvUGG2": {
+          "answers": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "feedback": "",
+          "finalOptions": [1, 1, 1, 1, 1, 1, 1, 1],
+          "submitAt": 1630495451881,
+          "suggestedOptions": [1, 1, 1, 1, 1, 1, 1, 1]
+        }
+      }
+    ]
+  }
+}
