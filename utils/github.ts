@@ -1,6 +1,5 @@
 import { Octokit } from '@octokit/core';
-
-const octokit = new Octokit({ auth: process.env.NEXT_PUBLIC_GITHUB_API_KEY });
+import { getGithubToken } from './firebase';
 
 const defaultConfig = { owner: 'electinth', repo: 'dream-constitution' };
 
@@ -14,7 +13,15 @@ export interface WorkflowRun {
   createdAt: Date;
 }
 
+let octokit: Octokit;
+
+export const initOctokit = async () => {
+  octokit = new Octokit({ auth: await getGithubToken() });
+};
+
 export const getLatestWorkflowRun = async (): Promise<WorkflowRun[]> => {
+  if (!octokit) await initOctokit();
+
   const { data } = await octokit.request(
     'GET /repos/{owner}/{repo}/actions/runs',
     { ...defaultConfig, per_page: 5 }
@@ -34,6 +41,8 @@ export const getLatestWorkflowRun = async (): Promise<WorkflowRun[]> => {
 export const dispatchWorkflow = async (
   workflow_id: WorkflowId
 ): Promise<void> => {
+  if (!octokit) await initOctokit();
+
   await octokit.request(
     'POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches',
     { ...defaultConfig, workflow_id, ref: 'main' }

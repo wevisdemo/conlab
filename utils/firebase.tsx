@@ -51,3 +51,12 @@ export const getParticipantResults = (): Promise<Topics> =>
       .then((snapshot) => resolve(snapshot.val() as Topics))
       .catch(reject)
   );
+
+export const getGithubToken = (): Promise<string> =>
+  new Promise((resolve, reject) =>
+    db
+      .ref(`tokens/github/`)
+      .get()
+      .then((snapshot) => resolve(snapshot.val() as string))
+      .catch(reject)
+  );
