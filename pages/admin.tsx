@@ -174,7 +174,7 @@ const AdminPage: FunctionComponent = () => {
                   </Button>
                   <div className="flex items-center font-bold">
                     <a
-                      href="https://dream-constitution.web.app/"
+                      href="http://conlab.conlabth.com/"
                       target="_blank"
                       rel="noreferrer"
                       className="hover:underline"
