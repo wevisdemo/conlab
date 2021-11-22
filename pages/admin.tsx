@@ -35,7 +35,7 @@ const AdminPage: FunctionComponent = () => {
 
   const isSubmitDisabled = !email.length || !password.length;
 
-  const LogIn = () => {
+  const logIn = () => {
     setIsLoading(true);
 
     auth
@@ -43,6 +43,18 @@ const AdminPage: FunctionComponent = () => {
       .then(async ({ user }) => {
         setUser(user);
         setWorkflowLog(await getLatestWorkflowRun());
+      })
+      .catch(({ code, message }) => alert(`Error ${code}: ${message}`))
+      .finally(() => setIsLoading(false));
+  };
+
+  const logOut = () => {
+    setIsLoading(true);
+
+    auth
+      .signOut()
+      .then(() => {
+        setUser(null);
       })
       .catch(({ code, message }) => alert(`Error ${code}: ${message}`))
       .finally(() => setIsLoading(false));
@@ -122,7 +134,7 @@ const AdminPage: FunctionComponent = () => {
               <Button
                 state="solid"
                 className={`w-full ${isSubmitDisabled ? 'opacity-50' : ''}`}
-                onClick={() => !isSubmitDisabled && LogIn()}
+                onClick={() => !isSubmitDisabled && logIn()}
               >
                 Log in
               </Button>
@@ -198,6 +210,9 @@ const AdminPage: FunctionComponent = () => {
                   )}
                 </div>
               </div>
+              <Button state="solid" className="w-full" onClick={logOut}>
+                Logout
+              </Button>
             </>
           )}
         </Card>
