@@ -7,7 +7,8 @@
     "build": "next build && next export && npm run generate-og && rm -rf out/internal",
     "lint": "next lint && prettier --write .",
     "update-data": "ts-node scripts/data-updater.ts",
-    "generate-og": "ts-node scripts/generate-og.ts"
+    "generate-og": "ts-node scripts/generate-og.ts",
+    "export-csv": "ts-node scripts/parse-result-json.ts"
   },
   "dependencies": {
     "firebase": "^8.8.1",
