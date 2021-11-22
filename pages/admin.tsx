@@ -1,5 +1,7 @@
 import { FunctionComponent, useEffect, useState } from 'react';
 import firebase from 'firebase';
+import JSZip from 'jszip';
+import { saveAs } from 'file-saver';
 
 import Button from '../components/button';
 import Card from '../components/card';
@@ -31,8 +33,27 @@ const AdminPage: FunctionComponent = () => {
   };
 
   const downloadParticipantsResult = async () => {
-    const result = await getParticipantResults();
-    console.log(parseResultToCsv(result));
+    try {
+      const result = await getParticipantResults();
+
+      const folderName = `CONstituionLAB_${new Date()
+        .toLocaleString('th-TH', {
+          dateStyle: 'short',
+        })
+        .split('/')
+        .join('_')}`;
+      const zip = new JSZip();
+
+      parseResultToCsv(result).forEach((output, index) =>
+        zip.file(`${folderName}/topic-${index + 1}.csv`, output)
+      );
+
+      const fileBlob = await zip.generateAsync({ type: 'blob' });
+
+      saveAs(fileBlob, `${folderName}.zip`);
+    } catch (e) {
+      alert(e);
+    }
   };
 
   return (
@@ -64,13 +85,15 @@ const AdminPage: FunctionComponent = () => {
             </Button>
           </>
         ) : (
-          <Button
-            state="solid"
-            className="w-full"
-            onClick={downloadParticipantsResult}
-          >
-            Download participants result
-          </Button>
+          <>
+            <Button
+              state="solid"
+              className="w-full"
+              onClick={downloadParticipantsResult}
+            >
+              Download participants result
+            </Button>
+          </>
         )}
       </Card>
     </div>
