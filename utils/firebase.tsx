@@ -1,6 +1,7 @@
 import firebase from 'firebase/app';
 import 'firebase/database';
 import { ResultOption } from '../data/topics';
+import { Topics } from './result-parser';
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -40,4 +41,13 @@ export const submitResult = (
       },
       (error) => (error ? reject(error) : resolve())
     )
+  );
+
+export const getParticipantResults = (): Promise<Topics> =>
+  new Promise((resolve, reject) =>
+    db
+      .ref(`production/topics/`)
+      .get()
+      .then((snapshot) => resolve(snapshot.val() as Topics))
+      .catch(reject)
   );
