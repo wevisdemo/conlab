@@ -27,6 +27,7 @@ jobs:
           NEXT_PUBLIC_FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL }}
           NEXT_PUBLIC_FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
           NEXT_PUBLIC_FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
+          NEXT_PUBLIC_GITHUB_API_KEY: ${{ secrets.ACTIONS_API_KEY }}
           NEXT_PUBLIC_ENV: staging
       - name: Publish to Github Pages
         uses: peaceiris/actions-gh-pages@v3
