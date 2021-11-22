@@ -55,6 +55,7 @@ const AdminPage: FunctionComponent = () => {
       .signOut()
       .then(() => {
         setUser(null);
+        setPassword('');
       })
       .catch(({ code, message }) => alert(`Error ${code}: ${message}`))
       .finally(() => setIsLoading(false));
