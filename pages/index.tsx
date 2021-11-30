@@ -62,6 +62,11 @@ const Home: FunctionComponent = () => {
             >
               CONstitution LAB คืออะไร?
             </Button>
+            <ExternalLink href="https://conlabth.medium.com/">
+              <Button state="outline" className="w-full bg-gray-400">
+                อ่านบทความ
+              </Button>
+            </ExternalLink>
           </div>
           <Sharer />
         </div>

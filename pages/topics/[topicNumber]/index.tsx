@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import { FunctionComponent, useRef } from 'react';
 import Button from '../../../components/button';
+import ExternalLink from '../../../components/external-link';
 import Footer from '../../../components/footer';
 import HowItWork from '../../../components/how-it-work';
 import Metadata from '../../../components/metadata';
@@ -64,6 +65,11 @@ const Topic: FunctionComponent<TopicPageProps> = ({ topic }) => {
             >
               CONstitution LAB คืออะไร?
             </Button>
+            <ExternalLink href="https://conlabth.medium.com/">
+              <Button state="outline" className="w-full">
+                อ่านบทความ
+              </Button>
+            </ExternalLink>
           </div>
 
           <Sharer path={`/topics/${topic.topicNumber}`} />
