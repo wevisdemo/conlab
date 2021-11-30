@@ -153,11 +153,19 @@ const AdminPage: FunctionComponent = () => {
                 </Button>
               </div>
               <div className="space-y-4">
-                <h2 className="text-headline-2">Deployment</h2>
+                <h2 className="text-headline-2 mb-2">Deployment</h2>
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1nLomKIi2K3jWgOAsIex-SuDMEMWnSNKwrZA9Awn2OM4/edit"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:underline"
+                >
+                  Open questions data sheet
+                </a>
                 <div className="grid grid-cols-2 gap-2">
                   <div className="flex items-center font-bold">
                     <a
-                      href="https://dream-constitution.web.app/"
+                      href="https://electinth.github.io/dream-constitution/"
                       target="_blank"
                       rel="noreferrer"
                       className="hover:underline"
