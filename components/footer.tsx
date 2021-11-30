@@ -33,22 +33,13 @@ const Footer = () => (
       <ExternalLink href="https://spp.cmu.ac.th/" className={footerLogoClass}>
         <img src={require('../assets/images/CMU-SPP.png')} alt="SPP" />
       </ExternalLink>
-      {/* <ExternalLink
-        href="https://www.kas.de/th/web/thailand/"
+      <ExternalLink
+        href="https://facebook.com/wevisdemo"
         className={footerLogoClass}
       >
         <img
-          src={require('../assets/images/KAS-White.png')}
-          alt="Supported by KAS"
-        />
-      </ExternalLink> */}
-      <ExternalLink href="https://elect.in.th/" className={footerLogoClass}>
-        <p className="text-white text-[10px] md:text-sm mb-2 md:mb-4 -mt-6 md:-mt-8 text-center">
-          Powered by
-        </p>
-        <img
-          src={require('../assets/images/logo-elect.png')}
-          alt="Powered by ELECT"
+          src={require('../assets/images/wevis.svg')}
+          alt="Powered by Wevis"
         />
       </ExternalLink>
     </div>
