@@ -22,7 +22,7 @@ const Sharer: FunctionComponent<{ path?: string }> = ({ path }) => {
 
   return (
     <div className="flex flex-row space-x-3 items-center ">
-      <p className="text-body-2 font-black">แชร์</p>
+      <p className="text-body-2 font-black">ชวนเพื่อนมาลองทำ</p>
       <ShareButton
         href={`http://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
       >
