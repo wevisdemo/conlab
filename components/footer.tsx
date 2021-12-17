@@ -21,7 +21,7 @@ const Footer = () => (
         ส่งข้อเสนอแนะเพื่อปรับปรุงเว็บไซต์
       </ExternalLink>
     </div>
-    <div className="grid grid-cols-3 py-6 md:py-12 w-full max-w-screen-xl mx-auto">
+    <div className="grid grid-cols-2 md:grid-cols-4 py-6 md:py-12 w-full max-w-screen-xl mx-auto">
       <Link href="/" passHref>
         <a className={footerLogoClass}>
           <img
@@ -30,9 +30,16 @@ const Footer = () => (
           />
         </a>
       </Link>
-      <ExternalLink href="https://spp.cmu.ac.th/" className={footerLogoClass}>
-        <img src={require('../assets/images/CMU-SPP.png')} alt="SPP" />
-      </ExternalLink>
+      <img
+        src={require('../assets/images/sopp.png')}
+        alt="SOPP"
+        className={footerLogoClass}
+      />
+      <img
+        src={require('../assets/images/fol.png')}
+        alt="FOL CU"
+        className={footerLogoClass}
+      />
       <ExternalLink
         href="https://facebook.com/wevisdemo"
         className={footerLogoClass}
