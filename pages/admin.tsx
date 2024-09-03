@@ -182,7 +182,7 @@ const AdminPage: FunctionComponent = () => {
                   </Button>
                   <div className="flex items-center font-bold">
                     <a
-                      href="http://conlab.conlabth.com/"
+                      href="http://conlab.wevis.info/"
                       target="_blank"
                       rel="noreferrer"
                       className="hover:underline"
