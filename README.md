@@ -1,4 +1,4 @@
-# Dream Constitution
+# ConLab: Dream Constitution
 
 ## Tech Stack
 
@@ -8,26 +8,31 @@
 
 ## Deployment Environments
 
-- Staging: https://electinth.github.io/dream-constitution/
 - Production: https://conlab.wevis.info/
 
 ## Getting Start
 
-1. Clone the repo
-2. Install dependencies
+The project is so outdated and can't run with latest version of npm and node. The easiest way is to use [Playwright's docker image](https://playwright.dev/docs/docker):
 
 ```bash
-npm install
-# or
-yarn
+docker run -it --rm --ipc=host -v ./:/app -p 3000:3000 mcr.microsoft.com/playwright:v1.14.1 /bin/bash
 ```
 
-3. run the development server
+Then you can run npm scripts inside the container:
 
 ```bash
-npm run dev
-# or
-yarn dev
+yarn        # install dependencies
+yarn dev    # run dev server
+yarn build  # build static site to /out
+```
+
+Noted that the following environment variables are required (can be defined in `.env`):
+
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_DATABASE_URL=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
 ```
 
 ## Development Guideline
@@ -69,12 +74,12 @@ export default Hello;
 - File name should be all lower case with dash .tsx ex: `some-component.tsx`
 - React components are located in 2 directory
   - `/pages` contain each web page ex. `pages/about.tsx` will create a page at url `/about` [more about routing](https://nextjs.org/docs/routing/introduction)
-  - `/components` contain reuseable components that can be imported and used
-    - If the component is tied to specific page, recomment to create coresponded folder ex. `components/about/only-for-about.tsx`
+  - `/components` contain reusable components that can be imported and used
+    - If the component is tied to specific page, recommend to create corresponded folder ex. `components/about/only-for-about.tsx`
 
 ### Styling
 
-Prefered tailwind utility classes over other styling methods
+Preferred tailwind utility classes over other styling methods
 
 ### Color
 
@@ -109,3 +114,7 @@ For local images place it in `assets/images/` and use require
 ```
 
 Images will get optimized on build. No need to do it manually.
+
+## License
+
+This project is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) with WeVis Ltd. and Punch Up Ltd. as licensors.
