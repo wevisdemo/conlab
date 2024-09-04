@@ -15,16 +15,18 @@
 The project is so outdated and can't run with latest version of npm and node. The easiest way is to use [Playwright's docker image](https://playwright.dev/docs/docker):
 
 ```bash
-docker run -it --rm --ipc=host -v ./:/app -p 3000:3000 mcr.microsoft.com/playwright:v1.14.1 /bin/bash
+docker run -it --rm --ipc=host -v ./:/app -p 3000:3000 mcr.microsoft.com/playwright:v1.14.1 bash
 ```
 
 Then you can run npm scripts inside the container:
 
 ```bash
 yarn        # install dependencies
-yarn dev    # run dev server
+yarn dev    # run dev server,
 yarn build  # build static site to /out
 ```
+
+Please set `NEXT_PUBLIC_ENV=production` for production build.
 
 Noted that the following environment variables are required (can be defined in `.env`):
 
